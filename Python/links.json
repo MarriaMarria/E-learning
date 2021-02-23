@@ -1,0 +1,110 @@
+{
+  "Python": [
+    {
+      "name": "Les templates jinja2",
+      "chaine": "xavki",
+      "url": "https://www.youtube.com/watch?v=kuQ1XxXM5SU"
+    },
+    {
+      "name": "Programmation objet",
+      "chaine": "Formation vidéo",
+      "url": "https://www.youtube.com/watch?v=s2pnrMKpEp0&list=PLrSOXFDHBtfHg8fWBd7sKPxEmahwyVBkC&index=10"
+    },
+    {
+      "name": "Coder un bot Discord",
+      "chaine": "Graven",
+      "url": "https://www.youtube.com/watch?v=m9CSCj7SkdM&list=PLMS9Cy4Enq5Jnsgg_CqfxwyLHwf8X9AQI&index=28"
+    },
+    {
+      "name": "Coder un gestionnaire de parking",
+      "chaine": "Graven",
+      "url": "https://www.youtube.com/watch?v=m96VEV7MeZQ&list=PLMS9Cy4Enq5Jnsgg_CqfxwyLHwf8X9AQI&index=12"
+    }
+  ],
+  "Javascript": [
+    {
+      "name": "Naviguer dans le DOM",
+      "chaine": "Pierre Giraud",
+      "url": "https://www.youtube.com/watch?v=VRdz6g6nOT4&list=PLwLsbqvBlImFB8AuT6ENIg-s87ys4yGWI&index=37"
+    },
+    {
+      "name": "Top des librairies d'annimation",
+      "chaine": "Le designer du web",
+      "url": "https://www.youtube.com/watch?v=f4pd376ig98"
+    },
+    {
+      "name": "10 projets simple en Javascript",
+      "chaine": "IBM Cloud",
+      "url": "https://www.youtube.com/watch?v=NLp4zn1QP80"
+    }
+  ],
+  "Cloud": [
+    {
+      "name": "What is Cloud Migration?",
+      "chaine": "IBM Cloud",
+      "url": "https://www.youtube.com/watch?v=yWByEVB0VJE&list=PLOspHqNVtKAC-_ZAGresP-i0okHe5FjcJ&index=15"
+    },
+    {
+      "name": "Public Cloud explained",
+      "chaine": "IBM Cloud",
+      "url": "https://www.youtube.com/watch?v=KaCyfQ7luVY&list=PLOspHqNVtKAC-_ZAGresP-i0okHe5FjcJ"
+    },
+    {
+      "name": "Cloud Hybrid explained",
+      "chaine": "IBM Cloud",
+      "url": "https://www.youtube.com/watch?v=3kGFBBy3Lyg&list=PLOspHqNVtKAC-_ZAGresP-i0okHe5FjcJ&index=13"
+    },
+    {
+      "name": "What is Multicloud? How Do You Manage It?",
+      "chaine": "IBM Cloud",
+      "url": "https://www.youtube.com/watch?v=AjtdZ3gFRjU&list=PLOspHqNVtKAC-_ZAGresP-i0okHe5FjcJ&index=22"
+    },
+    {
+      "name": "IaaS Explained",
+      "chaine": "IBM Cloud",
+      "url": "https://www.youtube.com/watch?v=XRdmfo4M_YA&list=PLOspHqNVtKAC-_ZAGresP-i0okHe5FjcJ&index=4"
+    },
+    {
+      "name": "PaaS Explained",
+      "chaine": "IBM Cloud",
+      "url": "https://www.youtube.com/watch?v=QAbqJzd0PEE&list=PLOspHqNVtKAC-_ZAGresP-i0okHe5FjcJ&index=5"
+    },
+    {
+      "name": "What is Cloud Native?",
+      "chaine": "IBM Cloud",
+      "url": "https://www.youtube.com/watch?v=fp9_ubiKqFU&list=PLOspHqNVtKAC-_ZAGresP-i0okHe5FjcJ&index=7"
+    },
+    {
+      "name": "What are Microservices?",
+      "chaine": "IBM Cloud",
+      "url": "https://www.youtube.com/watch?v=CdBtNQZH8a4"
+    },
+    {
+      "name": "What is Cloud Security?",
+      "chaine": "IBM Cloud",
+      "url": "https://www.youtube.com/watch?v=jI8IKpjiCSM&list=PLOspHqNVtKAC-_ZAGresP-i0okHe5FjcJ&index=17"
+    },
+    {
+      "name": "What is a Virtual Private Cloud?",
+      "chaine": "IBM Cloud",
+      "url": "https://www.youtube.com/watch?v=NbkPRn1mqlU&list=PLOspHqNVtKAC-_ZAGresP-i0okHe5FjcJ&index=16"
+    }
+  ],
+  "Docker": [
+    {
+      "name": "Docker Tutorial for Beginners [FULL COURSE in 3 Hours]",
+      "chaine": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=3c-iBn73dDE&t=2777s"
+    },
+    {
+      "name": "Kubernetes vs. Docker: It's Not an Either/Or Question",
+      "chaine": "IBM Cloud",
+      "url": "https://www.youtube.com/watch?v=2vMEQ5zs1ko"
+    },
+    {
+      "name": "Introduction To Docker and Docker Containers",
+      "chaine": "The Simple Engineer",
+      "url": "https://www.youtube.com/watch?v=JSLpG_spOBM"
+    }
+  ]
+}
