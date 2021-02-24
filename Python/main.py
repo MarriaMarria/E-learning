@@ -7,3 +7,6 @@ mydb.create_table()
 mydb.insert_table()
 
 # we will add if __name__ == __main__ etc
+
+if __name__ == '__main__':
+    app.run(host="0.0.0.0", port=5000, debug=True)

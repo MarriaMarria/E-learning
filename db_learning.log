@@ -1,0 +1,114 @@
+2021-02-24 14:18:00,311 - root - MainThread - connecting to the database: start
+2021-02-24 14:18:00,311 - root - MainThread - connecting to the database: end
+2021-02-24 14:18:00,454 - werkzeug - MainThread -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-02-24 14:18:00,455 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 14:18:00,606 - root - MainThread - connecting to the database: start
+2021-02-24 14:18:00,606 - root - MainThread - connecting to the database: end
+2021-02-24 14:18:00,644 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 14:18:00,658 - werkzeug - MainThread -  * Debugger PIN: 240-877-176
+2021-02-24 14:18:13,325 - backend - Thread-2 - opening homepage
+2021-02-24 14:18:13,353 - werkzeug - Thread-2 - 127.0.0.1 - - [24/Feb/2021 14:18:13] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-02-24 14:18:13,397 - werkzeug - Thread-5 - 127.0.0.1 - - [24/Feb/2021 14:18:13] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-24 14:18:13,398 - werkzeug - Thread-3 - 127.0.0.1 - - [24/Feb/2021 14:18:13] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-24 14:18:13,398 - werkzeug - Thread-4 - 127.0.0.1 - - [24/Feb/2021 14:18:13] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-24 14:18:13,480 - werkzeug - Thread-6 - 127.0.0.1 - - [24/Feb/2021 14:18:13] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 14:18:13,488 - werkzeug - Thread-7 - 127.0.0.1 - - [24/Feb/2021 14:18:13] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-02-24 14:18:13,675 - werkzeug - Thread-8 - 127.0.0.1 - - [24/Feb/2021 14:18:13] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 14:20:20,887 - werkzeug - MainThread -  * Detected change in '/Users/mazn0/Desktop/Simplon/E-learning/Python/backend.py', reloading
+2021-02-24 14:20:20,937 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 14:20:21,121 - root - MainThread - connecting to the database: start
+2021-02-24 14:20:21,121 - root - MainThread - connecting to the database: end
+2021-02-24 14:20:21,160 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 14:20:21,171 - werkzeug - MainThread -  * Debugger PIN: 240-877-176
+2021-02-24 14:20:28,313 - backend - Thread-2 - opening homepage
+2021-02-24 14:20:28,346 - werkzeug - Thread-2 - 127.0.0.1 - - [24/Feb/2021 14:20:28] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-02-24 14:20:28,405 - werkzeug - Thread-3 - 127.0.0.1 - - [24/Feb/2021 14:20:28] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-24 14:20:28,405 - werkzeug - Thread-4 - 127.0.0.1 - - [24/Feb/2021 14:20:28] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-24 14:20:28,408 - werkzeug - Thread-5 - 127.0.0.1 - - [24/Feb/2021 14:20:28] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-24 14:20:28,446 - werkzeug - Thread-6 - 127.0.0.1 - - [24/Feb/2021 14:20:28] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-02-24 14:20:28,487 - werkzeug - Thread-7 - 127.0.0.1 - - [24/Feb/2021 14:20:28] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 14:20:28,677 - werkzeug - Thread-8 - 127.0.0.1 - - [24/Feb/2021 14:20:28] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 14:20:29,423 - backend - Thread-9 - opening homepage
+2021-02-24 14:20:29,451 - werkzeug - Thread-9 - 127.0.0.1 - - [24/Feb/2021 14:20:29] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-02-24 14:20:29,490 - werkzeug - Thread-10 - 127.0.0.1 - - [24/Feb/2021 14:20:29] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-24 14:20:29,491 - werkzeug - Thread-11 - 127.0.0.1 - - [24/Feb/2021 14:20:29] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-24 14:20:29,493 - werkzeug - Thread-12 - 127.0.0.1 - - [24/Feb/2021 14:20:29] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-24 14:20:29,524 - werkzeug - Thread-13 - 127.0.0.1 - - [24/Feb/2021 14:20:29] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-02-24 14:20:29,554 - werkzeug - Thread-14 - 127.0.0.1 - - [24/Feb/2021 14:20:29] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 14:20:29,747 - werkzeug - Thread-15 - 127.0.0.1 - - [24/Feb/2021 14:20:29] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 14:23:31,916 - backend - Thread-16 - opening homepage
+2021-02-24 14:23:31,942 - werkzeug - Thread-16 - 127.0.0.1 - - [24/Feb/2021 14:23:31] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-02-24 14:23:31,999 - werkzeug - Thread-17 - 127.0.0.1 - - [24/Feb/2021 14:23:31] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-24 14:23:31,999 - werkzeug - Thread-19 - 127.0.0.1 - - [24/Feb/2021 14:23:31] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-24 14:23:32,000 - werkzeug - Thread-18 - 127.0.0.1 - - [24/Feb/2021 14:23:32] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-24 14:23:32,061 - werkzeug - Thread-20 - 127.0.0.1 - - [24/Feb/2021 14:23:32] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-02-24 14:23:32,302 - werkzeug - Thread-21 - 127.0.0.1 - - [24/Feb/2021 14:23:32] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 14:23:32,337 - werkzeug - Thread-22 - 127.0.0.1 - - [24/Feb/2021 14:23:32] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 14:24:38,687 - root - MainThread - connecting to the database: start
+2021-02-24 14:24:38,687 - root - MainThread - connecting to the database: end
+2021-02-24 14:24:38,724 - werkzeug - MainThread -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-02-24 14:24:38,725 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 14:24:38,887 - root - MainThread - connecting to the database: start
+2021-02-24 14:24:38,887 - root - MainThread - connecting to the database: end
+2021-02-24 14:24:38,938 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 14:24:38,952 - werkzeug - MainThread -  * Debugger PIN: 240-877-176
+2021-02-24 14:24:44,752 - backend - Thread-2 - opening homepage
+2021-02-24 14:24:44,787 - werkzeug - Thread-2 - 127.0.0.1 - - [24/Feb/2021 14:24:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-02-24 14:24:44,841 - werkzeug - Thread-4 - 127.0.0.1 - - [24/Feb/2021 14:24:44] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-24 14:24:44,841 - werkzeug - Thread-5 - 127.0.0.1 - - [24/Feb/2021 14:24:44] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-24 14:24:44,841 - werkzeug - Thread-3 - 127.0.0.1 - - [24/Feb/2021 14:24:44] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-24 14:24:44,878 - werkzeug - Thread-6 - 127.0.0.1 - - [24/Feb/2021 14:24:44] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-02-24 14:24:44,913 - werkzeug - Thread-7 - 127.0.0.1 - - [24/Feb/2021 14:24:44] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 14:24:45,112 - werkzeug - Thread-8 - 127.0.0.1 - - [24/Feb/2021 14:24:45] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 14:24:45,724 - backend - Thread-9 - opening homepage
+2021-02-24 14:24:45,751 - werkzeug - Thread-9 - 127.0.0.1 - - [24/Feb/2021 14:24:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-02-24 14:24:45,795 - werkzeug - Thread-12 - 127.0.0.1 - - [24/Feb/2021 14:24:45] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-24 14:24:45,795 - werkzeug - Thread-11 - 127.0.0.1 - - [24/Feb/2021 14:24:45] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-24 14:24:45,796 - werkzeug - Thread-10 - 127.0.0.1 - - [24/Feb/2021 14:24:45] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-24 14:24:45,838 - werkzeug - Thread-13 - 127.0.0.1 - - [24/Feb/2021 14:24:45] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-02-24 14:24:45,859 - werkzeug - Thread-14 - 127.0.0.1 - - [24/Feb/2021 14:24:45] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 14:24:46,050 - werkzeug - Thread-15 - 127.0.0.1 - - [24/Feb/2021 14:24:46] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 14:25:04,371 - werkzeug - MainThread -  * Detected change in '/Users/mazn0/Desktop/Simplon/E-learning/Python/backend.py', reloading
+2021-02-24 14:25:04,402 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 14:25:04,577 - root - MainThread - connecting to the database: start
+2021-02-24 14:25:04,577 - root - MainThread - connecting to the database: end
+2021-02-24 14:25:04,611 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 14:25:04,622 - werkzeug - MainThread -  * Debugger PIN: 240-877-176
+2021-02-24 14:25:23,865 - werkzeug - MainThread -  * Detected change in '/Users/mazn0/Desktop/Simplon/E-learning/Python/backend.py', reloading
+2021-02-24 14:25:23,889 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 14:25:24,065 - root - MainThread - connecting to the database: start
+2021-02-24 14:25:24,082 - root - MainThread - connecting to the database: end
+2021-02-24 14:25:24,113 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 14:25:24,125 - werkzeug - MainThread -  * Debugger PIN: 240-877-176
+2021-02-24 14:25:32,259 - backend - Thread-2 - opening homepage
+2021-02-24 14:25:32,297 - werkzeug - Thread-2 - 127.0.0.1 - - [24/Feb/2021 14:25:32] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-02-24 14:25:32,348 - werkzeug - Thread-3 - 127.0.0.1 - - [24/Feb/2021 14:25:32] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-24 14:25:32,349 - werkzeug - Thread-4 - 127.0.0.1 - - [24/Feb/2021 14:25:32] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-24 14:25:32,353 - werkzeug - Thread-5 - 127.0.0.1 - - [24/Feb/2021 14:25:32] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-24 14:25:32,389 - werkzeug - Thread-6 - 127.0.0.1 - - [24/Feb/2021 14:25:32] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-02-24 14:25:32,435 - werkzeug - Thread-7 - 127.0.0.1 - - [24/Feb/2021 14:25:32] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 14:25:32,626 - werkzeug - Thread-8 - 127.0.0.1 - - [24/Feb/2021 14:25:32] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 14:25:33,195 - backend - Thread-9 - opening homepage
+2021-02-24 14:25:33,224 - werkzeug - Thread-9 - 127.0.0.1 - - [24/Feb/2021 14:25:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-02-24 14:25:33,266 - werkzeug - Thread-11 - 127.0.0.1 - - [24/Feb/2021 14:25:33] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-24 14:25:33,266 - werkzeug - Thread-12 - 127.0.0.1 - - [24/Feb/2021 14:25:33] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-24 14:25:33,266 - werkzeug - Thread-10 - 127.0.0.1 - - [24/Feb/2021 14:25:33] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-24 14:25:33,303 - werkzeug - Thread-13 - 127.0.0.1 - - [24/Feb/2021 14:25:33] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-02-24 14:25:33,326 - werkzeug - Thread-14 - 127.0.0.1 - - [24/Feb/2021 14:25:33] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 14:25:33,527 - werkzeug - Thread-15 - 127.0.0.1 - - [24/Feb/2021 14:25:33] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 14:26:09,850 - werkzeug - MainThread -  * Detected change in '/Users/mazn0/Desktop/Simplon/E-learning/Python/backend.py', reloading
+2021-02-24 14:26:09,903 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 14:26:10,073 - root - MainThread - connecting to the database: start
+2021-02-24 14:26:10,073 - root - MainThread - connecting to the database: end
+2021-02-24 14:26:10,106 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 14:26:10,116 - werkzeug - MainThread -  * Debugger PIN: 240-877-176
+2021-02-24 14:26:14,608 - backend - Thread-2 - opening homepage
+2021-02-24 14:26:14,629 - werkzeug - Thread-2 - 127.0.0.1 - - [24/Feb/2021 14:26:14] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-24 14:26:14,667 - werkzeug - Thread-3 - 127.0.0.1 - - [24/Feb/2021 14:26:14] "[33mGET /static/CSS/style.css HTTP/1.1[0m" 404 -
+2021-02-24 14:26:14,889 - werkzeug - Thread-4 - 127.0.0.1 - - [24/Feb/2021 14:26:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-24 14:26:44,894 - backend - Thread-5 - opening homepage
+2021-02-24 14:26:44,903 - werkzeug - Thread-5 - 127.0.0.1 - - [24/Feb/2021 14:26:44] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-24 14:26:44,944 - werkzeug - Thread-6 - 127.0.0.1 - - [24/Feb/2021 14:26:44] "[33mGET /static/CSS/style.css HTTP/1.1[0m" 404 -
+2021-02-24 14:27:43,323 - backend - Thread-7 - opening homepage
+2021-02-24 14:27:43,325 - werkzeug - Thread-7 - 127.0.0.1 - - [24/Feb/2021 14:27:43] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-24 14:27:43,374 - werkzeug - Thread-8 - 127.0.0.1 - - [24/Feb/2021 14:27:43] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
