@@ -25,7 +25,7 @@ logging.getLogger("werkzeug").addHandler(handler)
 @app.route('/')
 def greeting():
     app.logger.info("opening homepage")
-    return "HOME PAGE"
+    return render_template('base.html')
 
 # section python
 @app.route('/sections/python/')
@@ -96,4 +96,4 @@ def watch_js():
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=3051, debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)
