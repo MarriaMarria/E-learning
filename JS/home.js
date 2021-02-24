@@ -1,22 +1,7 @@
-let section_Python = document.querySelector("#Python");
-let section_Javascipt = document.querySelector("#Javascipt");
-let section_Cloud = document.querySelector("#Cloud");
-let section_Docker = document.querySelector("#Docker");
-const url = "localhost:3051/"
-
-section_Python.addEventListener("click", function(){
-    let argument = "sections/python/"
-    url = url + argument
+$.ajax({
+  url: "http://127.0.0.1:5200/Affiche",
+  success: display_news,
 });
-section_Javascript.addEventListener("click", function () {
-  let argument = "sections/js/";
-  url = url + argument;
-});
-section_Cloud.addEventListener("click", function () {
-  let argument = "sections/cloud/";
-  url = url + argument;
-});
-section_Docker.addEventListener("click", function () {
-  let argument = "sections/docker/";
-  url = url + argument;
-});
+function display_news(result){
+  for i in result
+}
