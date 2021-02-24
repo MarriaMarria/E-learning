@@ -1,4 +1,5 @@
 from db_learning import MyDB
+from backend import *
 
 mydb = MyDB()
 mydb.get_tables()

@@ -1,0 +1,101 @@
+2021-02-24 09:24:51,744 :: INFO :: MainThread ::  * Running on http://0.0.0.0:3051/ (Press CTRL+C to quit)
+2021-02-24 09:24:51,745 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-24 09:24:51,924 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-24 09:24:51,924 :: INFO :: MainThread ::  * Debugger PIN: 864-041-331
+2021-02-24 09:25:44,240 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:25:44,281 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-24 09:25:44,522 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-24 09:25:44,523 :: INFO :: MainThread ::  * Debugger PIN: 864-041-331
+2021-02-24 09:25:48,554 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:25:48,597 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-24 09:25:48,783 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-24 09:25:48,783 :: INFO :: MainThread ::  * Debugger PIN: 864-041-331
+2021-02-24 09:26:00,893 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:26:00,968 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-24 09:40:02,208 :: INFO :: MainThread ::  * Running on http://0.0.0.0:3051/ (Press CTRL+C to quit)
+2021-02-24 09:40:02,209 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-24 09:40:02,414 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-24 09:40:02,414 :: INFO :: MainThread ::  * Debugger PIN: 864-041-331
+2021-02-24 09:40:13,560 :: INFO :: Thread-2 :: testing homepage
+2021-02-24 09:40:13,561 :: INFO :: Thread-2 :: 172.17.0.1 - - [24/Feb/2021 09:40:13] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-24 09:48:15,649 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:48:15,700 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-24 09:48:15,965 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-24 09:48:15,966 :: INFO :: MainThread ::  * Debugger PIN: 864-041-331
+2021-02-24 09:48:29,036 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:48:29,076 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-24 09:48:29,321 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-24 09:48:29,321 :: INFO :: MainThread ::  * Debugger PIN: 864-041-331
+2021-02-24 09:49:14,635 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:49:14,680 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-24 09:49:14,915 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-24 09:49:14,916 :: INFO :: MainThread ::  * Debugger PIN: 864-041-331
+2021-02-24 09:49:32,408 :: INFO :: Thread-2 :: choosing cloud section
+2021-02-24 09:49:32,418 :: INFO :: Thread-2 :: 172.17.0.1 - - [24/Feb/2021 09:49:32] "[35m[1mGET /sections/cloud/ HTTP/1.1[0m" 500 -
+2021-02-24 09:49:32,484 :: INFO :: Thread-4 :: 172.17.0.1 - - [24/Feb/2021 09:49:32] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-24 09:49:32,487 :: INFO :: Thread-3 :: 172.17.0.1 - - [24/Feb/2021 09:49:32] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-24 09:49:32,488 :: INFO :: Thread-5 :: 172.17.0.1 - - [24/Feb/2021 09:49:32] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-24 09:49:32,546 :: INFO :: Thread-6 :: 172.17.0.1 - - [24/Feb/2021 09:49:32] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 09:49:32,584 :: INFO :: Thread-7 :: 172.17.0.1 - - [24/Feb/2021 09:49:32] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 09:49:59,725 :: INFO :: MainThread ::  * Running on http://0.0.0.0:3051/ (Press CTRL+C to quit)
+2021-02-24 09:49:59,726 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-24 09:49:59,892 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-24 09:49:59,893 :: INFO :: MainThread ::  * Debugger PIN: 864-041-331
+2021-02-24 09:50:05,901 :: INFO :: Thread-2 :: choosing cloud section
+2021-02-24 09:50:05,914 :: INFO :: Thread-2 :: 172.17.0.1 - - [24/Feb/2021 09:50:05] "[35m[1mGET /sections/cloud/ HTTP/1.1[0m" 500 -
+2021-02-24 09:50:05,946 :: INFO :: Thread-3 :: 172.17.0.1 - - [24/Feb/2021 09:50:05] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-24 09:50:05,947 :: INFO :: Thread-4 :: 172.17.0.1 - - [24/Feb/2021 09:50:05] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-24 09:50:05,958 :: INFO :: Thread-5 :: 172.17.0.1 - - [24/Feb/2021 09:50:05] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-24 09:50:06,002 :: INFO :: Thread-6 :: 172.17.0.1 - - [24/Feb/2021 09:50:06] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 09:50:50,190 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:50:50,235 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-24 09:50:50,495 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-24 09:50:50,496 :: INFO :: MainThread ::  * Debugger PIN: 864-041-331
+2021-02-24 09:51:04,579 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:51:04,627 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-24 09:51:04,869 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-24 09:51:04,870 :: INFO :: MainThread ::  * Debugger PIN: 864-041-331
+2021-02-24 09:51:06,437 :: INFO :: Thread-2 :: choosing cloud section
+2021-02-24 09:51:06,450 :: INFO :: Thread-2 :: 172.17.0.1 - - [24/Feb/2021 09:51:06] "[35m[1mGET /sections/cloud/ HTTP/1.1[0m" 500 -
+2021-02-24 09:51:06,492 :: INFO :: Thread-3 :: 172.17.0.1 - - [24/Feb/2021 09:51:06] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-24 09:51:06,496 :: INFO :: Thread-4 :: 172.17.0.1 - - [24/Feb/2021 09:51:06] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-24 09:51:06,498 :: INFO :: Thread-5 :: 172.17.0.1 - - [24/Feb/2021 09:51:06] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-24 09:51:06,553 :: INFO :: Thread-6 :: 172.17.0.1 - - [24/Feb/2021 09:51:06] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 09:51:38,065 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:51:38,118 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-24 09:52:08,860 :: INFO :: MainThread ::  * Running on http://0.0.0.0:3051/ (Press CTRL+C to quit)
+2021-02-24 09:52:08,861 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-24 09:52:09,050 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-24 09:52:09,050 :: INFO :: MainThread ::  * Debugger PIN: 864-041-331
+2021-02-24 09:52:12,656 :: INFO :: Thread-2 :: choosing cloud section
+2021-02-24 09:52:12,658 :: INFO :: Thread-2 :: 172.17.0.1 - - [24/Feb/2021 09:52:12] "[37mGET /sections/cloud/ HTTP/1.1[0m" 200 -
+2021-02-24 09:52:28,163 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:52:28,196 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-24 09:52:28,407 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-24 09:52:28,407 :: INFO :: MainThread ::  * Debugger PIN: 864-041-331
+2021-02-24 09:52:31,424 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:52:31,471 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-24 09:52:31,680 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-24 09:52:31,681 :: INFO :: MainThread ::  * Debugger PIN: 864-041-331
+2021-02-24 09:52:50,073 :: INFO :: Thread-2 :: choosing python section
+2021-02-24 09:52:50,076 :: INFO :: Thread-2 :: 172.17.0.1 - - [24/Feb/2021 09:52:50] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-24 09:53:02,775 :: INFO :: Thread-3 :: choosing docker section
+2021-02-24 09:53:02,777 :: INFO :: Thread-3 :: 172.17.0.1 - - [24/Feb/2021 09:53:02] "[37mGET /sections/docker/ HTTP/1.1[0m" 200 -
+2021-02-24 09:53:23,951 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:53:23,993 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-24 09:54:33,287 :: INFO :: MainThread ::  * Running on http://0.0.0.0:3051/ (Press CTRL+C to quit)
+2021-02-24 09:54:33,289 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-24 09:54:33,472 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-24 09:54:33,474 :: INFO :: MainThread ::  * Debugger PIN: 864-041-331
+2021-02-24 09:54:36,624 :: INFO :: Thread-2 :: choosing js section
+2021-02-24 09:54:36,626 :: INFO :: Thread-2 :: 172.17.0.1 - - [24/Feb/2021 09:54:36] "[37mGET /sections/js/ HTTP/1.1[0m" 200 -
+2021-02-24 09:54:56,661 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:54:56,700 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-24 09:54:56,927 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-24 09:54:56,927 :: INFO :: MainThread ::  * Debugger PIN: 864-041-331
+2021-02-24 09:55:24,069 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:55:24,112 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-24 09:55:24,316 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-24 09:55:24,317 :: INFO :: MainThread ::  * Debugger PIN: 864-041-331
+2021-02-24 09:56:12,580 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:56:12,609 :: INFO :: MainThread ::  * Restarting with stat
