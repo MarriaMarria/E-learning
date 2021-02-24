@@ -1,0 +1,355 @@
+2021-02-23 21:39:55,156 - root - MainThread - connecting to the database: start
+2021-02-23 21:39:55,156 - root - MainThread - connecting to the database: end
+2021-02-23 21:40:13,040 - root - MainThread - connecting to the database: start
+2021-02-23 21:40:13,040 - root - MainThread - connecting to the database: end
+2021-02-23 21:40:13,080 - root - MainThread - Getting tables: start
+2021-02-23 21:40:13,080 - root - MainThread - Getting tables: end
+2021-02-23 21:40:13,080 - root - MainThread - creating table: start
+2021-02-23 21:40:13,160 - root - MainThread - creating table: end
+2021-02-23 21:40:13,160 - root - MainThread - inserting into table: start
+2021-02-23 21:40:13,228 - root - MainThread - inserting into table: end
+2021-02-23 22:10:46,422 - root - MainThread - connecting to the database: start
+2021-02-23 22:10:46,427 - root - MainThread - connecting to the database: end
+2021-02-23 22:10:58,039 - root - MainThread - connecting to the database: start
+2021-02-23 22:10:58,040 - root - MainThread - connecting to the database: end
+2021-02-23 22:10:58,187 - root - MainThread - Getting tables: start
+2021-02-23 22:10:58,188 - root - MainThread - Getting tables: end
+2021-02-23 22:10:58,188 - root - MainThread - creating table: start
+2021-02-23 22:10:58,199 - root - MainThread - creating table: end
+2021-02-23 22:10:58,199 - root - MainThread - inserting into table: start
+2021-02-23 22:10:58,279 - root - MainThread - inserting into table: end
+2021-02-23 22:11:16,724 - root - MainThread - connecting to the database: start
+2021-02-23 22:11:16,724 - root - MainThread - connecting to the database: end
+2021-02-23 22:11:16,740 - werkzeug - MainThread -  * Running on http://0.0.0.0:3051/ (Press CTRL+C to quit)
+2021-02-23 22:11:16,740 - werkzeug - MainThread -  * Restarting with stat
+2021-02-23 22:11:16,887 - root - MainThread - connecting to the database: start
+2021-02-23 22:11:16,887 - root - MainThread - connecting to the database: end
+2021-02-23 22:11:16,893 - werkzeug - MainThread -  * Debugger is active!
+2021-02-23 22:11:16,912 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-23 22:11:58,693 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-23 22:11:58,717 - werkzeug - MainThread -  * Restarting with stat
+2021-02-23 22:11:58,911 - root - MainThread - connecting to the database: start
+2021-02-23 22:11:58,912 - root - MainThread - connecting to the database: end
+2021-02-23 22:11:58,918 - werkzeug - MainThread -  * Debugger is active!
+2021-02-23 22:11:58,919 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-23 22:12:19,046 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-23 22:12:19,085 - werkzeug - MainThread -  * Restarting with stat
+2021-02-23 22:13:05,751 - root - MainThread - connecting to the database: start
+2021-02-23 22:13:05,751 - root - MainThread - connecting to the database: end
+2021-02-23 22:13:05,759 - werkzeug - MainThread -  * Running on http://0.0.0.0:3051/ (Press CTRL+C to quit)
+2021-02-23 22:13:05,760 - werkzeug - MainThread -  * Restarting with stat
+2021-02-23 22:13:05,938 - root - MainThread - connecting to the database: start
+2021-02-23 22:13:05,939 - root - MainThread - connecting to the database: end
+2021-02-23 22:13:05,945 - werkzeug - MainThread -  * Debugger is active!
+2021-02-23 22:13:05,946 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-23 22:13:37,781 - werkzeug - Thread-2 - 172.17.0.1 - - [23/Feb/2021 22:13:37] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-02-23 22:13:38,003 - werkzeug - Thread-3 - 172.17.0.1 - - [23/Feb/2021 22:13:38] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-23 22:13:38,004 - werkzeug - Thread-4 - 172.17.0.1 - - [23/Feb/2021 22:13:38] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-23 22:13:38,008 - werkzeug - Thread-5 - 172.17.0.1 - - [23/Feb/2021 22:13:38] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-23 22:13:38,082 - werkzeug - Thread-6 - 172.17.0.1 - - [23/Feb/2021 22:13:38] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-23 22:13:38,157 - werkzeug - Thread-7 - 172.17.0.1 - - [23/Feb/2021 22:13:38] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-23 22:14:22,677 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-23 22:14:22,723 - werkzeug - MainThread -  * Restarting with stat
+2021-02-23 22:14:22,944 - root - MainThread - connecting to the database: start
+2021-02-23 22:14:22,944 - root - MainThread - connecting to the database: end
+2021-02-23 22:14:22,954 - werkzeug - MainThread -  * Debugger is active!
+2021-02-23 22:14:22,955 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-23 22:14:25,157 - werkzeug - Thread-2 - 172.17.0.1 - - [23/Feb/2021 22:14:25] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-23 22:14:25,239 - werkzeug - Thread-3 - 172.17.0.1 - - [23/Feb/2021 22:14:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-23 22:14:50,127 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-23 22:14:50,153 - werkzeug - MainThread -  * Restarting with stat
+2021-02-23 22:14:50,306 - root - MainThread - connecting to the database: start
+2021-02-23 22:14:50,306 - root - MainThread - connecting to the database: end
+2021-02-23 22:14:50,313 - werkzeug - MainThread -  * Debugger is active!
+2021-02-23 22:14:50,313 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-23 22:15:04,861 - root - MainThread - connecting to the database: start
+2021-02-23 22:15:04,861 - root - MainThread - connecting to the database: end
+2021-02-23 22:15:04,869 - werkzeug - MainThread -  * Running on http://0.0.0.0:3051/ (Press CTRL+C to quit)
+2021-02-23 22:15:04,870 - werkzeug - MainThread -  * Restarting with stat
+2021-02-23 22:15:05,016 - root - MainThread - connecting to the database: start
+2021-02-23 22:15:05,016 - root - MainThread - connecting to the database: end
+2021-02-23 22:15:05,022 - werkzeug - MainThread -  * Debugger is active!
+2021-02-23 22:15:05,023 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-23 22:15:08,693 - backend - Thread-2 - testing homepage
+2021-02-23 22:15:08,694 - werkzeug - Thread-2 - 172.17.0.1 - - [23/Feb/2021 22:15:08] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-23 22:17:26,847 - backend - Thread-3 - testing homepage
+2021-02-23 22:17:26,848 - werkzeug - Thread-3 - 172.17.0.1 - - [23/Feb/2021 22:17:26] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-23 22:17:34,970 - root - MainThread - connecting to the database: start
+2021-02-23 22:17:34,970 - root - MainThread - connecting to the database: end
+2021-02-23 22:17:34,978 - werkzeug - MainThread -  * Running on http://0.0.0.0:3051/ (Press CTRL+C to quit)
+2021-02-23 22:17:34,979 - werkzeug - MainThread -  * Restarting with stat
+2021-02-23 22:17:35,131 - root - MainThread - connecting to the database: start
+2021-02-23 22:17:35,131 - root - MainThread - connecting to the database: end
+2021-02-23 22:17:35,138 - werkzeug - MainThread -  * Debugger is active!
+2021-02-23 22:17:35,139 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-23 22:18:51,648 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-23 22:18:51,679 - werkzeug - MainThread -  * Restarting with stat
+2021-02-23 22:18:51,823 - root - MainThread - connecting to the database: start
+2021-02-23 22:18:51,823 - root - MainThread - connecting to the database: end
+2021-02-23 22:18:51,829 - werkzeug - MainThread -  * Debugger is active!
+2021-02-23 22:18:51,830 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-23 22:19:29,065 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-23 22:19:29,094 - werkzeug - MainThread -  * Restarting with stat
+2021-02-23 22:26:24,865 - root - MainThread - connecting to the database: start
+2021-02-23 22:26:24,865 - root - MainThread - connecting to the database: end
+2021-02-23 22:26:43,028 - root - MainThread - connecting to the database: start
+2021-02-23 22:26:43,029 - root - MainThread - connecting to the database: end
+2021-02-23 22:26:53,567 - root - MainThread - connecting to the database: start
+2021-02-23 22:26:53,567 - root - MainThread - connecting to the database: end
+2021-02-23 22:27:12,578 - root - MainThread - connecting to the database: start
+2021-02-23 22:27:12,578 - root - MainThread - connecting to the database: end
+2021-02-23 22:27:26,551 - root - MainThread - connecting to the database: start
+2021-02-23 22:27:26,551 - root - MainThread - connecting to the database: end
+2021-02-23 22:27:26,658 - root - MainThread - Getting tables: start
+2021-02-23 22:27:26,659 - root - MainThread - Getting tables: end
+2021-02-23 22:27:26,659 - root - MainThread - creating table: start
+2021-02-23 22:27:26,670 - root - MainThread - creating table: end
+2021-02-23 22:27:26,670 - root - MainThread - inserting into table: start
+2021-02-23 22:27:26,749 - root - MainThread - inserting into table: end
+2021-02-23 22:27:59,427 - root - MainThread - connecting to the database: start
+2021-02-23 22:27:59,427 - root - MainThread - connecting to the database: end
+2021-02-23 22:27:59,435 - werkzeug - MainThread -  * Running on http://0.0.0.0:3051/ (Press CTRL+C to quit)
+2021-02-23 22:27:59,436 - werkzeug - MainThread -  * Restarting with stat
+2021-02-23 22:27:59,592 - root - MainThread - connecting to the database: start
+2021-02-23 22:27:59,592 - root - MainThread - connecting to the database: end
+2021-02-23 22:27:59,599 - werkzeug - MainThread -  * Debugger is active!
+2021-02-23 22:27:59,600 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-23 22:28:04,847 - backend - Thread-2 - testing homepage
+2021-02-23 22:28:04,848 - werkzeug - Thread-2 - 172.17.0.1 - - [23/Feb/2021 22:28:04] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-23 22:28:25,633 - werkzeug - Thread-3 - 172.17.0.1 - - [23/Feb/2021 22:28:25] "[32mGET /sections/python HTTP/1.1[0m" 308 -
+2021-02-23 22:28:25,639 - backend - Thread-4 - choosing python section
+2021-02-23 22:28:25,648 - werkzeug - Thread-4 - 172.17.0.1 - - [23/Feb/2021 22:28:25] "[35m[1mGET /sections/python/ HTTP/1.1[0m" 500 -
+2021-02-23 22:28:25,695 - werkzeug - Thread-5 - 172.17.0.1 - - [23/Feb/2021 22:28:25] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-23 22:28:25,696 - werkzeug - Thread-6 - 172.17.0.1 - - [23/Feb/2021 22:28:25] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-23 22:28:25,696 - werkzeug - Thread-7 - 172.17.0.1 - - [23/Feb/2021 22:28:25] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-23 22:28:25,731 - werkzeug - Thread-8 - 172.17.0.1 - - [23/Feb/2021 22:28:25] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-23 22:28:25,767 - werkzeug - Thread-9 - 172.17.0.1 - - [23/Feb/2021 22:28:25] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 08:13:47,057 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 08:13:47,091 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 08:13:47,247 - root - MainThread - connecting to the database: start
+2021-02-24 08:13:47,247 - root - MainThread - connecting to the database: end
+2021-02-24 08:13:47,255 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 08:13:47,255 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-24 08:15:01,657 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 08:15:01,683 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 08:15:01,842 - root - MainThread - connecting to the database: start
+2021-02-24 08:15:01,842 - root - MainThread - connecting to the database: end
+2021-02-24 08:15:01,850 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 08:15:01,850 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-24 08:15:06,877 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 08:15:06,909 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 08:15:07,061 - root - MainThread - connecting to the database: start
+2021-02-24 08:15:07,061 - root - MainThread - connecting to the database: end
+2021-02-24 08:15:07,069 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 08:15:07,070 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-24 08:15:25,801 - root - MainThread - connecting to the database: start
+2021-02-24 08:15:25,802 - root - MainThread - connecting to the database: end
+2021-02-24 08:15:25,811 - werkzeug - MainThread -  * Running on http://0.0.0.0:3051/ (Press CTRL+C to quit)
+2021-02-24 08:15:25,811 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 08:15:25,969 - root - MainThread - connecting to the database: start
+2021-02-24 08:15:25,970 - root - MainThread - connecting to the database: end
+2021-02-24 08:15:25,978 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 08:15:25,978 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-24 08:15:30,981 - backend - Thread-2 - choosing python section
+2021-02-24 08:15:30,989 - werkzeug - Thread-2 - 172.17.0.1 - - [24/Feb/2021 08:15:30] "[35m[1mGET /sections/python/ HTTP/1.1[0m" 500 -
+2021-02-24 08:15:31,076 - werkzeug - Thread-3 - 172.17.0.1 - - [24/Feb/2021 08:15:31] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-24 08:15:31,077 - werkzeug - Thread-4 - 172.17.0.1 - - [24/Feb/2021 08:15:31] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-24 08:15:31,079 - werkzeug - Thread-5 - 172.17.0.1 - - [24/Feb/2021 08:15:31] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-24 08:15:31,147 - werkzeug - Thread-6 - 172.17.0.1 - - [24/Feb/2021 08:15:31] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 08:15:44,080 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 08:15:44,105 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 08:15:44,308 - root - MainThread - connecting to the database: start
+2021-02-24 08:15:44,308 - root - MainThread - connecting to the database: end
+2021-02-24 08:15:44,318 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 08:15:44,318 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-24 08:15:50,471 - backend - Thread-2 - choosing python section
+2021-02-24 08:15:50,484 - werkzeug - Thread-2 - 172.17.0.1 - - [24/Feb/2021 08:15:50] "[35m[1mGET /sections/python/ HTTP/1.1[0m" 500 -
+2021-02-24 08:15:50,512 - werkzeug - Thread-3 - 172.17.0.1 - - [24/Feb/2021 08:15:50] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-24 08:15:50,550 - werkzeug - Thread-5 - 172.17.0.1 - - [24/Feb/2021 08:15:50] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-24 08:15:50,551 - werkzeug - Thread-4 - 172.17.0.1 - - [24/Feb/2021 08:15:50] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-24 08:15:50,605 - werkzeug - Thread-6 - 172.17.0.1 - - [24/Feb/2021 08:15:50] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 08:21:13,296 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 08:21:13,346 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 08:21:13,536 - root - MainThread - connecting to the database: start
+2021-02-24 08:21:13,536 - root - MainThread - connecting to the database: end
+2021-02-24 08:21:21,715 - root - MainThread - connecting to the database: start
+2021-02-24 08:21:21,715 - root - MainThread - connecting to the database: end
+2021-02-24 08:21:43,187 - root - MainThread - connecting to the database: start
+2021-02-24 08:21:43,187 - root - MainThread - connecting to the database: end
+2021-02-24 08:21:43,209 - werkzeug - MainThread -  * Running on http://0.0.0.0:3051/ (Press CTRL+C to quit)
+2021-02-24 08:21:43,210 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 08:21:43,363 - root - MainThread - connecting to the database: start
+2021-02-24 08:21:43,364 - root - MainThread - connecting to the database: end
+2021-02-24 08:21:43,382 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 08:21:43,383 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-24 08:21:46,761 - backend - Thread-2 - choosing python section
+2021-02-24 08:21:46,785 - werkzeug - Thread-2 - 172.17.0.1 - - [24/Feb/2021 08:21:46] "[35m[1mGET /sections/python/ HTTP/1.1[0m" 500 -
+2021-02-24 08:21:46,838 - werkzeug - Thread-3 - 172.17.0.1 - - [24/Feb/2021 08:21:46] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-24 08:21:46,840 - werkzeug - Thread-4 - 172.17.0.1 - - [24/Feb/2021 08:21:46] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-24 08:21:46,841 - werkzeug - Thread-5 - 172.17.0.1 - - [24/Feb/2021 08:21:46] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-24 08:21:46,896 - werkzeug - Thread-6 - 172.17.0.1 - - [24/Feb/2021 08:21:46] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 08:32:54,598 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 08:32:54,648 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 08:32:54,851 - root - MainThread - connecting to the database: start
+2021-02-24 08:32:54,851 - root - MainThread - connecting to the database: end
+2021-02-24 08:32:54,886 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 08:32:54,887 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-24 08:33:32,118 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 08:33:32,153 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 08:33:32,318 - root - MainThread - connecting to the database: start
+2021-02-24 08:33:32,318 - root - MainThread - connecting to the database: end
+2021-02-24 09:23:30,063 - root - MainThread - connecting to the database: start
+2021-02-24 09:23:30,088 - root - MainThread - connecting to the database: end
+2021-02-24 09:24:51,715 - root - MainThread - connecting to the database: start
+2021-02-24 09:24:51,721 - root - MainThread - connecting to the database: end
+2021-02-24 09:24:51,744 - werkzeug - MainThread -  * Running on http://0.0.0.0:3051/ (Press CTRL+C to quit)
+2021-02-24 09:24:51,745 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 09:24:51,903 - root - MainThread - connecting to the database: start
+2021-02-24 09:24:51,903 - root - MainThread - connecting to the database: end
+2021-02-24 09:24:51,924 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 09:24:51,924 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-24 09:25:44,240 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:25:44,281 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 09:25:44,496 - root - MainThread - connecting to the database: start
+2021-02-24 09:25:44,497 - root - MainThread - connecting to the database: end
+2021-02-24 09:25:44,522 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 09:25:44,523 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-24 09:25:48,554 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:25:48,597 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 09:25:48,763 - root - MainThread - connecting to the database: start
+2021-02-24 09:25:48,764 - root - MainThread - connecting to the database: end
+2021-02-24 09:25:48,783 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 09:25:48,783 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-24 09:26:00,893 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:26:00,968 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 09:26:01,204 - root - MainThread - connecting to the database: start
+2021-02-24 09:26:01,204 - root - MainThread - connecting to the database: end
+2021-02-24 09:26:17,620 - root - MainThread - connecting to the database: start
+2021-02-24 09:26:17,620 - root - MainThread - connecting to the database: end
+2021-02-24 09:28:10,907 - root - MainThread - connecting to the database: start
+2021-02-24 09:28:10,907 - root - MainThread - connecting to the database: end
+2021-02-24 09:40:02,180 - root - MainThread - connecting to the database: start
+2021-02-24 09:40:02,181 - root - MainThread - connecting to the database: end
+2021-02-24 09:40:02,208 - werkzeug - MainThread -  * Running on http://0.0.0.0:3051/ (Press CTRL+C to quit)
+2021-02-24 09:40:02,209 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 09:40:02,390 - root - MainThread - connecting to the database: start
+2021-02-24 09:40:02,391 - root - MainThread - connecting to the database: end
+2021-02-24 09:40:02,414 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 09:40:02,414 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-24 09:40:13,560 - backend - Thread-2 - testing homepage
+2021-02-24 09:40:13,561 - werkzeug - Thread-2 - 172.17.0.1 - - [24/Feb/2021 09:40:13] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-24 09:48:15,649 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:48:15,700 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 09:48:15,884 - root - MainThread - connecting to the database: start
+2021-02-24 09:48:15,884 - root - MainThread - connecting to the database: end
+2021-02-24 09:48:15,965 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 09:48:15,966 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-24 09:48:29,036 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:48:29,076 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 09:48:29,291 - root - MainThread - connecting to the database: start
+2021-02-24 09:48:29,291 - root - MainThread - connecting to the database: end
+2021-02-24 09:48:29,321 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 09:48:29,321 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-24 09:49:14,635 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:49:14,680 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 09:49:14,895 - root - MainThread - connecting to the database: start
+2021-02-24 09:49:14,895 - root - MainThread - connecting to the database: end
+2021-02-24 09:49:14,915 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 09:49:14,916 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-24 09:49:32,408 - backend - Thread-2 - choosing cloud section
+2021-02-24 09:49:32,418 - werkzeug - Thread-2 - 172.17.0.1 - - [24/Feb/2021 09:49:32] "[35m[1mGET /sections/cloud/ HTTP/1.1[0m" 500 -
+2021-02-24 09:49:32,484 - werkzeug - Thread-4 - 172.17.0.1 - - [24/Feb/2021 09:49:32] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-24 09:49:32,487 - werkzeug - Thread-3 - 172.17.0.1 - - [24/Feb/2021 09:49:32] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-24 09:49:32,488 - werkzeug - Thread-5 - 172.17.0.1 - - [24/Feb/2021 09:49:32] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-24 09:49:32,546 - werkzeug - Thread-6 - 172.17.0.1 - - [24/Feb/2021 09:49:32] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 09:49:32,584 - werkzeug - Thread-7 - 172.17.0.1 - - [24/Feb/2021 09:49:32] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 09:49:59,702 - root - MainThread - connecting to the database: start
+2021-02-24 09:49:59,702 - root - MainThread - connecting to the database: end
+2021-02-24 09:49:59,725 - werkzeug - MainThread -  * Running on http://0.0.0.0:3051/ (Press CTRL+C to quit)
+2021-02-24 09:49:59,726 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 09:49:59,873 - root - MainThread - connecting to the database: start
+2021-02-24 09:49:59,873 - root - MainThread - connecting to the database: end
+2021-02-24 09:49:59,892 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 09:49:59,893 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-24 09:50:05,901 - backend - Thread-2 - choosing cloud section
+2021-02-24 09:50:05,914 - werkzeug - Thread-2 - 172.17.0.1 - - [24/Feb/2021 09:50:05] "[35m[1mGET /sections/cloud/ HTTP/1.1[0m" 500 -
+2021-02-24 09:50:05,946 - werkzeug - Thread-3 - 172.17.0.1 - - [24/Feb/2021 09:50:05] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-24 09:50:05,947 - werkzeug - Thread-4 - 172.17.0.1 - - [24/Feb/2021 09:50:05] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-24 09:50:05,958 - werkzeug - Thread-5 - 172.17.0.1 - - [24/Feb/2021 09:50:05] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-24 09:50:06,002 - werkzeug - Thread-6 - 172.17.0.1 - - [24/Feb/2021 09:50:06] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 09:50:50,190 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:50:50,235 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 09:50:50,456 - root - MainThread - connecting to the database: start
+2021-02-24 09:50:50,456 - root - MainThread - connecting to the database: end
+2021-02-24 09:50:50,495 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 09:50:50,496 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-24 09:51:04,579 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:51:04,627 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 09:51:04,842 - root - MainThread - connecting to the database: start
+2021-02-24 09:51:04,842 - root - MainThread - connecting to the database: end
+2021-02-24 09:51:04,869 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 09:51:04,870 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-24 09:51:06,437 - backend - Thread-2 - choosing cloud section
+2021-02-24 09:51:06,450 - werkzeug - Thread-2 - 172.17.0.1 - - [24/Feb/2021 09:51:06] "[35m[1mGET /sections/cloud/ HTTP/1.1[0m" 500 -
+2021-02-24 09:51:06,492 - werkzeug - Thread-3 - 172.17.0.1 - - [24/Feb/2021 09:51:06] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-24 09:51:06,496 - werkzeug - Thread-4 - 172.17.0.1 - - [24/Feb/2021 09:51:06] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-24 09:51:06,498 - werkzeug - Thread-5 - 172.17.0.1 - - [24/Feb/2021 09:51:06] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-24 09:51:06,553 - werkzeug - Thread-6 - 172.17.0.1 - - [24/Feb/2021 09:51:06] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-24 09:51:38,065 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:51:38,118 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 09:52:08,838 - root - MainThread - connecting to the database: start
+2021-02-24 09:52:08,838 - root - MainThread - connecting to the database: end
+2021-02-24 09:52:08,860 - werkzeug - MainThread -  * Running on http://0.0.0.0:3051/ (Press CTRL+C to quit)
+2021-02-24 09:52:08,861 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 09:52:09,029 - root - MainThread - connecting to the database: start
+2021-02-24 09:52:09,030 - root - MainThread - connecting to the database: end
+2021-02-24 09:52:09,050 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 09:52:09,050 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-24 09:52:12,656 - backend - Thread-2 - choosing cloud section
+2021-02-24 09:52:12,658 - werkzeug - Thread-2 - 172.17.0.1 - - [24/Feb/2021 09:52:12] "[37mGET /sections/cloud/ HTTP/1.1[0m" 200 -
+2021-02-24 09:52:28,163 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:52:28,196 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 09:52:28,374 - root - MainThread - connecting to the database: start
+2021-02-24 09:52:28,374 - root - MainThread - connecting to the database: end
+2021-02-24 09:52:28,407 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 09:52:28,407 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-24 09:52:31,424 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:52:31,471 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 09:52:31,659 - root - MainThread - connecting to the database: start
+2021-02-24 09:52:31,659 - root - MainThread - connecting to the database: end
+2021-02-24 09:52:31,680 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 09:52:31,681 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-24 09:52:50,073 - backend - Thread-2 - choosing python section
+2021-02-24 09:52:50,076 - werkzeug - Thread-2 - 172.17.0.1 - - [24/Feb/2021 09:52:50] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-24 09:53:02,775 - backend - Thread-3 - choosing docker section
+2021-02-24 09:53:02,777 - werkzeug - Thread-3 - 172.17.0.1 - - [24/Feb/2021 09:53:02] "[37mGET /sections/docker/ HTTP/1.1[0m" 200 -
+2021-02-24 09:53:23,951 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:53:23,993 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 09:53:24,186 - root - MainThread - connecting to the database: start
+2021-02-24 09:53:24,186 - root - MainThread - connecting to the database: end
+2021-02-24 09:53:47,463 - root - MainThread - connecting to the database: start
+2021-02-24 09:53:47,463 - root - MainThread - connecting to the database: end
+2021-02-24 09:54:33,265 - root - MainThread - connecting to the database: start
+2021-02-24 09:54:33,265 - root - MainThread - connecting to the database: end
+2021-02-24 09:54:33,287 - werkzeug - MainThread -  * Running on http://0.0.0.0:3051/ (Press CTRL+C to quit)
+2021-02-24 09:54:33,289 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 09:54:33,449 - root - MainThread - connecting to the database: start
+2021-02-24 09:54:33,449 - root - MainThread - connecting to the database: end
+2021-02-24 09:54:33,472 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 09:54:33,474 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-24 09:54:36,624 - backend - Thread-2 - choosing js section
+2021-02-24 09:54:36,626 - werkzeug - Thread-2 - 172.17.0.1 - - [24/Feb/2021 09:54:36] "[37mGET /sections/js/ HTTP/1.1[0m" 200 -
+2021-02-24 09:54:56,661 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:54:56,700 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 09:54:56,903 - root - MainThread - connecting to the database: start
+2021-02-24 09:54:56,903 - root - MainThread - connecting to the database: end
+2021-02-24 09:54:56,927 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 09:54:56,927 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-24 09:55:24,069 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:55:24,112 - werkzeug - MainThread -  * Restarting with stat
+2021-02-24 09:55:24,294 - root - MainThread - connecting to the database: start
+2021-02-24 09:55:24,294 - root - MainThread - connecting to the database: end
+2021-02-24 09:55:24,316 - werkzeug - MainThread -  * Debugger is active!
+2021-02-24 09:55:24,317 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
+2021-02-24 09:56:12,580 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
+2021-02-24 09:56:12,609 - werkzeug - MainThread -  * Restarting with stat
