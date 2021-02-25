@@ -426,3 +426,246 @@
 2021-02-24 17:49:38,077 :: INFO :: Thread-25 :: opening homepage
 2021-02-24 17:49:38,097 :: INFO :: Thread-25 :: 127.0.0.1 - - [24/Feb/2021 17:49:38] "[37mGET / HTTP/1.1[0m" 200 -
 2021-02-24 17:49:38,146 :: INFO :: Thread-26 :: 127.0.0.1 - - [24/Feb/2021 17:49:38] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 11:30:41,579 :: INFO :: MainThread ::  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-02-25 11:30:41,580 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 11:30:41,755 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 11:30:41,767 :: INFO :: MainThread ::  * Debugger PIN: 240-877-176
+2021-02-25 11:30:46,601 :: INFO :: Thread-2 :: opening homepage
+2021-02-25 11:30:46,620 :: INFO :: Thread-2 :: 127.0.0.1 - - [25/Feb/2021 11:30:46] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 11:30:46,835 :: INFO :: Thread-3 :: 127.0.0.1 - - [25/Feb/2021 11:30:46] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 11:31:45,627 :: INFO :: Thread-4 :: opening homepage
+2021-02-25 11:31:45,629 :: INFO :: Thread-4 :: 127.0.0.1 - - [25/Feb/2021 11:31:45] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 11:31:45,689 :: INFO :: Thread-5 :: 127.0.0.1 - - [25/Feb/2021 11:31:45] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 11:31:45,729 :: INFO :: Thread-7 :: 127.0.0.1 - - [25/Feb/2021 11:31:45] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 11:31:45,730 :: INFO :: Thread-6 :: 127.0.0.1 - - [25/Feb/2021 11:31:45] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 11:37:13,100 :: INFO :: Thread-8 :: opening homepage
+2021-02-25 11:37:13,115 :: INFO :: Thread-8 :: 127.0.0.1 - - [25/Feb/2021 11:37:13] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 11:37:13,164 :: INFO :: Thread-9 :: 127.0.0.1 - - [25/Feb/2021 11:37:13] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 11:37:23,560 :: INFO :: Thread-10 :: opening homepage
+2021-02-25 11:37:23,561 :: INFO :: Thread-10 :: 127.0.0.1 - - [25/Feb/2021 11:37:23] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 11:37:23,603 :: INFO :: Thread-11 :: 127.0.0.1 - - [25/Feb/2021 11:37:23] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 11:37:23,607 :: INFO :: Thread-13 :: 127.0.0.1 - - [25/Feb/2021 11:37:23] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 11:37:23,609 :: INFO :: Thread-12 :: 127.0.0.1 - - [25/Feb/2021 11:37:23] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 11:38:37,530 :: INFO :: Thread-14 :: opening homepage
+2021-02-25 11:38:37,531 :: INFO :: Thread-14 :: 127.0.0.1 - - [25/Feb/2021 11:38:37] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 11:38:37,569 :: INFO :: Thread-15 :: 127.0.0.1 - - [25/Feb/2021 11:38:37] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 11:38:37,576 :: INFO :: Thread-17 :: 127.0.0.1 - - [25/Feb/2021 11:38:37] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 11:38:37,578 :: INFO :: Thread-16 :: 127.0.0.1 - - [25/Feb/2021 11:38:37] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 11:39:30,406 :: INFO :: Thread-18 :: opening homepage
+2021-02-25 11:39:30,421 :: INFO :: Thread-18 :: 127.0.0.1 - - [25/Feb/2021 11:39:30] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 11:39:30,510 :: INFO :: Thread-19 :: 127.0.0.1 - - [25/Feb/2021 11:39:30] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 11:39:41,332 :: INFO :: Thread-20 :: opening homepage
+2021-02-25 11:39:41,333 :: INFO :: Thread-20 :: 127.0.0.1 - - [25/Feb/2021 11:39:41] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 11:39:41,372 :: INFO :: Thread-21 :: 127.0.0.1 - - [25/Feb/2021 11:39:41] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 11:39:41,381 :: INFO :: Thread-23 :: 127.0.0.1 - - [25/Feb/2021 11:39:41] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 11:39:41,384 :: INFO :: Thread-22 :: 127.0.0.1 - - [25/Feb/2021 11:39:41] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 11:42:03,308 :: INFO :: Thread-24 :: opening homepage
+2021-02-25 11:42:03,321 :: INFO :: Thread-24 :: 127.0.0.1 - - [25/Feb/2021 11:42:03] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 11:42:03,352 :: INFO :: Thread-25 :: 127.0.0.1 - - [25/Feb/2021 11:42:03] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 11:42:03,358 :: INFO :: Thread-27 :: 127.0.0.1 - - [25/Feb/2021 11:42:03] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 11:42:03,361 :: INFO :: Thread-26 :: 127.0.0.1 - - [25/Feb/2021 11:42:03] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 11:42:25,976 :: INFO :: Thread-28 :: choosing cloud section
+2021-02-25 11:42:26,083 :: INFO :: Thread-28 :: 127.0.0.1 - - [25/Feb/2021 11:42:26] "[35m[1mGET /sections/cloud/ HTTP/1.1[0m" 500 -
+2021-02-25 11:42:26,182 :: INFO :: Thread-29 :: 127.0.0.1 - - [25/Feb/2021 11:42:26] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-25 11:42:26,183 :: INFO :: Thread-30 :: 127.0.0.1 - - [25/Feb/2021 11:42:26] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-25 11:42:26,185 :: INFO :: Thread-31 :: 127.0.0.1 - - [25/Feb/2021 11:42:26] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-25 11:42:26,356 :: INFO :: Thread-32 :: 127.0.0.1 - - [25/Feb/2021 11:42:26] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-02-25 11:42:26,825 :: INFO :: Thread-33 :: 127.0.0.1 - - [25/Feb/2021 11:42:26] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-25 11:42:27,021 :: INFO :: Thread-34 :: 127.0.0.1 - - [25/Feb/2021 11:42:27] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-25 12:09:22,840 :: INFO :: Thread-35 :: opening homepage
+2021-02-25 12:09:22,869 :: INFO :: Thread-35 :: 127.0.0.1 - - [25/Feb/2021 12:09:22] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 12:09:22,930 :: INFO :: Thread-36 :: 127.0.0.1 - - [25/Feb/2021 12:09:22] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 12:09:22,953 :: INFO :: Thread-38 :: 127.0.0.1 - - [25/Feb/2021 12:09:22] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 12:09:22,955 :: INFO :: Thread-37 :: 127.0.0.1 - - [25/Feb/2021 12:09:22] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 12:24:21,084 :: INFO :: Thread-39 :: opening homepage
+2021-02-25 12:24:21,098 :: INFO :: Thread-39 :: 127.0.0.1 - - [25/Feb/2021 12:24:21] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 12:24:21,323 :: INFO :: Thread-40 :: 127.0.0.1 - - [25/Feb/2021 12:24:21] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 12:24:38,077 :: INFO :: Thread-41 :: opening homepage
+2021-02-25 12:24:38,079 :: INFO :: Thread-41 :: 127.0.0.1 - - [25/Feb/2021 12:24:38] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 12:24:38,119 :: INFO :: Thread-42 :: 127.0.0.1 - - [25/Feb/2021 12:24:38] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 12:24:38,126 :: INFO :: Thread-44 :: 127.0.0.1 - - [25/Feb/2021 12:24:38] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 12:24:38,126 :: INFO :: Thread-43 :: 127.0.0.1 - - [25/Feb/2021 12:24:38] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 12:28:12,478 :: INFO :: Thread-45 :: opening homepage
+2021-02-25 12:28:12,480 :: INFO :: Thread-45 :: 127.0.0.1 - - [25/Feb/2021 12:28:12] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 12:28:12,520 :: INFO :: Thread-46 :: 127.0.0.1 - - [25/Feb/2021 12:28:12] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 12:28:12,528 :: INFO :: Thread-47 :: 127.0.0.1 - - [25/Feb/2021 12:28:12] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 12:28:12,567 :: INFO :: Thread-48 :: 127.0.0.1 - - [25/Feb/2021 12:28:12] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 12:33:21,668 :: INFO :: Thread-49 :: opening homepage
+2021-02-25 12:33:21,686 :: INFO :: Thread-49 :: 127.0.0.1 - - [25/Feb/2021 12:33:21] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 12:33:21,745 :: INFO :: Thread-50 :: 127.0.0.1 - - [25/Feb/2021 12:33:21] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 12:33:21,774 :: INFO :: Thread-52 :: 127.0.0.1 - - [25/Feb/2021 12:33:21] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 12:33:21,776 :: INFO :: Thread-51 :: 127.0.0.1 - - [25/Feb/2021 12:33:21] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 12:34:30,670 :: INFO :: Thread-53 :: opening homepage
+2021-02-25 12:34:30,684 :: INFO :: Thread-53 :: 127.0.0.1 - - [25/Feb/2021 12:34:30] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 12:34:30,738 :: INFO :: Thread-54 :: 127.0.0.1 - - [25/Feb/2021 12:34:30] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 12:34:30,747 :: INFO :: Thread-56 :: 127.0.0.1 - - [25/Feb/2021 12:34:30] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 12:34:30,749 :: INFO :: Thread-55 :: 127.0.0.1 - - [25/Feb/2021 12:34:30] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 12:36:01,835 :: INFO :: Thread-57 :: opening homepage
+2021-02-25 12:36:01,852 :: INFO :: Thread-57 :: 127.0.0.1 - - [25/Feb/2021 12:36:01] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 12:36:01,917 :: INFO :: Thread-58 :: 127.0.0.1 - - [25/Feb/2021 12:36:01] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 12:36:01,939 :: INFO :: Thread-60 :: 127.0.0.1 - - [25/Feb/2021 12:36:01] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 12:36:01,939 :: INFO :: Thread-59 :: 127.0.0.1 - - [25/Feb/2021 12:36:01] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 12:36:40,689 :: INFO :: Thread-61 :: opening homepage
+2021-02-25 12:36:40,700 :: INFO :: Thread-61 :: 127.0.0.1 - - [25/Feb/2021 12:36:40] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 12:36:40,756 :: INFO :: Thread-64 :: 127.0.0.1 - - [25/Feb/2021 12:36:40] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 12:36:40,757 :: INFO :: Thread-62 :: 127.0.0.1 - - [25/Feb/2021 12:36:40] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 12:36:40,758 :: INFO :: Thread-63 :: 127.0.0.1 - - [25/Feb/2021 12:36:40] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 12:41:21,370 :: INFO :: Thread-65 :: opening homepage
+2021-02-25 12:41:21,384 :: INFO :: Thread-65 :: 127.0.0.1 - - [25/Feb/2021 12:41:21] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 12:41:21,424 :: INFO :: Thread-66 :: 127.0.0.1 - - [25/Feb/2021 12:41:21] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 12:41:21,434 :: INFO :: Thread-68 :: 127.0.0.1 - - [25/Feb/2021 12:41:21] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 12:41:21,436 :: INFO :: Thread-67 :: 127.0.0.1 - - [25/Feb/2021 12:41:21] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 12:46:22,896 :: INFO :: Thread-69 :: opening homepage
+2021-02-25 12:46:22,910 :: INFO :: Thread-69 :: 127.0.0.1 - - [25/Feb/2021 12:46:22] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 12:46:22,947 :: INFO :: Thread-70 :: 127.0.0.1 - - [25/Feb/2021 12:46:22] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 12:46:22,965 :: INFO :: Thread-72 :: 127.0.0.1 - - [25/Feb/2021 12:46:22] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 12:46:22,967 :: INFO :: Thread-71 :: 127.0.0.1 - - [25/Feb/2021 12:46:22] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 12:46:31,606 :: INFO :: Thread-73 :: choosing docker section
+2021-02-25 12:46:31,685 :: INFO :: Thread-73 :: 127.0.0.1 - - [25/Feb/2021 12:46:31] "[35m[1mGET /sections/docker/ HTTP/1.1[0m" 500 -
+2021-02-25 12:46:31,739 :: INFO :: Thread-74 :: 127.0.0.1 - - [25/Feb/2021 12:46:31] "[37mGET /sections/docker/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-25 12:46:31,740 :: INFO :: Thread-75 :: 127.0.0.1 - - [25/Feb/2021 12:46:31] "[37mGET /sections/docker/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-25 12:46:31,741 :: INFO :: Thread-76 :: 127.0.0.1 - - [25/Feb/2021 12:46:31] "[37mGET /sections/docker/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-25 12:46:31,768 :: INFO :: Thread-77 :: 127.0.0.1 - - [25/Feb/2021 12:46:31] "[37mGET /sections/docker/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-02-25 12:46:31,854 :: INFO :: Thread-78 :: 127.0.0.1 - - [25/Feb/2021 12:46:31] "[37mGET /sections/docker/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-25 12:46:32,031 :: INFO :: Thread-79 :: 127.0.0.1 - - [25/Feb/2021 12:46:32] "[37mGET /sections/docker/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-25 12:46:34,595 :: INFO :: Thread-80 :: opening homepage
+2021-02-25 12:46:34,596 :: INFO :: Thread-80 :: 127.0.0.1 - - [25/Feb/2021 12:46:34] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 12:46:34,643 :: INFO :: Thread-81 :: 127.0.0.1 - - [25/Feb/2021 12:46:34] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 12:46:34,655 :: INFO :: Thread-83 :: 127.0.0.1 - - [25/Feb/2021 12:46:34] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 12:46:34,657 :: INFO :: Thread-82 :: 127.0.0.1 - - [25/Feb/2021 12:46:34] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 12:46:35,962 :: INFO :: Thread-84 :: opening homepage
+2021-02-25 12:46:35,963 :: INFO :: Thread-84 :: 127.0.0.1 - - [25/Feb/2021 12:46:35] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 12:46:35,994 :: INFO :: Thread-85 :: 127.0.0.1 - - [25/Feb/2021 12:46:35] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 12:46:36,003 :: INFO :: Thread-87 :: 127.0.0.1 - - [25/Feb/2021 12:46:36] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 12:46:36,005 :: INFO :: Thread-86 :: 127.0.0.1 - - [25/Feb/2021 12:46:36] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 14:05:05,196 :: INFO :: Thread-88 :: opening homepage
+2021-02-25 14:05:05,214 :: INFO :: Thread-88 :: 127.0.0.1 - - [25/Feb/2021 14:05:05] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 14:05:05,298 :: INFO :: Thread-89 :: 127.0.0.1 - - [25/Feb/2021 14:05:05] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 14:05:05,308 :: INFO :: Thread-90 :: 127.0.0.1 - - [25/Feb/2021 14:05:05] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 14:05:05,340 :: INFO :: Thread-91 :: 127.0.0.1 - - [25/Feb/2021 14:05:05] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 14:09:31,192 :: INFO :: Thread-92 :: opening homepage
+2021-02-25 14:09:31,206 :: INFO :: Thread-92 :: 127.0.0.1 - - [25/Feb/2021 14:09:31] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 14:09:31,268 :: INFO :: Thread-93 :: 127.0.0.1 - - [25/Feb/2021 14:09:31] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 14:11:09,219 :: INFO :: Thread-94 :: opening homepage
+2021-02-25 14:11:09,237 :: INFO :: Thread-94 :: 127.0.0.1 - - [25/Feb/2021 14:11:09] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 14:11:09,280 :: INFO :: Thread-95 :: 127.0.0.1 - - [25/Feb/2021 14:11:09] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 14:11:09,304 :: INFO :: Thread-97 :: 127.0.0.1 - - [25/Feb/2021 14:11:09] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 14:11:09,305 :: INFO :: Thread-96 :: 127.0.0.1 - - [25/Feb/2021 14:11:09] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 14:12:23,027 :: INFO :: Thread-98 :: opening homepage
+2021-02-25 14:12:23,045 :: INFO :: Thread-98 :: 127.0.0.1 - - [25/Feb/2021 14:12:23] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 14:12:23,086 :: INFO :: Thread-99 :: 127.0.0.1 - - [25/Feb/2021 14:12:23] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 14:12:23,107 :: INFO :: Thread-101 :: 127.0.0.1 - - [25/Feb/2021 14:12:23] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 14:12:23,107 :: INFO :: Thread-100 :: 127.0.0.1 - - [25/Feb/2021 14:12:23] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 14:13:29,617 :: INFO :: Thread-102 :: opening homepage
+2021-02-25 14:13:29,630 :: INFO :: Thread-102 :: 127.0.0.1 - - [25/Feb/2021 14:13:29] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 14:13:29,670 :: INFO :: Thread-103 :: 127.0.0.1 - - [25/Feb/2021 14:13:29] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 14:13:29,684 :: INFO :: Thread-104 :: 127.0.0.1 - - [25/Feb/2021 14:13:29] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 14:13:29,690 :: INFO :: Thread-105 :: 127.0.0.1 - - [25/Feb/2021 14:13:29] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 14:14:53,906 :: INFO :: Thread-106 :: choosing cloud section
+2021-02-25 14:14:53,987 :: INFO :: Thread-106 :: 127.0.0.1 - - [25/Feb/2021 14:14:53] "[35m[1mGET /sections/cloud/ HTTP/1.1[0m" 500 -
+2021-02-25 14:14:54,051 :: INFO :: Thread-107 :: 127.0.0.1 - - [25/Feb/2021 14:14:54] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-25 14:14:54,052 :: INFO :: Thread-108 :: 127.0.0.1 - - [25/Feb/2021 14:14:54] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-25 14:14:54,054 :: INFO :: Thread-109 :: 127.0.0.1 - - [25/Feb/2021 14:14:54] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-25 14:14:54,082 :: INFO :: Thread-110 :: 127.0.0.1 - - [25/Feb/2021 14:14:54] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-02-25 14:14:54,180 :: INFO :: Thread-111 :: 127.0.0.1 - - [25/Feb/2021 14:14:54] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-25 14:14:54,345 :: INFO :: Thread-112 :: 127.0.0.1 - - [25/Feb/2021 14:14:54] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-25 14:14:55,904 :: INFO :: Thread-113 :: opening homepage
+2021-02-25 14:14:55,906 :: INFO :: Thread-113 :: 127.0.0.1 - - [25/Feb/2021 14:14:55] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 14:14:55,940 :: INFO :: Thread-114 :: 127.0.0.1 - - [25/Feb/2021 14:14:55] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 14:14:55,947 :: INFO :: Thread-115 :: 127.0.0.1 - - [25/Feb/2021 14:14:55] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 14:14:55,949 :: INFO :: Thread-116 :: 127.0.0.1 - - [25/Feb/2021 14:14:55] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 14:16:08,539 :: INFO :: Thread-117 :: opening homepage
+2021-02-25 14:16:08,541 :: INFO :: Thread-117 :: 127.0.0.1 - - [25/Feb/2021 14:16:08] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 14:16:08,594 :: INFO :: Thread-118 :: 127.0.0.1 - - [25/Feb/2021 14:16:08] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 14:16:08,603 :: INFO :: Thread-119 :: 127.0.0.1 - - [25/Feb/2021 14:16:08] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 14:16:08,639 :: INFO :: Thread-120 :: 127.0.0.1 - - [25/Feb/2021 14:16:08] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 14:18:17,298 :: INFO :: Thread-121 :: opening homepage
+2021-02-25 14:18:17,299 :: INFO :: Thread-121 :: 127.0.0.1 - - [25/Feb/2021 14:18:17] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 14:18:17,341 :: INFO :: Thread-122 :: 127.0.0.1 - - [25/Feb/2021 14:18:17] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 14:18:17,357 :: INFO :: Thread-123 :: 127.0.0.1 - - [25/Feb/2021 14:18:17] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 14:18:17,360 :: INFO :: Thread-124 :: 127.0.0.1 - - [25/Feb/2021 14:18:17] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 14:19:51,548 :: INFO :: Thread-125 :: opening homepage
+2021-02-25 14:19:51,567 :: INFO :: Thread-125 :: 127.0.0.1 - - [25/Feb/2021 14:19:51] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 14:19:51,602 :: INFO :: Thread-126 :: 127.0.0.1 - - [25/Feb/2021 14:19:51] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 14:19:51,608 :: INFO :: Thread-127 :: 127.0.0.1 - - [25/Feb/2021 14:19:51] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 14:19:51,613 :: INFO :: Thread-128 :: 127.0.0.1 - - [25/Feb/2021 14:19:51] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 14:21:09,784 :: INFO :: Thread-129 :: opening homepage
+2021-02-25 14:21:09,799 :: INFO :: Thread-129 :: 127.0.0.1 - - [25/Feb/2021 14:21:09] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 14:21:09,834 :: INFO :: Thread-130 :: 127.0.0.1 - - [25/Feb/2021 14:21:09] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 14:21:09,848 :: INFO :: Thread-132 :: 127.0.0.1 - - [25/Feb/2021 14:21:09] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 14:21:09,850 :: INFO :: Thread-131 :: 127.0.0.1 - - [25/Feb/2021 14:21:09] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 14:23:17,457 :: INFO :: Thread-133 :: opening homepage
+2021-02-25 14:23:17,497 :: INFO :: Thread-133 :: 127.0.0.1 - - [25/Feb/2021 14:23:17] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 14:23:17,539 :: INFO :: Thread-134 :: 127.0.0.1 - - [25/Feb/2021 14:23:17] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 14:23:17,614 :: INFO :: Thread-135 :: 127.0.0.1 - - [25/Feb/2021 14:23:17] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 14:23:17,620 :: INFO :: Thread-136 :: 127.0.0.1 - - [25/Feb/2021 14:23:17] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 14:23:27,368 :: INFO :: Thread-137 :: 127.0.0.1 - - [25/Feb/2021 14:23:27] "[33mGET /Python/templates/base.html HTTP/1.1[0m" 404 -
+2021-02-25 14:23:50,314 :: INFO :: Thread-138 :: 127.0.0.1 - - [25/Feb/2021 14:23:50] "[33mGET /Python/templates/base.html HTTP/1.1[0m" 404 -
+2021-02-25 14:23:54,111 :: INFO :: Thread-139 :: opening homepage
+2021-02-25 14:23:54,123 :: INFO :: Thread-139 :: 127.0.0.1 - - [25/Feb/2021 14:23:54] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 14:23:54,162 :: INFO :: Thread-140 :: 127.0.0.1 - - [25/Feb/2021 14:23:54] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 14:23:55,821 :: INFO :: Thread-141 :: opening homepage
+2021-02-25 14:23:55,822 :: INFO :: Thread-141 :: 127.0.0.1 - - [25/Feb/2021 14:23:55] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 14:23:55,872 :: INFO :: Thread-142 :: 127.0.0.1 - - [25/Feb/2021 14:23:55] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 14:23:57,480 :: INFO :: Thread-143 :: opening homepage
+2021-02-25 14:23:57,483 :: INFO :: Thread-143 :: 127.0.0.1 - - [25/Feb/2021 14:23:57] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 14:23:57,525 :: INFO :: Thread-144 :: 127.0.0.1 - - [25/Feb/2021 14:23:57] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 14:23:58,747 :: INFO :: Thread-145 :: opening homepage
+2021-02-25 14:23:58,748 :: INFO :: Thread-145 :: 127.0.0.1 - - [25/Feb/2021 14:23:58] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 14:23:58,787 :: INFO :: Thread-146 :: 127.0.0.1 - - [25/Feb/2021 14:23:58] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 14:27:21,721 :: INFO :: MainThread ::  * Detected change in '/Users/mazn0/Desktop/Simplon/E-learning/Python/backend.py', reloading
+2021-02-25 14:27:21,808 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 14:27:22,098 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 14:27:22,114 :: INFO :: MainThread ::  * Debugger PIN: 240-877-176
+2021-02-25 14:36:26,432 :: INFO :: MainThread ::  * Detected change in '/Users/mazn0/Desktop/Simplon/E-learning/Python/backend.py', reloading
+2021-02-25 14:36:26,456 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 14:36:26,684 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 14:36:26,696 :: INFO :: MainThread ::  * Debugger PIN: 240-877-176
+2021-02-25 14:39:01,192 :: INFO :: MainThread ::  * Detected change in '/Users/mazn0/Desktop/Simplon/E-learning/Python/backend.py', reloading
+2021-02-25 14:39:01,210 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 14:39:01,382 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 14:39:01,393 :: INFO :: MainThread ::  * Debugger PIN: 240-877-176
+2021-02-25 14:39:18,746 :: INFO :: Thread-2 :: opening homepage
+2021-02-25 14:39:18,768 :: INFO :: Thread-2 :: 127.0.0.1 - - [25/Feb/2021 14:39:18] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 14:39:18,834 :: INFO :: Thread-3 :: 127.0.0.1 - - [25/Feb/2021 14:39:18] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 14:39:24,463 :: INFO :: Thread-4 :: 127.0.0.1 - - [25/Feb/2021 14:39:24] "[37mGET /add/ HTTP/1.1[0m" 200 -
+2021-02-25 14:39:24,509 :: INFO :: Thread-5 :: 127.0.0.1 - - [25/Feb/2021 14:39:24] "[33mGET /add/img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 14:39:30,292 :: INFO :: Thread-6 :: 127.0.0.1 - - [25/Feb/2021 14:39:30] "[37mGET /add/ HTTP/1.1[0m" 200 -
+2021-02-25 14:39:30,339 :: INFO :: Thread-7 :: 127.0.0.1 - - [25/Feb/2021 14:39:30] "[33mGET /add/img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 14:40:32,949 :: INFO :: MainThread ::  * Detected change in '/Users/mazn0/Desktop/Simplon/E-learning/Python/backend.py', reloading
+2021-02-25 14:40:32,978 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 14:40:33,203 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 14:40:33,215 :: INFO :: MainThread ::  * Debugger PIN: 240-877-176
+2021-02-25 14:42:49,500 :: INFO :: Thread-2 :: opening homepage
+2021-02-25 14:42:49,523 :: INFO :: Thread-2 :: 127.0.0.1 - - [25/Feb/2021 14:42:49] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 14:42:49,586 :: INFO :: Thread-4 :: 127.0.0.1 - - [25/Feb/2021 14:42:49] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 14:42:49,592 :: INFO :: Thread-3 :: 127.0.0.1 - - [25/Feb/2021 14:42:49] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 14:44:31,219 :: INFO :: Thread-5 :: opening homepage
+2021-02-25 14:44:31,229 :: INFO :: Thread-5 :: 127.0.0.1 - - [25/Feb/2021 14:44:31] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 14:44:31,285 :: INFO :: Thread-6 :: 127.0.0.1 - - [25/Feb/2021 14:44:31] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 14:44:31,287 :: INFO :: Thread-7 :: 127.0.0.1 - - [25/Feb/2021 14:44:31] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 14:45:58,428 :: INFO :: Thread-8 :: opening homepage
+2021-02-25 14:45:58,447 :: INFO :: Thread-8 :: 127.0.0.1 - - [25/Feb/2021 14:45:58] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 14:45:58,486 :: INFO :: Thread-9 :: 127.0.0.1 - - [25/Feb/2021 14:45:58] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 14:45:58,495 :: INFO :: Thread-10 :: 127.0.0.1 - - [25/Feb/2021 14:45:58] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 14:45:58,498 :: INFO :: Thread-11 :: 127.0.0.1 - - [25/Feb/2021 14:45:58] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 14:46:24,971 :: INFO :: Thread-12 :: 127.0.0.1 - - [25/Feb/2021 14:46:24] "[37mGET /add/ HTTP/1.1[0m" 200 -
+2021-02-25 14:47:04,981 :: INFO :: Thread-13 :: 127.0.0.1 - - [25/Feb/2021 14:47:04] "[35m[1mGET /add/ HTTP/1.1[0m" 500 -
+2021-02-25 14:47:05,024 :: INFO :: Thread-14 :: 127.0.0.1 - - [25/Feb/2021 14:47:05] "[37mGET /add/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-25 14:47:05,024 :: INFO :: Thread-15 :: 127.0.0.1 - - [25/Feb/2021 14:47:05] "[37mGET /add/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-25 14:47:05,025 :: INFO :: Thread-16 :: 127.0.0.1 - - [25/Feb/2021 14:47:05] "[37mGET /add/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-25 14:47:05,080 :: INFO :: Thread-17 :: 127.0.0.1 - - [25/Feb/2021 14:47:05] "[37mGET /add/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-02-25 14:47:05,115 :: INFO :: Thread-18 :: 127.0.0.1 - - [25/Feb/2021 14:47:05] "[37mGET /add/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-25 14:47:05,161 :: INFO :: Thread-19 :: 127.0.0.1 - - [25/Feb/2021 14:47:05] "[37mGET /add/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-25 14:49:54,057 :: INFO :: Thread-20 :: 127.0.0.1 - - [25/Feb/2021 14:49:54] "[37mGET /add/ HTTP/1.1[0m" 200 -
+2021-02-25 14:50:45,042 :: INFO :: Thread-21 :: 127.0.0.1 - - [25/Feb/2021 14:50:45] "[37mGET /add/ HTTP/1.1[0m" 200 -
+2021-02-25 14:50:46,565 :: INFO :: Thread-22 :: 127.0.0.1 - - [25/Feb/2021 14:50:46] "[37mGET /add/ HTTP/1.1[0m" 200 -
+2021-02-25 14:51:53,176 :: INFO :: Thread-23 :: 127.0.0.1 - - [25/Feb/2021 14:51:53] "[37mGET /add/ HTTP/1.1[0m" 200 -
+2021-02-25 14:54:29,242 :: INFO :: Thread-24 :: 127.0.0.1 - - [25/Feb/2021 14:54:29] "[37mGET /add/ HTTP/1.1[0m" 200 -
+2021-02-25 14:55:05,689 :: INFO :: Thread-25 :: 127.0.0.1 - - [25/Feb/2021 14:55:05] "[37mGET /add/ HTTP/1.1[0m" 200 -
+2021-02-25 14:55:07,731 :: INFO :: Thread-26 :: 127.0.0.1 - - [25/Feb/2021 14:55:07] "[37mGET /add/ HTTP/1.1[0m" 200 -
+2021-02-25 14:55:08,953 :: INFO :: Thread-27 :: 127.0.0.1 - - [25/Feb/2021 14:55:08] "[37mGET /add/ HTTP/1.1[0m" 200 -
+2021-02-25 14:55:24,517 :: INFO :: Thread-28 :: opening homepage
+2021-02-25 14:55:24,529 :: INFO :: Thread-28 :: 127.0.0.1 - - [25/Feb/2021 14:55:24] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 14:55:24,575 :: INFO :: Thread-29 :: 127.0.0.1 - - [25/Feb/2021 14:55:24] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 15:00:26,788 :: INFO :: Thread-30 :: 127.0.0.1 - - [25/Feb/2021 15:00:26] "[37mGET /add/ HTTP/1.1[0m" 200 -

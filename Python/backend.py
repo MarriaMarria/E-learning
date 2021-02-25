@@ -25,7 +25,7 @@ logging.getLogger("werkzeug").addHandler(handler)
 @app.route('/')
 def greeting():
     app.logger.info("opening homepage")
-    return render_template('base.html')
+    return render_template('index.html')
 
 # section python
 @app.route('/sections/python/')
@@ -59,6 +59,16 @@ def select_js():
     result = data_learning.mycursor.fetchall()
     return jsonify(result)
 
+#section add video
+@app.route('/add/')
+def add_page():
+    return render_template('addPage.html')
+
+app.route('/add/submit_video/')
+def submit_video():
+    app.logger.info("start insert of video in bdd")
+    data_learning.mycursor.execute(f"SELECT * FROM Javascript")
+    result = data_learning.mycursor.fetchall()
 ##########################################################
 
 # endpoint + parameter Python
