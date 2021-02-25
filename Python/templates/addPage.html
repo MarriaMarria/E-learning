@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block head %} 
+<link rel="stylesheet" href="{{ url_for('static', filename='CSS/style.css') }}">
+{% endblock %}
+
+{% block body %}
+
+{% block header %}
+<div class="navbar">
+    <h1 class="title">Tuto Simplon</h1>
+    <a href="/"><i class="fas fa-home"></i></a>
+    <div class="dropdown">
+        <button class="dropbtn">Categeories
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="/sections/cloud/"><i class="fas fa-cloud"></i> Cloud</a>
+            <a href="/sections/docker/"><i class="fab fa-docker"></i> Docker</a>
+            <a href="/sections/python/"><i class="fab fa-python"></i> Python</a>
+            <a href="/sections/js/"><i class="fab fa-node-js"></i> Javascript</a>
+            <a href="/add/"><i class="fas fa-plus"></i> Add video</a>
+        </div>
+    </div>
+</div>
+{% endblock header %}
+<script src="https://kit.fontawesome.com/d54a7ee144.js" crossorigin="anonymous"></script>
+{% endblock %}
+{% block footer %}{% endblock footer %}
