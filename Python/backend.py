@@ -81,8 +81,9 @@ def select_js():
                             ut nisi. Maecenas euismod varius odio. Ut in dictum ligula.')
 
 #section add video
-@app.route('/add/')
+@app.route('/add')
 def add_page():
+    
     return render_template('addPage.html')
 
 app.route('/add/submit_video/')

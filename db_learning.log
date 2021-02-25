@@ -721,3 +721,6 @@
 2021-02-25 14:55:24,529 - werkzeug - Thread-28 - 127.0.0.1 - - [25/Feb/2021 14:55:24] "[37mGET / HTTP/1.1[0m" 200 -
 2021-02-25 14:55:24,575 - werkzeug - Thread-29 - 127.0.0.1 - - [25/Feb/2021 14:55:24] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
 2021-02-25 15:00:26,788 - werkzeug - Thread-30 - 127.0.0.1 - - [25/Feb/2021 15:00:26] "[37mGET /add/ HTTP/1.1[0m" 200 -
+2021-02-25 15:47:44,011 - root - MainThread - connecting to the database: start
+2021-02-25 15:47:44,011 - root - MainThread - connecting to the database: end
+2021-02-25 15:47:44,017 - root - MainThread - Getting tables: start

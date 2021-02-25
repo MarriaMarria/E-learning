@@ -24,6 +24,21 @@
     </div>
 </div>
 {% endblock header %}
+<form action="/base.html" method="POST">
+    <label for="name">Nom de la vidéo</label>
+    <input type="text" name="name">
+    <label for="chaîne">Nom de la chaîne youtube</label>
+    <input type="text" name="chaine">
+    <select name="menu" id="catégorie">
+        <option value="Python">Python</option>
+        <option value="Cloud">Cloud</option>
+        <option value="Docker">Python</option>
+        <option value="Javascript">Javascript</option>
+    </select>
+    <input type="submit" value="Submit">
+</form>
+
 <script src="https://kit.fontawesome.com/d54a7ee144.js" crossorigin="anonymous"></script>
 {% endblock %}
-{% block footer %}{% endblock footer %}
+{% block footer %}
+{% endblock footer %}

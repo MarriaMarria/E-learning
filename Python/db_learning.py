@@ -43,7 +43,6 @@ class MyDB: # I changed name as SCRAP has nothing to do with it
 
         for i in self.list_tables:
             sql = "CREATE TABLE IF NOT EXISTS {} (ID INT NOT NULL AUTO_INCREMENT PRIMARY KEY, name VARCHAR(100), chaine VARCHAR(100), url TEXT, description TEXT);".format(i)
-            print("c ok")
             self.mycursor.execute(sql)
 
         logging.info("creating table: end")
