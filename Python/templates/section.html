@@ -28,7 +28,8 @@
 
 
     <div id="container">
-        <h1>Python</h1>
+        <h1>{{ section }}</h1>
+        <h2>{{ description }}</h2>
         <section id="collection_videos">
             {% for video in result %}
             <a href="/sections/python/watch/{{ video[0] }}">

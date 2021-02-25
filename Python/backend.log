@@ -106,3 +106,216 @@
 2021-02-25 12:51:09,067 :: INFO :: Thread-2 :: choosing video from python section
 2021-02-25 12:51:09,075 :: INFO :: Thread-2 :: 127.0.0.1 - - [25/Feb/2021 12:51:09] "[37mGET /sections/python/watch/2 HTTP/1.1[0m" 200 -
 2021-02-25 12:51:11,164 :: INFO :: Thread-3 :: 127.0.0.1 - - [25/Feb/2021 12:51:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-25 18:11:35,516 :: INFO :: MainThread ::  * Running on http://0.0.0.0:3051/ (Press CTRL+C to quit)
+2021-02-25 18:11:35,519 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 18:11:35,877 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 18:11:35,888 :: INFO :: MainThread ::  * Debugger PIN: 271-105-303
+2021-02-25 18:11:47,997 :: INFO :: Thread-2 :: opening homepage
+2021-02-25 18:11:48,023 :: INFO :: Thread-2 :: 172.17.0.1 - - [25/Feb/2021 18:11:48] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 18:11:48,262 :: INFO :: Thread-3 :: 172.17.0.1 - - [25/Feb/2021 18:11:48] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 18:11:49,045 :: INFO :: Thread-4 :: 172.17.0.1 - - [25/Feb/2021 18:11:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-25 18:12:03,135 :: INFO :: Thread-5 :: choosing python section
+2021-02-25 18:12:03,187 :: INFO :: Thread-5 :: 172.17.0.1 - - [25/Feb/2021 18:12:03] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-25 18:12:10,416 :: INFO :: Thread-6 :: choosing docker section
+2021-02-25 18:12:10,423 :: INFO :: Thread-6 :: 172.17.0.1 - - [25/Feb/2021 18:12:10] "[37mGET /sections/docker/ HTTP/1.1[0m" 200 -
+2021-02-25 18:12:13,834 :: INFO :: Thread-7 :: choosing cloud section
+2021-02-25 18:12:13,840 :: INFO :: Thread-7 :: 172.17.0.1 - - [25/Feb/2021 18:12:13] "[37mGET /sections/cloud/ HTTP/1.1[0m" 200 -
+2021-02-25 18:12:18,048 :: INFO :: Thread-8 :: choosing cloud section
+2021-02-25 18:12:18,051 :: INFO :: Thread-8 :: 172.17.0.1 - - [25/Feb/2021 18:12:18] "[37mGET /sections/cloud/ HTTP/1.1[0m" 200 -
+2021-02-25 18:12:22,266 :: INFO :: Thread-9 :: choosing python section
+2021-02-25 18:12:22,270 :: INFO :: Thread-9 :: 172.17.0.1 - - [25/Feb/2021 18:12:22] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-25 18:14:58,859 :: INFO :: Thread-10 :: choosing python section
+2021-02-25 18:14:58,863 :: INFO :: Thread-10 :: 172.17.0.1 - - [25/Feb/2021 18:14:58] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-25 18:15:01,239 :: INFO :: Thread-11 :: choosing python section
+2021-02-25 18:15:01,243 :: INFO :: Thread-11 :: 172.17.0.1 - - [25/Feb/2021 18:15:01] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-25 18:16:43,012 :: INFO :: Thread-12 :: opening homepage
+2021-02-25 18:16:43,013 :: INFO :: Thread-12 :: 172.17.0.1 - - [25/Feb/2021 18:16:43] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 18:16:43,072 :: INFO :: Thread-13 :: 172.17.0.1 - - [25/Feb/2021 18:16:43] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 18:16:43,115 :: INFO :: Thread-14 :: 172.17.0.1 - - [25/Feb/2021 18:16:43] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 18:16:43,116 :: INFO :: Thread-15 :: 172.17.0.1 - - [25/Feb/2021 18:16:43] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 18:16:43,448 :: INFO :: Thread-16 :: 172.17.0.1 - - [25/Feb/2021 18:16:43] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 18:16:43,633 :: INFO :: Thread-17 :: 172.17.0.1 - - [25/Feb/2021 18:16:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-25 18:20:28,371 :: INFO :: Thread-18 :: 172.17.0.1 - - [25/Feb/2021 18:20:28] "[33mGET /sections/war/ HTTP/1.1[0m" 404 -
+2021-02-25 18:20:34,497 :: INFO :: Thread-19 :: 172.17.0.1 - - [25/Feb/2021 18:20:34] "[33mGET /sections/watch/ HTTP/1.1[0m" 404 -
+2021-02-25 18:24:43,819 :: INFO :: Thread-20 :: 172.17.0.1 - - [25/Feb/2021 18:24:43] "[33mGET /sections/watch/1 HTTP/1.1[0m" 404 -
+2021-02-25 18:25:14,214 :: INFO :: Thread-22 :: choosing python section
+2021-02-25 18:25:14,218 :: INFO :: Thread-22 :: 172.17.0.1 - - [25/Feb/2021 18:25:14] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-25 18:25:33,630 :: INFO :: Thread-23 :: choosing js section
+2021-02-25 18:25:33,636 :: INFO :: Thread-23 :: 172.17.0.1 - - [25/Feb/2021 18:25:33] "[37mGET /sections/js/ HTTP/1.1[0m" 200 -
+2021-02-25 18:25:42,902 :: INFO :: Thread-24 :: 172.17.0.1 - - [25/Feb/2021 18:25:42] "[33mGET /sections/Cloud/ HTTP/1.1[0m" 404 -
+2021-02-25 18:25:50,538 :: INFO :: Thread-25 :: choosing cloud section
+2021-02-25 18:25:50,542 :: INFO :: Thread-25 :: 172.17.0.1 - - [25/Feb/2021 18:25:50] "[37mGET /sections/cloud/ HTTP/1.1[0m" 200 -
+2021-02-25 18:27:07,297 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-25 18:27:07,353 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 18:27:08,046 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 18:27:08,049 :: INFO :: MainThread ::  * Debugger PIN: 271-105-303
+2021-02-25 18:27:26,296 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-25 18:27:26,352 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 18:27:26,810 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 18:27:26,811 :: INFO :: MainThread ::  * Debugger PIN: 271-105-303
+2021-02-25 18:27:36,910 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-25 18:27:36,969 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 18:27:37,424 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 18:27:37,426 :: INFO :: MainThread ::  * Debugger PIN: 271-105-303
+2021-02-25 18:27:48,543 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-25 18:27:48,588 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 18:28:37,601 :: INFO :: MainThread ::  * Running on http://0.0.0.0:3051/ (Press CTRL+C to quit)
+2021-02-25 18:28:37,603 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 18:28:37,917 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 18:28:37,918 :: INFO :: MainThread ::  * Debugger PIN: 271-105-303
+2021-02-25 18:28:42,145 :: INFO :: Thread-2 :: choosing python section
+2021-02-25 18:28:42,172 :: INFO :: Thread-2 :: 172.17.0.1 - - [25/Feb/2021 18:28:42] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-25 18:28:44,656 :: INFO :: Thread-3 :: choosing video from python section
+2021-02-25 18:28:44,667 :: INFO :: Thread-3 :: 172.17.0.1 - - [25/Feb/2021 18:28:44] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-25 18:29:43,361 :: INFO :: Thread-5 :: opening homepage
+2021-02-25 18:29:43,386 :: INFO :: Thread-5 :: 172.17.0.1 - - [25/Feb/2021 18:29:43] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 18:29:43,688 :: INFO :: Thread-6 :: 172.17.0.1 - - [25/Feb/2021 18:29:43] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 18:29:51,617 :: INFO :: Thread-8 :: choosing python section
+2021-02-25 18:29:51,622 :: INFO :: Thread-8 :: 172.17.0.1 - - [25/Feb/2021 18:29:51] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-25 18:29:55,203 :: INFO :: Thread-9 :: choosing js section
+2021-02-25 18:29:55,206 :: INFO :: Thread-9 :: 172.17.0.1 - - [25/Feb/2021 18:29:55] "[37mGET /sections/js/ HTTP/1.1[0m" 200 -
+2021-02-25 18:30:03,171 :: INFO :: Thread-11 :: choosing cloud section
+2021-02-25 18:30:03,174 :: INFO :: Thread-11 :: 172.17.0.1 - - [25/Feb/2021 18:30:03] "[37mGET /sections/cloud/ HTTP/1.1[0m" 200 -
+2021-02-25 18:30:12,367 :: INFO :: Thread-13 :: choosing docker section
+2021-02-25 18:30:12,371 :: INFO :: Thread-13 :: 172.17.0.1 - - [25/Feb/2021 18:30:12] "[37mGET /sections/docker/ HTTP/1.1[0m" 200 -
+2021-02-25 18:37:14,988 :: INFO :: Thread-19 :: opening homepage
+2021-02-25 18:37:14,995 :: INFO :: Thread-19 :: 172.17.0.1 - - [25/Feb/2021 18:37:14] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 18:37:15,150 :: INFO :: Thread-20 :: 172.17.0.1 - - [25/Feb/2021 18:37:15] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 18:37:20,923 :: INFO :: Thread-21 :: choosing python section
+2021-02-25 18:37:20,927 :: INFO :: Thread-21 :: 172.17.0.1 - - [25/Feb/2021 18:37:20] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-25 18:37:26,123 :: INFO :: Thread-23 :: choosing cloud section
+2021-02-25 18:37:26,126 :: INFO :: Thread-23 :: 172.17.0.1 - - [25/Feb/2021 18:37:26] "[37mGET /sections/cloud/ HTTP/1.1[0m" 200 -
+2021-02-25 18:37:35,759 :: INFO :: Thread-25 :: choosing cloud section
+2021-02-25 18:37:35,762 :: INFO :: Thread-25 :: 172.17.0.1 - - [25/Feb/2021 18:37:35] "[37mGET /sections/cloud/ HTTP/1.1[0m" 200 -
+2021-02-25 18:57:09,777 :: INFO :: Thread-36 :: choosing cloud section
+2021-02-25 18:57:09,812 :: INFO :: Thread-36 :: 172.17.0.1 - - [25/Feb/2021 18:57:09] "[35m[1mGET /sections/cloud/ HTTP/1.1[0m" 500 -
+2021-02-25 18:57:09,912 :: INFO :: Thread-38 :: 172.17.0.1 - - [25/Feb/2021 18:57:09] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-25 18:57:09,913 :: INFO :: Thread-37 :: 172.17.0.1 - - [25/Feb/2021 18:57:09] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-25 18:57:09,914 :: INFO :: Thread-39 :: 172.17.0.1 - - [25/Feb/2021 18:57:09] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-25 18:57:10,025 :: INFO :: Thread-40 :: 172.17.0.1 - - [25/Feb/2021 18:57:10] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-25 19:02:13,153 :: INFO :: Thread-41 :: choosing cloud section
+2021-02-25 19:02:13,169 :: INFO :: Thread-41 :: 172.17.0.1 - - [25/Feb/2021 19:02:13] "[35m[1mGET /sections/cloud/ HTTP/1.1[0m" 500 -
+2021-02-25 19:02:13,265 :: INFO :: Thread-42 :: 172.17.0.1 - - [25/Feb/2021 19:02:13] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-25 19:02:13,266 :: INFO :: Thread-43 :: 172.17.0.1 - - [25/Feb/2021 19:02:13] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-25 19:02:13,268 :: INFO :: Thread-44 :: 172.17.0.1 - - [25/Feb/2021 19:02:13] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-25 19:02:13,384 :: INFO :: Thread-45 :: 172.17.0.1 - - [25/Feb/2021 19:02:13] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-25 19:02:20,173 :: INFO :: MainThread ::  * Running on http://0.0.0.0:3051/ (Press CTRL+C to quit)
+2021-02-25 19:02:20,174 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 19:02:20,378 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 19:02:20,379 :: INFO :: MainThread ::  * Debugger PIN: 271-105-303
+2021-02-25 19:02:26,388 :: INFO :: Thread-2 :: opening homepage
+2021-02-25 19:02:26,418 :: INFO :: Thread-2 :: 172.17.0.1 - - [25/Feb/2021 19:02:26] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 19:02:26,503 :: INFO :: Thread-3 :: 172.17.0.1 - - [25/Feb/2021 19:02:26] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 19:02:36,712 :: INFO :: Thread-6 :: choosing python section
+2021-02-25 19:02:36,731 :: INFO :: Thread-6 :: 172.17.0.1 - - [25/Feb/2021 19:02:36] "[35m[1mGET /sections/python/ HTTP/1.1[0m" 500 -
+2021-02-25 19:02:36,785 :: INFO :: Thread-7 :: 172.17.0.1 - - [25/Feb/2021 19:02:36] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-25 19:02:36,786 :: INFO :: Thread-8 :: 172.17.0.1 - - [25/Feb/2021 19:02:36] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-25 19:02:36,788 :: INFO :: Thread-9 :: 172.17.0.1 - - [25/Feb/2021 19:02:36] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-25 19:02:36,894 :: INFO :: Thread-11 :: 172.17.0.1 - - [25/Feb/2021 19:02:36] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-25 19:02:52,860 :: INFO :: Thread-12 :: choosing python section
+2021-02-25 19:02:52,870 :: INFO :: Thread-12 :: 172.17.0.1 - - [25/Feb/2021 19:02:52] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-25 19:02:53,076 :: INFO :: Thread-13 :: 172.17.0.1 - - [25/Feb/2021 19:02:53] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 19:03:00,588 :: INFO :: Thread-16 :: choosing video from python section
+2021-02-25 19:03:00,596 :: INFO :: Thread-16 :: 172.17.0.1 - - [25/Feb/2021 19:03:00] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-25 19:03:09,217 :: INFO :: Thread-17 :: choosing js section
+2021-02-25 19:03:09,221 :: INFO :: Thread-17 :: 172.17.0.1 - - [25/Feb/2021 19:03:09] "[37mGET /sections/js/ HTTP/1.1[0m" 200 -
+2021-02-25 19:03:09,448 :: INFO :: Thread-18 :: 172.17.0.1 - - [25/Feb/2021 19:03:09] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 19:03:13,455 :: INFO :: Thread-19 :: choosing video from python section
+2021-02-25 19:03:13,457 :: INFO :: Thread-19 :: 172.17.0.1 - - [25/Feb/2021 19:03:13] "[37mGET /sections/python/watch/3 HTTP/1.1[0m" 200 -
+2021-02-25 19:03:40,160 :: INFO :: Thread-22 :: choosing video from python section
+2021-02-25 19:03:40,162 :: INFO :: Thread-22 :: 172.17.0.1 - - [25/Feb/2021 19:03:40] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-25 19:03:42,836 :: INFO :: Thread-23 :: opening homepage
+2021-02-25 19:03:42,837 :: INFO :: Thread-23 :: 172.17.0.1 - - [25/Feb/2021 19:03:42] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 19:03:43,007 :: INFO :: Thread-25 :: 172.17.0.1 - - [25/Feb/2021 19:03:43] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 19:03:46,580 :: INFO :: Thread-24 :: choosing python section
+2021-02-25 19:03:46,586 :: INFO :: Thread-24 :: 172.17.0.1 - - [25/Feb/2021 19:03:46] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-25 19:03:49,954 :: INFO :: Thread-26 :: choosing docker section
+2021-02-25 19:03:49,956 :: INFO :: Thread-26 :: 172.17.0.1 - - [25/Feb/2021 19:03:49] "[37mGET /sections/docker/ HTTP/1.1[0m" 200 -
+2021-02-25 19:03:53,921 :: INFO :: Thread-27 :: choosing cloud section
+2021-02-25 19:03:53,922 :: INFO :: Thread-27 :: 172.17.0.1 - - [25/Feb/2021 19:03:53] "[37mGET /sections/cloud/ HTTP/1.1[0m" 200 -
+2021-02-25 19:08:50,621 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-25 19:08:50,653 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 19:08:50,829 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 19:08:50,830 :: INFO :: MainThread ::  * Debugger PIN: 271-105-303
+2021-02-25 19:09:52,714 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-25 19:09:52,742 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 19:09:52,940 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 19:09:52,941 :: INFO :: MainThread ::  * Debugger PIN: 271-105-303
+2021-02-25 19:10:22,130 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-25 19:10:22,155 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 19:10:22,405 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 19:10:22,406 :: INFO :: MainThread ::  * Debugger PIN: 271-105-303
+2021-02-25 19:10:27,444 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-25 19:10:27,485 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 19:10:27,691 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 19:10:27,691 :: INFO :: MainThread ::  * Debugger PIN: 271-105-303
+2021-02-25 19:10:39,288 :: INFO :: Thread-3 :: opening homepage
+2021-02-25 19:10:39,302 :: INFO :: Thread-3 :: 172.17.0.1 - - [25/Feb/2021 19:10:39] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 19:10:39,404 :: INFO :: Thread-4 :: 172.17.0.1 - - [25/Feb/2021 19:10:39] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 19:10:42,814 :: INFO :: Thread-5 :: choosing python section
+2021-02-25 19:10:42,819 :: INFO :: Thread-5 :: 172.17.0.1 - - [25/Feb/2021 19:10:42] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-25 19:10:46,929 :: INFO :: Thread-6 :: choosing cloud section
+2021-02-25 19:10:46,931 :: INFO :: Thread-6 :: 172.17.0.1 - - [25/Feb/2021 19:10:46] "[37mGET /sections/cloud/ HTTP/1.1[0m" 200 -
+2021-02-25 19:14:28,465 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-25 19:14:28,527 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 19:14:28,778 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 19:14:28,779 :: INFO :: MainThread ::  * Debugger PIN: 271-105-303
+2021-02-25 19:14:44,870 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-25 19:14:44,902 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 19:14:45,097 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 19:14:45,097 :: INFO :: MainThread ::  * Debugger PIN: 271-105-303
+2021-02-25 19:15:12,851 :: INFO :: Thread-2 :: opening homepage
+2021-02-25 19:15:12,861 :: INFO :: Thread-2 :: 172.17.0.1 - - [25/Feb/2021 19:15:12] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 19:15:12,964 :: INFO :: Thread-3 :: 172.17.0.1 - - [25/Feb/2021 19:15:12] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 19:15:13,463 :: INFO :: Thread-4 :: 172.17.0.1 - - [25/Feb/2021 19:15:13] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 19:15:16,245 :: INFO :: Thread-5 :: choosing cloud section
+2021-02-25 19:15:16,253 :: INFO :: Thread-5 :: 172.17.0.1 - - [25/Feb/2021 19:15:16] "[37mGET /sections/cloud/ HTTP/1.1[0m" 200 -
+2021-02-25 19:15:20,981 :: INFO :: Thread-6 :: choosing python section
+2021-02-25 19:15:20,983 :: INFO :: Thread-6 :: 172.17.0.1 - - [25/Feb/2021 19:15:20] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-25 19:16:07,721 :: INFO :: Thread-9 :: choosing cloud section
+2021-02-25 19:16:07,723 :: INFO :: Thread-9 :: 172.17.0.1 - - [25/Feb/2021 19:16:07] "[37mGET /sections/cloud/ HTTP/1.1[0m" 200 -
+2021-02-25 19:27:14,808 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-25 19:27:14,832 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 19:27:15,011 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 19:27:15,012 :: INFO :: MainThread ::  * Debugger PIN: 271-105-303
+2021-02-25 19:27:24,262 :: INFO :: Thread-2 :: choosing python section
+2021-02-25 19:27:24,272 :: INFO :: Thread-2 :: 172.17.0.1 - - [25/Feb/2021 19:27:24] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-25 19:29:17,371 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-25 19:29:17,401 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 19:29:17,566 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 19:29:17,567 :: INFO :: MainThread ::  * Debugger PIN: 271-105-303
+2021-02-25 19:29:33,649 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-25 19:29:33,673 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 19:29:33,851 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 19:29:33,852 :: INFO :: MainThread ::  * Debugger PIN: 271-105-303
+2021-02-25 19:30:03,017 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-25 19:30:03,047 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 19:30:03,230 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 19:30:03,231 :: INFO :: MainThread ::  * Debugger PIN: 271-105-303
+2021-02-25 19:30:20,323 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-25 19:30:20,363 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 19:30:20,550 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 19:30:20,551 :: INFO :: MainThread ::  * Debugger PIN: 271-105-303
+2021-02-25 19:30:56,756 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-25 19:30:56,788 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 19:30:56,965 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 19:30:56,965 :: INFO :: MainThread ::  * Debugger PIN: 271-105-303
+2021-02-25 19:31:08,030 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-25 19:31:08,053 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 19:31:08,220 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 19:31:08,221 :: INFO :: MainThread ::  * Debugger PIN: 271-105-303
+2021-02-25 19:31:28,888 :: INFO :: Thread-4 :: 172.17.0.1 - - [25/Feb/2021 19:31:28] "[33mGET //add/submit_video/ HTTP/1.1[0m" 404 -
+2021-02-25 19:31:33,160 :: INFO :: Thread-5 :: 172.17.0.1 - - [25/Feb/2021 19:31:33] "[33mGET /add/submit_video/ HTTP/1.1[0m" 404 -
+2021-02-25 19:31:38,623 :: INFO :: Thread-6 :: opening homepage
+2021-02-25 19:31:38,633 :: INFO :: Thread-6 :: 172.17.0.1 - - [25/Feb/2021 19:31:38] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 19:31:38,839 :: INFO :: Thread-7 :: 172.17.0.1 - - [25/Feb/2021 19:31:38] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 19:31:41,000 :: INFO :: Thread-8 :: choosing docker section
+2021-02-25 19:31:41,005 :: INFO :: Thread-8 :: 172.17.0.1 - - [25/Feb/2021 19:31:41] "[37mGET /sections/docker/ HTTP/1.1[0m" 200 -
+2021-02-25 19:31:43,134 :: INFO :: Thread-9 :: choosing python section
+2021-02-25 19:31:43,136 :: INFO :: Thread-9 :: 172.17.0.1 - - [25/Feb/2021 19:31:43] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-25 19:31:45,329 :: INFO :: Thread-10 :: choosing cloud section
+2021-02-25 19:31:45,330 :: INFO :: Thread-10 :: 172.17.0.1 - - [25/Feb/2021 19:31:45] "[37mGET /sections/cloud/ HTTP/1.1[0m" 200 -
+2021-02-25 19:32:27,288 :: INFO :: MainThread ::  * Detected change in '/app/Python/backend.py', reloading
+2021-02-25 19:32:27,319 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 19:32:27,497 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 19:32:27,498 :: INFO :: MainThread ::  * Debugger PIN: 271-105-303
