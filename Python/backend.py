@@ -31,9 +31,15 @@ def greeting():
 @app.route('/sections/python/')
 def select_python():
     app.logger.info("choosing python section")
-    data_learning.mycursor.execute(f"SELECT * FROM Python")
+    data_learning.mycursor.execute("SELECT * FROM Python")
     result = data_learning.mycursor.fetchall()
-    return render_template('test.html', result=result)
+    return render_template('section.html', result=result, section='Python', \
+                            description='Python is a leader programming language. \
+                            It’s one of the world’s most popular high-level programming\
+                            languages and remains a firm favorite among many programmers.\
+                            It is easy to learn and use, it is suitable for any tasks and \
+                            it is incredibly reliable. Learn Pyhton with the collection of \
+                            good quality videos we gathered for you from Youtube')
 
 # section Cloud
 @app.route('/sections/cloud/')
@@ -41,7 +47,12 @@ def select_cloud():
     app.logger.info("choosing cloud section")
     data_learning.mycursor.execute("SELECT * FROM Cloud")
     result = data_learning.mycursor.fetchall()
-    return jsonify(result)
+    return render_template('section.html', result=result, section='Cloud', description='Cloud is \
+                            Vestibulum magna massa, rutrum et justo eget, rhoncus dapibus lorem. \
+                            Nulla facilisis erat non turpis tempor, vitae porta enim posuere. \
+                            Nam pretium at nulla at volutpat. Vestibulum vitae nibh ac enim \
+                            tempor tincidunt. Ut purus massa, laoreet non consectetur ac, ornare \
+                            ut nisi. Maecenas euismod varius odio. Ut in dictum ligula.')
 
 # section Docker
 @app.route('/sections/docker/')
@@ -49,7 +60,12 @@ def select_docker():
     app.logger.info("choosing docker section")
     data_learning.mycursor.execute(f"SELECT * FROM Docker")
     result = data_learning.mycursor.fetchall()
-    return jsonify(result)
+    return render_template('section.html', result=result, section='Docker', description='Docker is \
+                            Vestibulum magna massa, rutrum et justo eget, rhoncus dapibus lorem. \
+                            Nulla facilisis erat non turpis tempor, vitae porta enim posuere. \
+                            Nam pretium at nulla at volutpat. Vestibulum vitae nibh ac enim \
+                            tempor tincidunt. Ut purus massa, laoreet non consectetur ac, ornare \
+                            ut nisi. Maecenas euismod varius odio. Ut in dictum ligula.')
 
 #section js
 @app.route('/sections/js/')
@@ -57,7 +73,12 @@ def select_js():
     app.logger.info("choosing js section")
     data_learning.mycursor.execute(f"SELECT * FROM Javascript")
     result = data_learning.mycursor.fetchall()
-    return render_template('test.html', result=result)
+    return render_template('section.html', result=result, section='JavaScript', description='JavaScript is \
+                            Vestibulum magna massa, rutrum et justo eget, rhoncus dapibus lorem. \
+                            Nulla facilisis erat non turpis tempor, vitae porta enim posuere. \
+                            Nam pretium at nulla at volutpat. Vestibulum vitae nibh ac enim \
+                            tempor tincidunt. Ut purus massa, laoreet non consectetur ac, ornare \
+                            ut nisi. Maecenas euismod varius odio. Ut in dictum ligula.')
 
 #section add video
 @app.route('/add/')
@@ -69,6 +90,8 @@ def submit_video():
     app.logger.info("start insert of video in bdd")
     data_learning.mycursor.execute(f"SELECT * FROM Javascript")
     result = data_learning.mycursor.fetchall()
+
+    
 ##########################################################
 
 # endpoint + parameter Python
@@ -109,4 +132,4 @@ def watch_js(id):
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=5200, debug=True)
+    app.run(host="0.0.0.0", port=3051, debug=True)

@@ -13,9 +13,9 @@ class MyDB: # I changed name as SCRAP has nothing to do with it
 
     def __init__(self):
         self.mydb = mysql.connector.connect(
-                    host="localhost", # "localhost"
+                    host="ms2", # "localhost"
                     user="root",
-                    password="pw", #pw
+                    password="password", #pw
                     database= "learning3",
                     auth_plugin='mysql_native_password'
                 )
@@ -30,7 +30,7 @@ class MyDB: # I changed name as SCRAP has nothing to do with it
 
         logging.info("Getting tables: start")
 
-        with open('./data.json') as json_data:
+        with open('./links.json') as json_data:
             self.data_dict = json.load(json_data)
         for i in self.data_dict:
             self.list_tables.append(i)
@@ -67,7 +67,7 @@ class MyDB: # I changed name as SCRAP has nothing to do with it
 
         logging.info("inserting into table: end")
 
-test = MyDB()  # instance of the class
-test.get_tables()
-test.create_table()
-test.insert_table()
+# test = MyDB()  # instance of the class
+# test.get_tables()
+# test.create_table()
+# test.insert_table()
