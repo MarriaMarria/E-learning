@@ -353,3 +353,42 @@
 2021-02-24 09:55:24,317 - werkzeug - MainThread -  * Debugger PIN: 864-041-331
 2021-02-24 09:56:12,580 - werkzeug - MainThread -  * Detected change in '/app/Python/backend.py', reloading
 2021-02-24 09:56:12,609 - werkzeug - MainThread -  * Restarting with stat
+2021-02-25 12:49:16,771 - root - MainThread - connecting to the database: start
+2021-02-25 12:49:16,771 - root - MainThread - connecting to the database: end
+2021-02-25 12:49:16,776 - root - MainThread - Getting tables: start
+2021-02-25 12:49:16,776 - root - MainThread - Getting tables: end
+2021-02-25 12:49:16,777 - root - MainThread - creating table: start
+2021-02-25 12:49:17,262 - root - MainThread - creating table: end
+2021-02-25 12:49:17,263 - root - MainThread - inserting into table: start
+2021-02-25 12:49:17,506 - root - MainThread - inserting into table: end
+2021-02-25 12:49:31,234 - root - MainThread - connecting to the database: start
+2021-02-25 12:49:31,234 - root - MainThread - connecting to the database: end
+2021-02-25 12:49:31,240 - root - MainThread - Getting tables: start
+2021-02-25 12:49:31,240 - root - MainThread - Getting tables: end
+2021-02-25 12:49:31,240 - root - MainThread - creating table: start
+2021-02-25 12:49:31,265 - root - MainThread - creating table: end
+2021-02-25 12:49:31,265 - root - MainThread - inserting into table: start
+2021-02-25 12:49:31,443 - root - MainThread - inserting into table: end
+2021-02-25 12:50:49,474 - root - MainThread - connecting to the database: start
+2021-02-25 12:50:49,474 - root - MainThread - connecting to the database: end
+2021-02-25 12:50:49,479 - root - MainThread - Getting tables: start
+2021-02-25 12:50:49,480 - root - MainThread - Getting tables: end
+2021-02-25 12:50:49,480 - root - MainThread - creating table: start
+2021-02-25 12:50:49,503 - root - MainThread - creating table: end
+2021-02-25 12:50:49,503 - root - MainThread - inserting into table: start
+2021-02-25 12:50:49,676 - root - MainThread - inserting into table: end
+2021-02-25 12:50:49,698 - werkzeug - MainThread -  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-25 12:50:49,699 - werkzeug - MainThread -  * Restarting with stat
+2021-02-25 12:50:49,827 - root - MainThread - connecting to the database: start
+2021-02-25 12:50:49,828 - root - MainThread - connecting to the database: end
+2021-02-25 12:50:49,833 - root - MainThread - Getting tables: start
+2021-02-25 12:50:49,833 - root - MainThread - Getting tables: end
+2021-02-25 12:50:49,833 - root - MainThread - creating table: start
+2021-02-25 12:50:49,851 - root - MainThread - creating table: end
+2021-02-25 12:50:49,852 - root - MainThread - inserting into table: start
+2021-02-25 12:50:50,008 - root - MainThread - inserting into table: end
+2021-02-25 12:50:50,028 - werkzeug - MainThread -  * Debugger is active!
+2021-02-25 12:50:50,029 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-25 12:51:09,067 - backend - Thread-2 - choosing video from python section
+2021-02-25 12:51:09,075 - werkzeug - Thread-2 - 127.0.0.1 - - [25/Feb/2021 12:51:09] "[37mGET /sections/python/watch/2 HTTP/1.1[0m" 200 -
+2021-02-25 12:51:11,164 - werkzeug - Thread-3 - 127.0.0.1 - - [25/Feb/2021 12:51:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
