@@ -15,8 +15,8 @@ class MyDB: # I changed name as SCRAP has nothing to do with it
         self.mydb = mysql.connector.connect(
                     host="localhost", # "localhost"
                     user="root",
-                    password="Legalcy97.1", #pw
-                    database= "learning2",
+                    password="pw", #pw
+                    database= "learning3",
                     auth_plugin='mysql_native_password'
                 )
 
@@ -30,7 +30,7 @@ class MyDB: # I changed name as SCRAP has nothing to do with it
 
         logging.info("Getting tables: start")
 
-        with open('links.json') as json_data:
+        with open('./data.json') as json_data:
             self.data_dict = json.load(json_data)
         for i in self.data_dict:
             self.list_tables.append(i)
@@ -42,7 +42,7 @@ class MyDB: # I changed name as SCRAP has nothing to do with it
         logging.info("creating table: start")
 
         for i in self.list_tables:
-            sql = "CREATE TABLE IF NOT EXISTS {} (ID INT NOT NULL AUTO_INCREMENT PRIMARY KEY, name VARCHAR(100), chaine VARCHAR(100), url TEXT);".format(i)
+            sql = "CREATE TABLE IF NOT EXISTS {} (ID INT NOT NULL AUTO_INCREMENT PRIMARY KEY, name VARCHAR(100), chaine VARCHAR(100), url TEXT, description TEXT);".format(i)
             print("c ok")
             self.mycursor.execute(sql)
 
@@ -61,8 +61,13 @@ class MyDB: # I changed name as SCRAP has nothing to do with it
                 db_key = ", ".join(y.keys())
                 sql = "INSERT INTO {} ({}) VALUES {};".format(categorie, db_key, val)
                 
-                self.mycursor.execute("USE learning2;")
+                self.mycursor.execute("USE learning3;")
                 self.mycursor.execute(sql)
                 self.mydb.commit()
 
         logging.info("inserting into table: end")
+
+test = MyDB()  # instance of the class
+test.get_tables()
+test.create_table()
+test.insert_table()

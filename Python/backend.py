@@ -33,7 +33,7 @@ def select_python():
     app.logger.info("choosing python section")
     data_learning.mycursor.execute(f"SELECT * FROM Python")
     result = data_learning.mycursor.fetchall()
-    return jsonify(result)
+    return render_template('test.html', result=result)
 
 # section Cloud
 @app.route('/sections/cloud/')
@@ -57,43 +57,46 @@ def select_js():
     app.logger.info("choosing js section")
     data_learning.mycursor.execute(f"SELECT * FROM Javascript")
     result = data_learning.mycursor.fetchall()
-    return jsonify(result)
+    return render_template('test.html', result=result)
 
 ##########################################################
 
 # endpoint + parameter Python
 @app.route('/sections/python/watch/<id>')
-def watch_python():
+def watch_python(id):
     app.logger.info("choosing video from python section")
-    data_learning.mycursor.execute(f'SELECT {id} FROM Python')
+    data_learning.mycursor.execute(f'SELECT * FROM Python WHERE ID={id}')
     result = data_learning.mycursor.fetchall()
-    return jsonify(result)
+    return render_template('watch.html', result=result)
 
 # endpoint + parameter Cloud
 @app.route('/sections/cloud/watch/<id>')
-def watch_cloud():
+def watch_cloud(id):
     app.logger.info("choosing video from cloud section")
-    data_learning.mycursor.execute(f'SELECT {id} FROM Cloud')
+    data_learning.mycursor.execute(f'SELECT * FROM Cloud WHERE ID={id}')
     result = data_learning.mycursor.fetchall()
-    return jsonify(result)
+    img = '~/devCloud/dossier_git/E-learning/Python/static/img/cloud.jpg'
+    return render_template('watch.html', result=result, img=img)
 
 # endpoint + parameter Docker
 @app.route('/sections/Docker/watch/<id>')
-def watch_Docker():
+def watch_Docker(id):
     app.logger.info("choosing video from Docker section")
-    data_learning.mycursor.execute(f'SELECT {id} FROM Docker')
+    data_learning.mycursor.execute(f'SELECT * FROM Docker WHERE ID={id}')
     result = data_learning.mycursor.fetchall()
-    return jsonify(result)
+    img = '~/devCloud/dossier_git/E-learning/Python/static/img/docker.png'
+    return render_template('watch.html', result=result, img=img)
 
 # endpoint + parameter JS
 @app.route('/sections/js/watch/<id>')
-def watch_js():
+def watch_js(id):
     app.logger.info("choosing video from js section")
-    data_learning.mycursor.execute(f'SELECT {id} FROM Javascript')
+    data_learning.mycursor.execute(f'SELECT * FROM Javascript WHERE ID={id}')
     result = data_learning.mycursor.fetchall()
-    return jsonify(result)
+    img = '~/devCloud/dossier_git/E-learning/Python/static/img/JS.jpg'
+    return render_template('watch.html', result=result, img=img)
 
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=5200, debug=True)
