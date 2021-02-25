@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, url_for, redirect
 from db_learning import MyDB
 import logging
 from logging import FileHandler
@@ -81,15 +81,25 @@ def select_js():
                             ut nisi. Maecenas euismod varius odio. Ut in dictum ligula.')
 
 #section add video
-@app.route('/add/')
+@app.route('/add', methods=['POST', 'GET'])
 def add_page():
-    return render_template('addPage.html')
+    if request.method == 'POST':
+        name = request.form["name"]
+        chaine = request.form["chaine"]
+        categorie = request.form["categorie"]
+        description = request.form["description"]
+        url = request.form["url"]
+        data_learning.mycursor.execute(f"INSERT INTO {categorie} (name, chaine, url, description) VALUES ({name}, {chaine}, {url}, {description})")
+        id = data_learning.mycursor.execute(f"SELECT last_insert_id()")
+        return redirect(url_for("watch_python", id=id))
+    else:
+        return render_template('addPage.html')
 
-app.route('/add/submit_video/')
-def submit_video():
-    app.logger.info("start insert of video in bdd")
-    data_learning.mycursor.execute(f"SELECT * FROM Javascript")
-    result = data_learning.mycursor.fetchall()
+# app.route('/add/submit_video/')
+# def submit_video():
+#     app.logger.info("start insert of video in bdd")
+#     data_learning.mycursor.execute(f"SELECT * FROM Javascript")
+#     result = data_learning.mycursor.fetchall()
 
     
 ##########################################################
@@ -132,4 +142,4 @@ def watch_js(id):
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=3051, debug=True)
+    app.run(host="0.0.0.0", port=5200, debug=True)
