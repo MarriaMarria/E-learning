@@ -392,3 +392,130 @@
 2021-02-25 12:51:09,067 - backend - Thread-2 - choosing video from python section
 2021-02-25 12:51:09,075 - werkzeug - Thread-2 - 127.0.0.1 - - [25/Feb/2021 12:51:09] "[37mGET /sections/python/watch/2 HTTP/1.1[0m" 200 -
 2021-02-25 12:51:11,164 - werkzeug - Thread-3 - 127.0.0.1 - - [25/Feb/2021 12:51:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-25 15:47:05,227 - root - MainThread - connecting to the database: start
+2021-02-25 15:47:05,227 - root - MainThread - connecting to the database: end
+2021-02-25 15:47:05,248 - root - MainThread - Getting tables: start
+2021-02-25 15:47:05,249 - root - MainThread - Getting tables: end
+2021-02-25 15:47:05,249 - root - MainThread - creating table: start
+2021-02-25 15:47:05,399 - root - MainThread - creating table: end
+2021-02-25 15:47:05,399 - root - MainThread - inserting into table: start
+2021-02-25 15:47:05,425 - root - MainThread - inserting into table: end
+2021-02-25 15:47:05,443 - werkzeug - MainThread -  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-25 15:47:05,444 - werkzeug - MainThread -  * Restarting with stat
+2021-02-25 15:47:05,587 - root - MainThread - connecting to the database: start
+2021-02-25 15:47:05,588 - root - MainThread - connecting to the database: end
+2021-02-25 15:47:05,603 - root - MainThread - Getting tables: start
+2021-02-25 15:47:05,604 - root - MainThread - Getting tables: end
+2021-02-25 15:47:05,604 - root - MainThread - creating table: start
+2021-02-25 15:47:05,607 - root - MainThread - creating table: end
+2021-02-25 15:47:05,607 - root - MainThread - inserting into table: start
+2021-02-25 15:47:05,649 - root - MainThread - inserting into table: end
+2021-02-25 15:47:05,669 - werkzeug - MainThread -  * Debugger is active!
+2021-02-25 15:47:05,680 - werkzeug - MainThread -  * Debugger PIN: 240-877-176
+2021-02-25 15:51:48,118 - backend - Thread-2 - opening homepage
+2021-02-25 15:51:48,139 - werkzeug - Thread-2 - 127.0.0.1 - - [25/Feb/2021 15:51:48] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 15:51:48,286 - werkzeug - Thread-3 - 127.0.0.1 - - [25/Feb/2021 15:51:48] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 15:51:48,348 - werkzeug - Thread-5 - 127.0.0.1 - - [25/Feb/2021 15:51:48] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 15:51:48,349 - werkzeug - Thread-4 - 127.0.0.1 - - [25/Feb/2021 15:51:48] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 15:51:49,478 - werkzeug - Thread-6 - 127.0.0.1 - - [25/Feb/2021 15:51:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-25 15:52:20,491 - werkzeug - Thread-7 - 127.0.0.1 - - [25/Feb/2021 15:52:20] "[37mGET /add/ HTTP/1.1[0m" 200 -
+2021-02-25 15:52:25,937 - backend - Thread-8 - choosing js section
+2021-02-25 15:52:25,960 - werkzeug - Thread-8 - 127.0.0.1 - - [25/Feb/2021 15:52:25] "[37mGET /sections/js/ HTTP/1.1[0m" 200 -
+2021-02-25 15:52:31,624 - backend - Thread-9 - choosing cloud section
+2021-02-25 15:52:31,629 - werkzeug - Thread-9 - 127.0.0.1 - - [25/Feb/2021 15:52:31] "[37mGET /sections/cloud/ HTTP/1.1[0m" 200 -
+2021-02-25 15:52:36,935 - backend - Thread-10 - choosing python section
+2021-02-25 15:52:36,945 - werkzeug - Thread-10 - 127.0.0.1 - - [25/Feb/2021 15:52:36] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-25 15:52:47,480 - backend - Thread-11 - opening homepage
+2021-02-25 15:52:47,482 - werkzeug - Thread-11 - 127.0.0.1 - - [25/Feb/2021 15:52:47] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 15:52:47,535 - werkzeug - Thread-12 - 127.0.0.1 - - [25/Feb/2021 15:52:47] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 15:53:21,619 - werkzeug - MainThread -  * Detected change in '/Users/mazn0/Desktop/Simplon/E-learning/Python/backend.py', reloading
+2021-02-25 15:53:21,678 - werkzeug - MainThread -  * Restarting with stat
+2021-02-25 15:53:21,859 - root - MainThread - connecting to the database: start
+2021-02-25 15:53:21,859 - root - MainThread - connecting to the database: end
+2021-02-25 15:53:21,883 - root - MainThread - Getting tables: start
+2021-02-25 15:53:21,884 - root - MainThread - Getting tables: end
+2021-02-25 15:53:21,884 - root - MainThread - creating table: start
+2021-02-25 15:53:21,892 - root - MainThread - creating table: end
+2021-02-25 15:53:21,892 - root - MainThread - inserting into table: start
+2021-02-25 15:53:21,912 - root - MainThread - inserting into table: end
+2021-02-25 15:53:21,930 - werkzeug - MainThread -  * Debugger is active!
+2021-02-25 15:53:21,941 - werkzeug - MainThread -  * Debugger PIN: 240-877-176
+2021-02-25 15:53:43,230 - root - MainThread - connecting to the database: start
+2021-02-25 15:53:43,230 - root - MainThread - connecting to the database: end
+2021-02-25 15:53:43,249 - root - MainThread - Getting tables: start
+2021-02-25 15:53:43,249 - root - MainThread - Getting tables: end
+2021-02-25 15:53:43,249 - root - MainThread - creating table: start
+2021-02-25 15:53:43,257 - root - MainThread - creating table: end
+2021-02-25 15:53:43,257 - root - MainThread - inserting into table: start
+2021-02-25 15:53:43,273 - root - MainThread - inserting into table: end
+2021-02-25 15:53:43,289 - werkzeug - MainThread -  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-25 15:53:43,289 - werkzeug - MainThread -  * Restarting with stat
+2021-02-25 15:53:43,435 - root - MainThread - connecting to the database: start
+2021-02-25 15:53:43,435 - root - MainThread - connecting to the database: end
+2021-02-25 15:53:43,454 - root - MainThread - Getting tables: start
+2021-02-25 15:53:43,455 - root - MainThread - Getting tables: end
+2021-02-25 15:53:43,455 - root - MainThread - creating table: start
+2021-02-25 15:53:43,463 - root - MainThread - creating table: end
+2021-02-25 15:53:43,463 - root - MainThread - inserting into table: start
+2021-02-25 15:53:43,476 - root - MainThread - inserting into table: end
+2021-02-25 15:53:43,493 - werkzeug - MainThread -  * Debugger is active!
+2021-02-25 15:53:43,504 - werkzeug - MainThread -  * Debugger PIN: 240-877-176
+2021-02-25 15:53:52,104 - backend - Thread-2 - opening homepage
+2021-02-25 15:53:52,122 - werkzeug - Thread-2 - 127.0.0.1 - - [25/Feb/2021 15:53:52] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 15:59:17,804 - werkzeug - MainThread -  * Detected change in '/Users/mazn0/Desktop/Simplon/E-learning/Python/backend.py', reloading
+2021-02-25 15:59:17,855 - werkzeug - MainThread -  * Restarting with stat
+2021-02-25 15:59:18,048 - root - MainThread - connecting to the database: start
+2021-02-25 15:59:18,048 - root - MainThread - connecting to the database: end
+2021-02-25 15:59:18,071 - root - MainThread - Getting tables: start
+2021-02-25 15:59:18,072 - root - MainThread - Getting tables: end
+2021-02-25 15:59:18,072 - root - MainThread - creating table: start
+2021-02-25 15:59:18,077 - root - MainThread - creating table: end
+2021-02-25 15:59:18,077 - root - MainThread - inserting into table: start
+2021-02-25 15:59:18,096 - root - MainThread - inserting into table: end
+2021-02-25 15:59:18,115 - werkzeug - MainThread -  * Debugger is active!
+2021-02-25 15:59:18,126 - werkzeug - MainThread -  * Debugger PIN: 240-877-176
+2021-02-25 15:59:28,912 - backend - Thread-2 - opening homepage
+2021-02-25 15:59:28,937 - werkzeug - Thread-2 - 127.0.0.1 - - [25/Feb/2021 15:59:28] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 15:59:28,984 - werkzeug - Thread-3 - 127.0.0.1 - - [25/Feb/2021 15:59:28] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 16:00:56,429 - backend - Thread-4 - opening homepage
+2021-02-25 16:00:56,442 - werkzeug - Thread-4 - 127.0.0.1 - - [25/Feb/2021 16:00:56] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 16:00:56,482 - werkzeug - Thread-5 - 127.0.0.1 - - [25/Feb/2021 16:00:56] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 16:04:14,794 - backend - Thread-6 - opening homepage
+2021-02-25 16:04:14,816 - werkzeug - Thread-6 - 127.0.0.1 - - [25/Feb/2021 16:04:14] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 16:04:14,856 - werkzeug - Thread-7 - 127.0.0.1 - - [25/Feb/2021 16:04:14] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 16:05:46,574 - backend - Thread-8 - opening homepage
+2021-02-25 16:05:46,577 - werkzeug - Thread-8 - 127.0.0.1 - - [25/Feb/2021 16:05:46] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 16:05:46,615 - werkzeug - Thread-9 - 127.0.0.1 - - [25/Feb/2021 16:05:46] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 16:05:49,504 - werkzeug - Thread-10 - 127.0.0.1 - - [25/Feb/2021 16:05:49] "[37mGET /add/ HTTP/1.1[0m" 200 -
+2021-02-25 16:06:03,466 - backend - Thread-11 - opening homepage
+2021-02-25 16:06:03,477 - werkzeug - Thread-11 - 127.0.0.1 - - [25/Feb/2021 16:06:03] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 16:06:03,532 - werkzeug - Thread-12 - 127.0.0.1 - - [25/Feb/2021 16:06:03] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 16:06:10,196 - werkzeug - Thread-13 - 127.0.0.1 - - [25/Feb/2021 16:06:10] "[37mGET /add/ HTTP/1.1[0m" 200 -
+2021-02-25 16:06:26,356 - werkzeug - Thread-14 - 127.0.0.1 - - [25/Feb/2021 16:06:26] "[37mGET /add/ HTTP/1.1[0m" 200 -
+2021-02-25 16:06:26,409 - werkzeug - Thread-15 - 127.0.0.1 - - [25/Feb/2021 16:06:26] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 16:09:53,391 - werkzeug - Thread-16 - 127.0.0.1 - - [25/Feb/2021 16:09:53] "[37mGET /add/ HTTP/1.1[0m" 200 -
+2021-02-25 16:09:53,430 - werkzeug - Thread-17 - 127.0.0.1 - - [25/Feb/2021 16:09:53] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 16:51:15,929 - werkzeug - MainThread -  * Detected change in '/Users/mazn0/Desktop/Simplon/E-learning/Python/backend.py', reloading
+2021-02-25 16:51:15,994 - werkzeug - MainThread -  * Restarting with stat
+2021-02-25 16:51:16,187 - root - MainThread - connecting to the database: start
+2021-02-25 16:51:16,188 - root - MainThread - connecting to the database: end
+2021-02-25 16:51:16,217 - root - MainThread - Getting tables: start
+2021-02-25 16:51:16,221 - root - MainThread - Getting tables: end
+2021-02-25 16:51:16,221 - root - MainThread - creating table: start
+2021-02-25 16:51:16,231 - root - MainThread - creating table: end
+2021-02-25 16:51:16,231 - root - MainThread - inserting into table: start
+2021-02-25 16:51:16,252 - root - MainThread - inserting into table: end
+2021-02-25 16:51:16,272 - werkzeug - MainThread -  * Debugger is active!
+2021-02-25 16:51:16,286 - werkzeug - MainThread -  * Debugger PIN: 240-877-176
+2021-02-25 16:55:27,079 - werkzeug - MainThread -  * Detected change in '/Users/mazn0/Desktop/Simplon/E-learning/Python/backend.py', reloading
+2021-02-25 16:55:27,112 - werkzeug - MainThread -  * Restarting with stat
+2021-02-25 16:55:27,262 - root - MainThread - connecting to the database: start
+2021-02-25 16:55:27,262 - root - MainThread - connecting to the database: end
+2021-02-25 16:55:27,281 - root - MainThread - Getting tables: start
+2021-02-25 16:55:27,282 - root - MainThread - Getting tables: end
+2021-02-25 16:55:27,282 - root - MainThread - creating table: start
+2021-02-25 16:55:27,292 - root - MainThread - creating table: end
+2021-02-25 16:55:27,292 - root - MainThread - inserting into table: start
+2021-02-25 16:55:27,309 - root - MainThread - inserting into table: end
+2021-02-25 16:55:27,325 - werkzeug - MainThread -  * Debugger is active!
+2021-02-25 16:55:27,335 - werkzeug - MainThread -  * Debugger PIN: 240-877-176

@@ -26,6 +26,7 @@ logging.getLogger("werkzeug").addHandler(handler)
 def greeting():
     app.logger.info("opening homepage")
     return render_template('index.html')
+    
 
 # section python
 @app.route('/sections/python/')

@@ -106,3 +106,66 @@
 2021-02-25 12:51:09,067 :: INFO :: Thread-2 :: choosing video from python section
 2021-02-25 12:51:09,075 :: INFO :: Thread-2 :: 127.0.0.1 - - [25/Feb/2021 12:51:09] "[37mGET /sections/python/watch/2 HTTP/1.1[0m" 200 -
 2021-02-25 12:51:11,164 :: INFO :: Thread-3 :: 127.0.0.1 - - [25/Feb/2021 12:51:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-25 15:47:05,443 :: INFO :: MainThread ::  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-25 15:47:05,444 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 15:47:05,669 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 15:47:05,680 :: INFO :: MainThread ::  * Debugger PIN: 240-877-176
+2021-02-25 15:51:48,118 :: INFO :: Thread-2 :: opening homepage
+2021-02-25 15:51:48,139 :: INFO :: Thread-2 :: 127.0.0.1 - - [25/Feb/2021 15:51:48] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 15:51:48,286 :: INFO :: Thread-3 :: 127.0.0.1 - - [25/Feb/2021 15:51:48] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 15:51:48,348 :: INFO :: Thread-5 :: 127.0.0.1 - - [25/Feb/2021 15:51:48] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 15:51:48,349 :: INFO :: Thread-4 :: 127.0.0.1 - - [25/Feb/2021 15:51:48] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 15:51:49,478 :: INFO :: Thread-6 :: 127.0.0.1 - - [25/Feb/2021 15:51:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-25 15:52:20,491 :: INFO :: Thread-7 :: 127.0.0.1 - - [25/Feb/2021 15:52:20] "[37mGET /add/ HTTP/1.1[0m" 200 -
+2021-02-25 15:52:25,937 :: INFO :: Thread-8 :: choosing js section
+2021-02-25 15:52:25,960 :: INFO :: Thread-8 :: 127.0.0.1 - - [25/Feb/2021 15:52:25] "[37mGET /sections/js/ HTTP/1.1[0m" 200 -
+2021-02-25 15:52:31,624 :: INFO :: Thread-9 :: choosing cloud section
+2021-02-25 15:52:31,629 :: INFO :: Thread-9 :: 127.0.0.1 - - [25/Feb/2021 15:52:31] "[37mGET /sections/cloud/ HTTP/1.1[0m" 200 -
+2021-02-25 15:52:36,935 :: INFO :: Thread-10 :: choosing python section
+2021-02-25 15:52:36,945 :: INFO :: Thread-10 :: 127.0.0.1 - - [25/Feb/2021 15:52:36] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-25 15:52:47,480 :: INFO :: Thread-11 :: opening homepage
+2021-02-25 15:52:47,482 :: INFO :: Thread-11 :: 127.0.0.1 - - [25/Feb/2021 15:52:47] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 15:52:47,535 :: INFO :: Thread-12 :: 127.0.0.1 - - [25/Feb/2021 15:52:47] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 15:53:21,619 :: INFO :: MainThread ::  * Detected change in '/Users/mazn0/Desktop/Simplon/E-learning/Python/backend.py', reloading
+2021-02-25 15:53:21,678 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 15:53:21,930 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 15:53:21,941 :: INFO :: MainThread ::  * Debugger PIN: 240-877-176
+2021-02-25 15:53:43,289 :: INFO :: MainThread ::  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-25 15:53:43,289 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 15:53:43,493 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 15:53:43,504 :: INFO :: MainThread ::  * Debugger PIN: 240-877-176
+2021-02-25 15:53:52,104 :: INFO :: Thread-2 :: opening homepage
+2021-02-25 15:53:52,122 :: INFO :: Thread-2 :: 127.0.0.1 - - [25/Feb/2021 15:53:52] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 15:59:17,804 :: INFO :: MainThread ::  * Detected change in '/Users/mazn0/Desktop/Simplon/E-learning/Python/backend.py', reloading
+2021-02-25 15:59:17,855 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 15:59:18,115 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 15:59:18,126 :: INFO :: MainThread ::  * Debugger PIN: 240-877-176
+2021-02-25 15:59:28,912 :: INFO :: Thread-2 :: opening homepage
+2021-02-25 15:59:28,937 :: INFO :: Thread-2 :: 127.0.0.1 - - [25/Feb/2021 15:59:28] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 15:59:28,984 :: INFO :: Thread-3 :: 127.0.0.1 - - [25/Feb/2021 15:59:28] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 16:00:56,429 :: INFO :: Thread-4 :: opening homepage
+2021-02-25 16:00:56,442 :: INFO :: Thread-4 :: 127.0.0.1 - - [25/Feb/2021 16:00:56] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 16:00:56,482 :: INFO :: Thread-5 :: 127.0.0.1 - - [25/Feb/2021 16:00:56] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 16:04:14,794 :: INFO :: Thread-6 :: opening homepage
+2021-02-25 16:04:14,816 :: INFO :: Thread-6 :: 127.0.0.1 - - [25/Feb/2021 16:04:14] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 16:04:14,856 :: INFO :: Thread-7 :: 127.0.0.1 - - [25/Feb/2021 16:04:14] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 16:05:46,574 :: INFO :: Thread-8 :: opening homepage
+2021-02-25 16:05:46,577 :: INFO :: Thread-8 :: 127.0.0.1 - - [25/Feb/2021 16:05:46] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 16:05:46,615 :: INFO :: Thread-9 :: 127.0.0.1 - - [25/Feb/2021 16:05:46] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 16:05:49,504 :: INFO :: Thread-10 :: 127.0.0.1 - - [25/Feb/2021 16:05:49] "[37mGET /add/ HTTP/1.1[0m" 200 -
+2021-02-25 16:06:03,466 :: INFO :: Thread-11 :: opening homepage
+2021-02-25 16:06:03,477 :: INFO :: Thread-11 :: 127.0.0.1 - - [25/Feb/2021 16:06:03] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-25 16:06:03,532 :: INFO :: Thread-12 :: 127.0.0.1 - - [25/Feb/2021 16:06:03] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-25 16:06:10,196 :: INFO :: Thread-13 :: 127.0.0.1 - - [25/Feb/2021 16:06:10] "[37mGET /add/ HTTP/1.1[0m" 200 -
+2021-02-25 16:06:26,356 :: INFO :: Thread-14 :: 127.0.0.1 - - [25/Feb/2021 16:06:26] "[37mGET /add/ HTTP/1.1[0m" 200 -
+2021-02-25 16:06:26,409 :: INFO :: Thread-15 :: 127.0.0.1 - - [25/Feb/2021 16:06:26] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-25 16:09:53,391 :: INFO :: Thread-16 :: 127.0.0.1 - - [25/Feb/2021 16:09:53] "[37mGET /add/ HTTP/1.1[0m" 200 -
+2021-02-25 16:09:53,430 :: INFO :: Thread-17 :: 127.0.0.1 - - [25/Feb/2021 16:09:53] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-25 16:51:15,929 :: INFO :: MainThread ::  * Detected change in '/Users/mazn0/Desktop/Simplon/E-learning/Python/backend.py', reloading
+2021-02-25 16:51:15,994 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 16:51:16,272 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 16:51:16,286 :: INFO :: MainThread ::  * Debugger PIN: 240-877-176
+2021-02-25 16:55:27,079 :: INFO :: MainThread ::  * Detected change in '/Users/mazn0/Desktop/Simplon/E-learning/Python/backend.py', reloading
+2021-02-25 16:55:27,112 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-25 16:55:27,325 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-25 16:55:27,335 :: INFO :: MainThread ::  * Debugger PIN: 240-877-176

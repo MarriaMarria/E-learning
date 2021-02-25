@@ -6,13 +6,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title> <!-- I cnahed Tuto Simplon to title as we will reuse it later --> 
+    <title>{{ title }}</title> <!-- I cnahed Tuto Simplon to title as we will reuse it later -->
     <link rel="stylesheet" href="{{ url_for('static', filename='CSS/style.css') }}">
     {% endblock %}
 </head>
 
 <body>
     {% block body %}
+
     {% block header %}
     <div class="navbar">
         <h1 class="title">Tuto Simplon</h1>
@@ -30,17 +31,21 @@
             </div>
         </div>
     </div>
-    {% endblock header %}
+    {% endblock %}
+
     {% block content %}
 
-    {% endblock content %}
+    {% endblock %}
+    
     {% block footer %}
     <footer class="footer-container">
         <p>Created and designed By Maria, Youcef & Jordan Powered By Flask 2021 ©</p>
     </footer>
-    {% endblock footer %}
+    <script src="{{url_for('static', filename='JS/script.js') }}"></script>
+    <script src="https://kit.fontawesome.com/d54a7ee144.js" crossorigin="anonymous"></script>
+    {% endblock %}
 
-    {% endblock body %}
+    {% endblock %}
 </body>
 
 </html>
