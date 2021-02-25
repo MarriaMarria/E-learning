@@ -1,16 +1,59 @@
-{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/style.css') }}">
+    <title>Document</title>
+</head>
+<body>
+    {% block body %}
+    {% block header %}
+    <div class="navbar">
+        <h1 class="title">Tuto Simplon</h1>
+        <div class="dropdown">
+            <button class="dropbtn">Categeories
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="/sections/cloud/">Cloud</a>
+                <a href="/sections/docker/">Docker</a>
+                <a href="/sections/python/">Python</a>
+                <a href="#">All</a>
+            </div>
+        </div>
+    </div>
+    {% endblock header %}
 
-<!-- DOCKTYPE, meta, title, link-->
-{% block head %} {% endblock %}
 
-<!-- not sure I need it -->
-{% block body %}
+    <div id="container">
+        <h1>Python</h1>
+        <section id="collection_videos">
+            {% for video in result %}
+            <a href="/sections/python/watch/{{ video[0] }}">
+                <div id="video">
+                    <h2 id="video_title">{{ video[1] }}</h2>
+                    <p id="video_p">{{ video[2] }}</p>
+                </div>
+            </a>
+            {% endfor %}
 
-<!-- for the navbar which is same for our pages -->
-{% block header %}
+        </section>
 
-<!-- to base.html -->
-<!-- do we use iframe to embed videos? -->
-    <section> 
-        <div> {{ i[0][2] }} </div>
-    </section>
+    </div>
+
+
+    {% block footer %}
+    <footer class="footer-container">
+        <p>Created and designed By Maria, Youcef & Jordan Powered By Flask 2021 ©</p>
+    </footer>
+
+    {% endblock footer %}
+    <script src="{{url_for('static', filename='JS/script.js') }}"></script>
+
+    {% endblock body %}
+</body>
+</html>
+
+
