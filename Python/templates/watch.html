@@ -1,33 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    {% block head %}
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tuto Simplon</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/style.css') }}">
-    {% endblock %}
-</head>
-<body>
-    {% block body %}
-    {% block header %}
-    <div class="navbar">
-        <h1 class="title">Tuto Simplon</h1>
-        <div class="dropdown">
-            <button class="dropbtn">Categeories
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-                <a href="/sections/cloud/">Cloud</a>
-                <a href="/sections/docker/">Docker</a>
-                <a href="/sections/python/">Python</a>
-                <a href="#">All</a>
-            </div>
-        </div>
-    </div>
-    {% endblock header %}
-    {% block content %}
+{% extends "base.html" %}
+{% block head %}
+    {{ super() }}
+{% endblock %}
+{% block body %}
+{% block header %}
+{{ super() }}
+{% endblock header %}
+{% block content %}
     <div class="mydata">
         {% for i in result %}
         <div id="title"> {{ i[1] }} </div>
@@ -37,14 +16,8 @@
         <p id="description">{{ i[4] }}</p>
         {% endfor %}
     </div>
-    {% endblock content %}
-    {% block footer %}
-    <footer class="footer-container">
-        <p>Created and designed By Maria, Youcef & Jordan Powered By Flask 2021 ©</p>
-    </footer>
-
-    {% endblock footer %}
-    <script src="{{url_for('static', filename='JS/script.js') }}"></script>
-    {% endblock body %}
-</body>
-</html>
+{% endblock content %}
+{% block footer %}
+    {{ super() }}
+{% endblock footer %}
+{% endblock body %}
