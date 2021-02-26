@@ -1083,3 +1083,25 @@
 2021-02-26 14:58:07,052 - werkzeug - Thread-13 - 127.0.0.1 - - [26/Feb/2021 14:58:07] "[37mGET /sections/docker/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
 2021-02-26 14:58:07,126 - werkzeug - Thread-14 - 127.0.0.1 - - [26/Feb/2021 14:58:07] "[37mGET /sections/docker/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
 2021-02-26 14:58:07,152 - werkzeug - Thread-15 - 127.0.0.1 - - [26/Feb/2021 14:58:07] "[37mGET /sections/docker/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 15:06:30,694 - root - MainThread - connecting to the database: start
+2021-02-26 15:06:30,694 - root - MainThread - connecting to the database: end
+2021-02-26 15:06:30,971 - werkzeug - MainThread -  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-26 15:06:30,972 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 15:06:31,105 - root - MainThread - connecting to the database: start
+2021-02-26 15:06:31,105 - root - MainThread - connecting to the database: end
+2021-02-26 15:06:31,368 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 15:06:31,368 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 15:06:43,702 - backend - Thread-2 - choosing docker section
+2021-02-26 15:06:43,712 - werkzeug - Thread-2 - 127.0.0.1 - - [26/Feb/2021 15:06:43] "[35m[1mGET /sections/docker/ HTTP/1.1[0m" 500 -
+2021-02-26 15:06:43,739 - werkzeug - Thread-3 - 127.0.0.1 - - [26/Feb/2021 15:06:43] "[37mGET /sections/docker/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 15:06:43,739 - werkzeug - Thread-4 - 127.0.0.1 - - [26/Feb/2021 15:06:43] "[37mGET /sections/docker/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 15:06:43,739 - werkzeug - Thread-5 - 127.0.0.1 - - [26/Feb/2021 15:06:43] "[37mGET /sections/docker/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 15:06:43,836 - werkzeug - Thread-6 - 127.0.0.1 - - [26/Feb/2021 15:06:43] "[37mGET /sections/docker/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 15:06:43,862 - werkzeug - Thread-7 - 127.0.0.1 - - [26/Feb/2021 15:06:43] "[37mGET /sections/docker/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 15:06:56,874 - backend - Thread-8 - choosing js section
+2021-02-26 15:06:56,882 - werkzeug - Thread-8 - 127.0.0.1 - - [26/Feb/2021 15:06:56] "[35m[1mGET /sections/js/ HTTP/1.1[0m" 500 -
+2021-02-26 15:06:56,912 - werkzeug - Thread-9 - 127.0.0.1 - - [26/Feb/2021 15:06:56] "[37mGET /sections/js/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 15:06:56,913 - werkzeug - Thread-10 - 127.0.0.1 - - [26/Feb/2021 15:06:56] "[37mGET /sections/js/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 15:06:56,914 - werkzeug - Thread-11 - 127.0.0.1 - - [26/Feb/2021 15:06:56] "[37mGET /sections/js/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 15:06:57,013 - werkzeug - Thread-12 - 127.0.0.1 - - [26/Feb/2021 15:06:57] "[37mGET /sections/js/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 15:06:57,053 - werkzeug - Thread-13 - 127.0.0.1 - - [26/Feb/2021 15:06:57] "[37mGET /sections/js/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
