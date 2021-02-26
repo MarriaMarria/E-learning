@@ -496,3 +496,139 @@
 2021-02-26 09:53:48,561 :: INFO :: Thread-18 :: 172.17.0.1 - - [26/Feb/2021 09:53:48] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
 2021-02-26 09:53:48,564 :: INFO :: Thread-19 :: 172.17.0.1 - - [26/Feb/2021 09:53:48] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
 2021-02-26 09:53:48,599 :: INFO :: Thread-20 :: 172.17.0.1 - - [26/Feb/2021 09:53:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:30:03,704 :: INFO :: MainThread ::  * Running on http://0.0.0.0:3051/ (Press CTRL+C to quit)
+2021-02-26 10:30:03,705 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 10:30:03,995 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 10:30:03,996 :: INFO :: MainThread ::  * Debugger PIN: 271-105-303
+2021-02-26 10:30:07,872 :: INFO :: Thread-2 :: choosing docker section
+2021-02-26 10:30:07,888 :: INFO :: Thread-2 :: 172.17.0.1 - - [26/Feb/2021 10:30:07] "[37mGET /sections/docker/ HTTP/1.1[0m" 200 -
+2021-02-26 10:30:07,959 :: INFO :: Thread-3 :: 172.17.0.1 - - [26/Feb/2021 10:30:07] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:30:07,961 :: INFO :: Thread-4 :: 172.17.0.1 - - [26/Feb/2021 10:30:07] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:30:07,987 :: INFO :: Thread-5 :: 172.17.0.1 - - [26/Feb/2021 10:30:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:30:12,334 :: INFO :: Thread-6 :: opening homepage
+2021-02-26 10:30:12,355 :: INFO :: Thread-6 :: 172.17.0.1 - - [26/Feb/2021 10:30:12] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-26 10:30:12,443 :: INFO :: Thread-7 :: 172.17.0.1 - - [26/Feb/2021 10:30:12] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:30:12,537 :: INFO :: Thread-8 :: 172.17.0.1 - - [26/Feb/2021 10:30:12] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:30:12,539 :: INFO :: Thread-9 :: 172.17.0.1 - - [26/Feb/2021 10:30:12] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-26 10:30:13,036 :: INFO :: Thread-10 :: 172.17.0.1 - - [26/Feb/2021 10:30:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:33:29,254 :: INFO :: Thread-12 :: opening homepage
+2021-02-26 10:33:29,255 :: INFO :: Thread-12 :: 172.17.0.1 - - [26/Feb/2021 10:33:29] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-26 10:33:29,308 :: INFO :: Thread-13 :: 172.17.0.1 - - [26/Feb/2021 10:33:29] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-26 10:33:36,299 :: INFO :: Thread-15 :: choosing python section
+2021-02-26 10:33:36,302 :: INFO :: Thread-15 :: 172.17.0.1 - - [26/Feb/2021 10:33:36] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:36:40,455 :: INFO :: Thread-17 :: choosing python section
+2021-02-26 10:36:40,458 :: INFO :: Thread-17 :: 172.17.0.1 - - [26/Feb/2021 10:36:40] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:36:40,509 :: INFO :: Thread-18 :: 172.17.0.1 - - [26/Feb/2021 10:36:40] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
+2021-02-26 10:37:05,099 :: INFO :: Thread-21 :: choosing python section
+2021-02-26 10:37:05,101 :: INFO :: Thread-21 :: 172.17.0.1 - - [26/Feb/2021 10:37:05] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:37:05,142 :: INFO :: Thread-23 :: 172.17.0.1 - - [26/Feb/2021 10:37:05] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:37:05,143 :: INFO :: Thread-22 :: 172.17.0.1 - - [26/Feb/2021 10:37:05] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:37:05,495 :: INFO :: Thread-24 :: 172.17.0.1 - - [26/Feb/2021 10:37:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:37:08,988 :: INFO :: Thread-25 :: opening homepage
+2021-02-26 10:37:08,988 :: INFO :: Thread-25 :: 172.17.0.1 - - [26/Feb/2021 10:37:08] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-26 10:37:09,027 :: INFO :: Thread-26 :: 172.17.0.1 - - [26/Feb/2021 10:37:09] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:37:09,029 :: INFO :: Thread-27 :: 172.17.0.1 - - [26/Feb/2021 10:37:09] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:37:09,043 :: INFO :: Thread-28 :: 172.17.0.1 - - [26/Feb/2021 10:37:09] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-26 10:37:09,395 :: INFO :: Thread-29 :: 172.17.0.1 - - [26/Feb/2021 10:37:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:37:32,628 :: INFO :: Thread-30 :: choosing python section
+2021-02-26 10:37:32,631 :: INFO :: Thread-30 :: 172.17.0.1 - - [26/Feb/2021 10:37:32] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:37:32,672 :: INFO :: Thread-31 :: 172.17.0.1 - - [26/Feb/2021 10:37:32] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
+2021-02-26 10:38:08,883 :: INFO :: Thread-34 :: choosing python section
+2021-02-26 10:38:08,888 :: INFO :: Thread-34 :: 172.17.0.1 - - [26/Feb/2021 10:38:08] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:38:08,950 :: INFO :: Thread-35 :: 172.17.0.1 - - [26/Feb/2021 10:38:08] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:38:08,954 :: INFO :: Thread-36 :: 172.17.0.1 - - [26/Feb/2021 10:38:08] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:38:08,981 :: INFO :: Thread-37 :: 172.17.0.1 - - [26/Feb/2021 10:38:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:38:38,135 :: INFO :: Thread-40 :: choosing python section
+2021-02-26 10:38:38,138 :: INFO :: Thread-40 :: 172.17.0.1 - - [26/Feb/2021 10:38:38] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:38:38,205 :: INFO :: Thread-41 :: 172.17.0.1 - - [26/Feb/2021 10:38:38] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
+2021-02-26 10:38:40,871 :: INFO :: Thread-43 :: choosing python section
+2021-02-26 10:38:40,874 :: INFO :: Thread-43 :: 172.17.0.1 - - [26/Feb/2021 10:38:40] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:38:40,909 :: INFO :: Thread-45 :: 172.17.0.1 - - [26/Feb/2021 10:38:40] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:38:40,909 :: INFO :: Thread-44 :: 172.17.0.1 - - [26/Feb/2021 10:38:40] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:38:40,923 :: INFO :: Thread-46 :: 172.17.0.1 - - [26/Feb/2021 10:38:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:41:52,998 :: INFO :: Thread-51 :: choosing python section
+2021-02-26 10:41:53,004 :: INFO :: Thread-51 :: 172.17.0.1 - - [26/Feb/2021 10:41:53] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:41:53,038 :: INFO :: Thread-52 :: 172.17.0.1 - - [26/Feb/2021 10:41:53] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:41:53,041 :: INFO :: Thread-53 :: 172.17.0.1 - - [26/Feb/2021 10:41:53] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:41:53,055 :: INFO :: Thread-54 :: 172.17.0.1 - - [26/Feb/2021 10:41:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:43:00,903 :: INFO :: Thread-55 :: choosing python section
+2021-02-26 10:43:00,911 :: INFO :: Thread-55 :: 172.17.0.1 - - [26/Feb/2021 10:43:00] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:43:00,940 :: INFO :: Thread-56 :: 172.17.0.1 - - [26/Feb/2021 10:43:00] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
+2021-02-26 10:43:03,800 :: INFO :: Thread-57 :: choosing python section
+2021-02-26 10:43:03,803 :: INFO :: Thread-57 :: 172.17.0.1 - - [26/Feb/2021 10:43:03] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:43:03,833 :: INFO :: Thread-58 :: 172.17.0.1 - - [26/Feb/2021 10:43:03] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:43:03,838 :: INFO :: Thread-59 :: 172.17.0.1 - - [26/Feb/2021 10:43:03] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:43:03,851 :: INFO :: Thread-60 :: 172.17.0.1 - - [26/Feb/2021 10:43:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:43:05,439 :: INFO :: Thread-61 :: choosing python section
+2021-02-26 10:43:05,441 :: INFO :: Thread-61 :: 172.17.0.1 - - [26/Feb/2021 10:43:05] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:43:05,465 :: INFO :: Thread-62 :: 172.17.0.1 - - [26/Feb/2021 10:43:05] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:43:05,466 :: INFO :: Thread-63 :: 172.17.0.1 - - [26/Feb/2021 10:43:05] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:43:05,479 :: INFO :: Thread-64 :: 172.17.0.1 - - [26/Feb/2021 10:43:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:43:18,398 :: INFO :: Thread-67 :: choosing python section
+2021-02-26 10:43:18,401 :: INFO :: Thread-67 :: 172.17.0.1 - - [26/Feb/2021 10:43:18] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:43:18,426 :: INFO :: Thread-68 :: 172.17.0.1 - - [26/Feb/2021 10:43:18] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:43:18,428 :: INFO :: Thread-69 :: 172.17.0.1 - - [26/Feb/2021 10:43:18] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:43:18,442 :: INFO :: Thread-70 :: 172.17.0.1 - - [26/Feb/2021 10:43:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:45:49,488 :: INFO :: Thread-73 :: opening homepage
+2021-02-26 10:45:49,489 :: INFO :: Thread-73 :: 172.17.0.1 - - [26/Feb/2021 10:45:49] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-26 10:45:49,531 :: INFO :: Thread-74 :: 172.17.0.1 - - [26/Feb/2021 10:45:49] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:45:49,563 :: INFO :: Thread-75 :: 172.17.0.1 - - [26/Feb/2021 10:45:49] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-26 10:45:49,567 :: INFO :: Thread-76 :: 172.17.0.1 - - [26/Feb/2021 10:45:49] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:45:49,824 :: INFO :: Thread-77 :: 172.17.0.1 - - [26/Feb/2021 10:45:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:45:56,117 :: INFO :: Thread-79 :: choosing python section
+2021-02-26 10:45:56,125 :: INFO :: Thread-79 :: 172.17.0.1 - - [26/Feb/2021 10:45:56] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:45:56,173 :: INFO :: Thread-80 :: 172.17.0.1 - - [26/Feb/2021 10:45:56] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:45:56,176 :: INFO :: Thread-81 :: 172.17.0.1 - - [26/Feb/2021 10:45:56] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:45:56,274 :: INFO :: Thread-82 :: 172.17.0.1 - - [26/Feb/2021 10:45:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:46:27,699 :: INFO :: Thread-84 :: choosing video from python section
+2021-02-26 10:46:27,709 :: INFO :: Thread-84 :: 172.17.0.1 - - [26/Feb/2021 10:46:27] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 10:46:41,392 :: INFO :: Thread-88 :: choosing video from python section
+2021-02-26 10:46:41,395 :: INFO :: Thread-88 :: 172.17.0.1 - - [26/Feb/2021 10:46:41] "[37mGET /sections/python/watch/2 HTTP/1.1[0m" 200 -
+2021-02-26 10:49:02,752 :: INFO :: Thread-91 :: choosing python section
+2021-02-26 10:49:02,788 :: INFO :: Thread-91 :: 172.17.0.1 - - [26/Feb/2021 10:49:02] "[35m[1mGET /sections/python/ HTTP/1.1[0m" 500 -
+2021-02-26 10:49:02,864 :: INFO :: Thread-92 :: 172.17.0.1 - - [26/Feb/2021 10:49:02] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:49:02,867 :: INFO :: Thread-94 :: 172.17.0.1 - - [26/Feb/2021 10:49:02] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 10:49:02,869 :: INFO :: Thread-93 :: 172.17.0.1 - - [26/Feb/2021 10:49:02] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 10:49:02,949 :: INFO :: Thread-95 :: 172.17.0.1 - - [26/Feb/2021 10:49:02] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 10:49:03,017 :: INFO :: Thread-96 :: 172.17.0.1 - - [26/Feb/2021 10:49:03] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 10:49:11,511 :: INFO :: Thread-97 :: choosing python section
+2021-02-26 10:49:11,523 :: INFO :: Thread-97 :: 172.17.0.1 - - [26/Feb/2021 10:49:11] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:49:22,654 :: INFO :: Thread-99 :: choosing python section
+2021-02-26 10:49:22,656 :: INFO :: Thread-99 :: 172.17.0.1 - - [26/Feb/2021 10:49:22] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:51:49,359 :: INFO :: Thread-102 :: choosing python section
+2021-02-26 10:51:49,376 :: INFO :: Thread-102 :: 172.17.0.1 - - [26/Feb/2021 10:51:49] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:51:49,452 :: INFO :: Thread-103 :: 172.17.0.1 - - [26/Feb/2021 10:51:49] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
+2021-02-26 10:51:53,108 :: INFO :: Thread-105 :: choosing python section
+2021-02-26 10:51:53,110 :: INFO :: Thread-105 :: 172.17.0.1 - - [26/Feb/2021 10:51:53] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:51:53,140 :: INFO :: Thread-106 :: 172.17.0.1 - - [26/Feb/2021 10:51:53] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:51:53,194 :: INFO :: Thread-107 :: 172.17.0.1 - - [26/Feb/2021 10:51:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:53:23,438 :: INFO :: Thread-110 :: choosing python section
+2021-02-26 10:53:23,452 :: INFO :: Thread-110 :: 172.17.0.1 - - [26/Feb/2021 10:53:23] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:53:23,573 :: INFO :: Thread-111 :: 172.17.0.1 - - [26/Feb/2021 10:53:23] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
+2021-02-26 10:55:55,752 :: INFO :: Thread-112 :: choosing python section
+2021-02-26 10:55:55,784 :: INFO :: Thread-112 :: 172.17.0.1 - - [26/Feb/2021 10:55:55] "[35m[1mGET /sections/python/ HTTP/1.1[0m" 500 -
+2021-02-26 10:55:55,853 :: INFO :: Thread-113 :: 172.17.0.1 - - [26/Feb/2021 10:55:55] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:55:55,860 :: INFO :: Thread-115 :: 172.17.0.1 - - [26/Feb/2021 10:55:55] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 10:55:55,863 :: INFO :: Thread-114 :: 172.17.0.1 - - [26/Feb/2021 10:55:55] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 10:55:56,015 :: INFO :: Thread-116 :: 172.17.0.1 - - [26/Feb/2021 10:55:56] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 10:56:36,614 :: INFO :: Thread-117 :: choosing python section
+2021-02-26 10:56:36,638 :: INFO :: Thread-117 :: 172.17.0.1 - - [26/Feb/2021 10:56:36] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:58:44,602 :: INFO :: Thread-120 :: choosing python section
+2021-02-26 10:58:44,610 :: INFO :: Thread-120 :: 172.17.0.1 - - [26/Feb/2021 10:58:44] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:58:44,635 :: INFO :: Thread-121 :: 172.17.0.1 - - [26/Feb/2021 10:58:44] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
+2021-02-26 10:59:17,321 :: INFO :: Thread-122 :: choosing python section
+2021-02-26 10:59:17,329 :: INFO :: Thread-122 :: 172.17.0.1 - - [26/Feb/2021 10:59:17] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:59:17,368 :: INFO :: Thread-123 :: 172.17.0.1 - - [26/Feb/2021 10:59:17] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
+2021-02-26 11:00:19,210 :: INFO :: Thread-125 :: choosing python section
+2021-02-26 11:00:19,217 :: INFO :: Thread-125 :: 172.17.0.1 - - [26/Feb/2021 11:00:19] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 11:00:19,246 :: INFO :: Thread-126 :: 172.17.0.1 - - [26/Feb/2021 11:00:19] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
+2021-02-26 11:00:21,316 :: INFO :: Thread-127 :: choosing docker section
+2021-02-26 11:00:21,318 :: INFO :: Thread-127 :: 172.17.0.1 - - [26/Feb/2021 11:00:21] "[37mGET /sections/docker/ HTTP/1.1[0m" 200 -
+2021-02-26 11:00:22,738 :: INFO :: Thread-128 :: choosing cloud section
+2021-02-26 11:00:22,740 :: INFO :: Thread-128 :: 172.17.0.1 - - [26/Feb/2021 11:00:22] "[37mGET /sections/cloud/ HTTP/1.1[0m" 200 -
+2021-02-26 11:00:24,171 :: INFO :: Thread-129 :: choosing js section
+2021-02-26 11:00:24,173 :: INFO :: Thread-129 :: 172.17.0.1 - - [26/Feb/2021 11:00:24] "[37mGET /sections/js/ HTTP/1.1[0m" 200 -
+2021-02-26 11:00:59,707 :: INFO :: Thread-131 :: choosing js section
+2021-02-26 11:00:59,724 :: INFO :: Thread-131 :: 172.17.0.1 - - [26/Feb/2021 11:00:59] "[37mGET /sections/js/ HTTP/1.1[0m" 200 -
+2021-02-26 11:00:59,751 :: INFO :: Thread-132 :: 172.17.0.1 - - [26/Feb/2021 11:00:59] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
+2021-02-26 11:00:59,859 :: INFO :: Thread-133 :: 172.17.0.1 - - [26/Feb/2021 11:00:59] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -

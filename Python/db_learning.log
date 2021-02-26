@@ -916,3 +916,155 @@
 2021-02-26 09:53:48,561 - werkzeug - Thread-18 - 172.17.0.1 - - [26/Feb/2021 09:53:48] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
 2021-02-26 09:53:48,564 - werkzeug - Thread-19 - 172.17.0.1 - - [26/Feb/2021 09:53:48] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
 2021-02-26 09:53:48,599 - werkzeug - Thread-20 - 172.17.0.1 - - [26/Feb/2021 09:53:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:30:03,495 - root - MainThread - connecting to the database: start
+2021-02-26 10:30:03,495 - root - MainThread - connecting to the database: end
+2021-02-26 10:30:03,630 - root - MainThread - Getting tables: start
+2021-02-26 10:30:03,630 - root - MainThread - Getting tables: end
+2021-02-26 10:30:03,631 - root - MainThread - creating table: start
+2021-02-26 10:30:03,645 - root - MainThread - creating table: end
+2021-02-26 10:30:03,645 - root - MainThread - inserting into table: start
+2021-02-26 10:30:03,695 - root - MainThread - inserting into table: end
+2021-02-26 10:30:03,704 - werkzeug - MainThread -  * Running on http://0.0.0.0:3051/ (Press CTRL+C to quit)
+2021-02-26 10:30:03,705 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 10:30:03,792 - root - MainThread - connecting to the database: start
+2021-02-26 10:30:03,792 - root - MainThread - connecting to the database: end
+2021-02-26 10:30:03,915 - root - MainThread - Getting tables: start
+2021-02-26 10:30:03,915 - root - MainThread - Getting tables: end
+2021-02-26 10:30:03,915 - root - MainThread - creating table: start
+2021-02-26 10:30:03,932 - root - MainThread - creating table: end
+2021-02-26 10:30:03,932 - root - MainThread - inserting into table: start
+2021-02-26 10:30:03,987 - root - MainThread - inserting into table: end
+2021-02-26 10:30:03,995 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 10:30:03,996 - werkzeug - MainThread -  * Debugger PIN: 271-105-303
+2021-02-26 10:30:07,872 - backend - Thread-2 - choosing docker section
+2021-02-26 10:30:07,888 - werkzeug - Thread-2 - 172.17.0.1 - - [26/Feb/2021 10:30:07] "[37mGET /sections/docker/ HTTP/1.1[0m" 200 -
+2021-02-26 10:30:07,959 - werkzeug - Thread-3 - 172.17.0.1 - - [26/Feb/2021 10:30:07] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:30:07,961 - werkzeug - Thread-4 - 172.17.0.1 - - [26/Feb/2021 10:30:07] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:30:07,987 - werkzeug - Thread-5 - 172.17.0.1 - - [26/Feb/2021 10:30:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:30:12,334 - backend - Thread-6 - opening homepage
+2021-02-26 10:30:12,355 - werkzeug - Thread-6 - 172.17.0.1 - - [26/Feb/2021 10:30:12] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-26 10:30:12,443 - werkzeug - Thread-7 - 172.17.0.1 - - [26/Feb/2021 10:30:12] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:30:12,537 - werkzeug - Thread-8 - 172.17.0.1 - - [26/Feb/2021 10:30:12] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:30:12,539 - werkzeug - Thread-9 - 172.17.0.1 - - [26/Feb/2021 10:30:12] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-26 10:30:13,036 - werkzeug - Thread-10 - 172.17.0.1 - - [26/Feb/2021 10:30:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:33:29,254 - backend - Thread-12 - opening homepage
+2021-02-26 10:33:29,255 - werkzeug - Thread-12 - 172.17.0.1 - - [26/Feb/2021 10:33:29] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-26 10:33:29,308 - werkzeug - Thread-13 - 172.17.0.1 - - [26/Feb/2021 10:33:29] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-26 10:33:36,299 - backend - Thread-15 - choosing python section
+2021-02-26 10:33:36,302 - werkzeug - Thread-15 - 172.17.0.1 - - [26/Feb/2021 10:33:36] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:36:40,455 - backend - Thread-17 - choosing python section
+2021-02-26 10:36:40,458 - werkzeug - Thread-17 - 172.17.0.1 - - [26/Feb/2021 10:36:40] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:36:40,509 - werkzeug - Thread-18 - 172.17.0.1 - - [26/Feb/2021 10:36:40] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
+2021-02-26 10:37:05,099 - backend - Thread-21 - choosing python section
+2021-02-26 10:37:05,101 - werkzeug - Thread-21 - 172.17.0.1 - - [26/Feb/2021 10:37:05] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:37:05,142 - werkzeug - Thread-23 - 172.17.0.1 - - [26/Feb/2021 10:37:05] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:37:05,143 - werkzeug - Thread-22 - 172.17.0.1 - - [26/Feb/2021 10:37:05] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:37:05,495 - werkzeug - Thread-24 - 172.17.0.1 - - [26/Feb/2021 10:37:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:37:08,988 - backend - Thread-25 - opening homepage
+2021-02-26 10:37:08,988 - werkzeug - Thread-25 - 172.17.0.1 - - [26/Feb/2021 10:37:08] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-26 10:37:09,027 - werkzeug - Thread-26 - 172.17.0.1 - - [26/Feb/2021 10:37:09] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:37:09,029 - werkzeug - Thread-27 - 172.17.0.1 - - [26/Feb/2021 10:37:09] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:37:09,043 - werkzeug - Thread-28 - 172.17.0.1 - - [26/Feb/2021 10:37:09] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-26 10:37:09,395 - werkzeug - Thread-29 - 172.17.0.1 - - [26/Feb/2021 10:37:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:37:32,628 - backend - Thread-30 - choosing python section
+2021-02-26 10:37:32,631 - werkzeug - Thread-30 - 172.17.0.1 - - [26/Feb/2021 10:37:32] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:37:32,672 - werkzeug - Thread-31 - 172.17.0.1 - - [26/Feb/2021 10:37:32] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
+2021-02-26 10:38:08,883 - backend - Thread-34 - choosing python section
+2021-02-26 10:38:08,888 - werkzeug - Thread-34 - 172.17.0.1 - - [26/Feb/2021 10:38:08] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:38:08,950 - werkzeug - Thread-35 - 172.17.0.1 - - [26/Feb/2021 10:38:08] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:38:08,954 - werkzeug - Thread-36 - 172.17.0.1 - - [26/Feb/2021 10:38:08] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:38:08,981 - werkzeug - Thread-37 - 172.17.0.1 - - [26/Feb/2021 10:38:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:38:38,135 - backend - Thread-40 - choosing python section
+2021-02-26 10:38:38,138 - werkzeug - Thread-40 - 172.17.0.1 - - [26/Feb/2021 10:38:38] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:38:38,205 - werkzeug - Thread-41 - 172.17.0.1 - - [26/Feb/2021 10:38:38] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
+2021-02-26 10:38:40,871 - backend - Thread-43 - choosing python section
+2021-02-26 10:38:40,874 - werkzeug - Thread-43 - 172.17.0.1 - - [26/Feb/2021 10:38:40] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:38:40,909 - werkzeug - Thread-45 - 172.17.0.1 - - [26/Feb/2021 10:38:40] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:38:40,909 - werkzeug - Thread-44 - 172.17.0.1 - - [26/Feb/2021 10:38:40] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:38:40,923 - werkzeug - Thread-46 - 172.17.0.1 - - [26/Feb/2021 10:38:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:41:52,998 - backend - Thread-51 - choosing python section
+2021-02-26 10:41:53,004 - werkzeug - Thread-51 - 172.17.0.1 - - [26/Feb/2021 10:41:53] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:41:53,038 - werkzeug - Thread-52 - 172.17.0.1 - - [26/Feb/2021 10:41:53] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:41:53,041 - werkzeug - Thread-53 - 172.17.0.1 - - [26/Feb/2021 10:41:53] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:41:53,055 - werkzeug - Thread-54 - 172.17.0.1 - - [26/Feb/2021 10:41:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:43:00,903 - backend - Thread-55 - choosing python section
+2021-02-26 10:43:00,911 - werkzeug - Thread-55 - 172.17.0.1 - - [26/Feb/2021 10:43:00] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:43:00,940 - werkzeug - Thread-56 - 172.17.0.1 - - [26/Feb/2021 10:43:00] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
+2021-02-26 10:43:03,800 - backend - Thread-57 - choosing python section
+2021-02-26 10:43:03,803 - werkzeug - Thread-57 - 172.17.0.1 - - [26/Feb/2021 10:43:03] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:43:03,833 - werkzeug - Thread-58 - 172.17.0.1 - - [26/Feb/2021 10:43:03] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:43:03,838 - werkzeug - Thread-59 - 172.17.0.1 - - [26/Feb/2021 10:43:03] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:43:03,851 - werkzeug - Thread-60 - 172.17.0.1 - - [26/Feb/2021 10:43:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:43:05,439 - backend - Thread-61 - choosing python section
+2021-02-26 10:43:05,441 - werkzeug - Thread-61 - 172.17.0.1 - - [26/Feb/2021 10:43:05] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:43:05,465 - werkzeug - Thread-62 - 172.17.0.1 - - [26/Feb/2021 10:43:05] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:43:05,466 - werkzeug - Thread-63 - 172.17.0.1 - - [26/Feb/2021 10:43:05] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:43:05,479 - werkzeug - Thread-64 - 172.17.0.1 - - [26/Feb/2021 10:43:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:43:18,398 - backend - Thread-67 - choosing python section
+2021-02-26 10:43:18,401 - werkzeug - Thread-67 - 172.17.0.1 - - [26/Feb/2021 10:43:18] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:43:18,426 - werkzeug - Thread-68 - 172.17.0.1 - - [26/Feb/2021 10:43:18] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:43:18,428 - werkzeug - Thread-69 - 172.17.0.1 - - [26/Feb/2021 10:43:18] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:43:18,442 - werkzeug - Thread-70 - 172.17.0.1 - - [26/Feb/2021 10:43:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:45:49,488 - backend - Thread-73 - opening homepage
+2021-02-26 10:45:49,489 - werkzeug - Thread-73 - 172.17.0.1 - - [26/Feb/2021 10:45:49] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-26 10:45:49,531 - werkzeug - Thread-74 - 172.17.0.1 - - [26/Feb/2021 10:45:49] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:45:49,563 - werkzeug - Thread-75 - 172.17.0.1 - - [26/Feb/2021 10:45:49] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-26 10:45:49,567 - werkzeug - Thread-76 - 172.17.0.1 - - [26/Feb/2021 10:45:49] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:45:49,824 - werkzeug - Thread-77 - 172.17.0.1 - - [26/Feb/2021 10:45:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:45:56,117 - backend - Thread-79 - choosing python section
+2021-02-26 10:45:56,125 - werkzeug - Thread-79 - 172.17.0.1 - - [26/Feb/2021 10:45:56] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:45:56,173 - werkzeug - Thread-80 - 172.17.0.1 - - [26/Feb/2021 10:45:56] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:45:56,176 - werkzeug - Thread-81 - 172.17.0.1 - - [26/Feb/2021 10:45:56] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:45:56,274 - werkzeug - Thread-82 - 172.17.0.1 - - [26/Feb/2021 10:45:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:46:27,699 - backend - Thread-84 - choosing video from python section
+2021-02-26 10:46:27,709 - werkzeug - Thread-84 - 172.17.0.1 - - [26/Feb/2021 10:46:27] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 10:46:41,392 - backend - Thread-88 - choosing video from python section
+2021-02-26 10:46:41,395 - werkzeug - Thread-88 - 172.17.0.1 - - [26/Feb/2021 10:46:41] "[37mGET /sections/python/watch/2 HTTP/1.1[0m" 200 -
+2021-02-26 10:49:02,752 - backend - Thread-91 - choosing python section
+2021-02-26 10:49:02,788 - werkzeug - Thread-91 - 172.17.0.1 - - [26/Feb/2021 10:49:02] "[35m[1mGET /sections/python/ HTTP/1.1[0m" 500 -
+2021-02-26 10:49:02,864 - werkzeug - Thread-92 - 172.17.0.1 - - [26/Feb/2021 10:49:02] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:49:02,867 - werkzeug - Thread-94 - 172.17.0.1 - - [26/Feb/2021 10:49:02] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 10:49:02,869 - werkzeug - Thread-93 - 172.17.0.1 - - [26/Feb/2021 10:49:02] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 10:49:02,949 - werkzeug - Thread-95 - 172.17.0.1 - - [26/Feb/2021 10:49:02] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 10:49:03,017 - werkzeug - Thread-96 - 172.17.0.1 - - [26/Feb/2021 10:49:03] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 10:49:11,511 - backend - Thread-97 - choosing python section
+2021-02-26 10:49:11,523 - werkzeug - Thread-97 - 172.17.0.1 - - [26/Feb/2021 10:49:11] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:49:22,654 - backend - Thread-99 - choosing python section
+2021-02-26 10:49:22,656 - werkzeug - Thread-99 - 172.17.0.1 - - [26/Feb/2021 10:49:22] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:51:49,359 - backend - Thread-102 - choosing python section
+2021-02-26 10:51:49,376 - werkzeug - Thread-102 - 172.17.0.1 - - [26/Feb/2021 10:51:49] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:51:49,452 - werkzeug - Thread-103 - 172.17.0.1 - - [26/Feb/2021 10:51:49] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
+2021-02-26 10:51:53,108 - backend - Thread-105 - choosing python section
+2021-02-26 10:51:53,110 - werkzeug - Thread-105 - 172.17.0.1 - - [26/Feb/2021 10:51:53] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:51:53,140 - werkzeug - Thread-106 - 172.17.0.1 - - [26/Feb/2021 10:51:53] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 10:51:53,194 - werkzeug - Thread-107 - 172.17.0.1 - - [26/Feb/2021 10:51:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 10:53:23,438 - backend - Thread-110 - choosing python section
+2021-02-26 10:53:23,452 - werkzeug - Thread-110 - 172.17.0.1 - - [26/Feb/2021 10:53:23] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:53:23,573 - werkzeug - Thread-111 - 172.17.0.1 - - [26/Feb/2021 10:53:23] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
+2021-02-26 10:55:55,752 - backend - Thread-112 - choosing python section
+2021-02-26 10:55:55,784 - werkzeug - Thread-112 - 172.17.0.1 - - [26/Feb/2021 10:55:55] "[35m[1mGET /sections/python/ HTTP/1.1[0m" 500 -
+2021-02-26 10:55:55,853 - werkzeug - Thread-113 - 172.17.0.1 - - [26/Feb/2021 10:55:55] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:55:55,860 - werkzeug - Thread-115 - 172.17.0.1 - - [26/Feb/2021 10:55:55] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 10:55:55,863 - werkzeug - Thread-114 - 172.17.0.1 - - [26/Feb/2021 10:55:55] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 10:55:56,015 - werkzeug - Thread-116 - 172.17.0.1 - - [26/Feb/2021 10:55:56] "[37mGET /sections/python/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 10:56:36,614 - backend - Thread-117 - choosing python section
+2021-02-26 10:56:36,638 - werkzeug - Thread-117 - 172.17.0.1 - - [26/Feb/2021 10:56:36] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:58:44,602 - backend - Thread-120 - choosing python section
+2021-02-26 10:58:44,610 - werkzeug - Thread-120 - 172.17.0.1 - - [26/Feb/2021 10:58:44] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:58:44,635 - werkzeug - Thread-121 - 172.17.0.1 - - [26/Feb/2021 10:58:44] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
+2021-02-26 10:59:17,321 - backend - Thread-122 - choosing python section
+2021-02-26 10:59:17,329 - werkzeug - Thread-122 - 172.17.0.1 - - [26/Feb/2021 10:59:17] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 10:59:17,368 - werkzeug - Thread-123 - 172.17.0.1 - - [26/Feb/2021 10:59:17] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
+2021-02-26 11:00:19,210 - backend - Thread-125 - choosing python section
+2021-02-26 11:00:19,217 - werkzeug - Thread-125 - 172.17.0.1 - - [26/Feb/2021 11:00:19] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 11:00:19,246 - werkzeug - Thread-126 - 172.17.0.1 - - [26/Feb/2021 11:00:19] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
+2021-02-26 11:00:21,316 - backend - Thread-127 - choosing docker section
+2021-02-26 11:00:21,318 - werkzeug - Thread-127 - 172.17.0.1 - - [26/Feb/2021 11:00:21] "[37mGET /sections/docker/ HTTP/1.1[0m" 200 -
+2021-02-26 11:00:22,738 - backend - Thread-128 - choosing cloud section
+2021-02-26 11:00:22,740 - werkzeug - Thread-128 - 172.17.0.1 - - [26/Feb/2021 11:00:22] "[37mGET /sections/cloud/ HTTP/1.1[0m" 200 -
+2021-02-26 11:00:24,171 - backend - Thread-129 - choosing js section
+2021-02-26 11:00:24,173 - werkzeug - Thread-129 - 172.17.0.1 - - [26/Feb/2021 11:00:24] "[37mGET /sections/js/ HTTP/1.1[0m" 200 -
+2021-02-26 11:00:59,707 - backend - Thread-131 - choosing js section
+2021-02-26 11:00:59,724 - werkzeug - Thread-131 - 172.17.0.1 - - [26/Feb/2021 11:00:59] "[37mGET /sections/js/ HTTP/1.1[0m" 200 -
+2021-02-26 11:00:59,751 - werkzeug - Thread-132 - 172.17.0.1 - - [26/Feb/2021 11:00:59] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
+2021-02-26 11:00:59,859 - werkzeug - Thread-133 - 172.17.0.1 - - [26/Feb/2021 11:00:59] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
