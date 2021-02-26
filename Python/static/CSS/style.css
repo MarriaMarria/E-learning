@@ -328,3 +328,44 @@ body{
     justify-content: center;
     margin-top: 1rem;
   }
+
+  /* STYLING SECTION.HTML */
+
+  #wrap {
+    background-color: red;
+    /* width: 1200px; */
+    text-align: center;
+    margin: 0 auto;
+}
+
+#collection_videos {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: pink;
+
+} 
+
+.flexS {
+    width: 17%;
+    height: 300px;
+    background-color: rgb(40, 96, 161);
+    margin: 30px 25px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1200px) {
+    .flexS {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .flexS {
+        width: 70%;
+    }
+}

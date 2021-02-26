@@ -13,9 +13,9 @@ class MyDB: # I changed name as SCRAP has nothing to do with it
 
     def __init__(self):
         self.mydb = mysql.connector.connect(
-                    host="localhost", # "localhost"
+                    host="ms2", # "localhost" # remember to change HOST
                     user="root",
-                    password="pw", #pw
+                    password="password", #pw # change password
                     database= "learning3",
                     auth_plugin='mysql_native_password'
                 )

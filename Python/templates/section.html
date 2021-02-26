@@ -26,24 +26,26 @@
     </div>
     {% endblock header %}
 
-
-    <div id="container">
-        <h1>{{ section }}</h1>
-        <h2>{{ description }}</h2>
-        <section id="collection_videos">
-            {% for video in result %}
-            <a href="/sections/python/watch/{{ video[0] }}">
-                <div id="video">
-                    <h2 id="video_title">{{ video[1] }}</h2>
-                    <p id="video_p">{{ video[2] }}</p>
+    <section id="wrap">
+        <div id="container">
+            <h1>{{ section }}</h1>
+            <h2>{{ description }}</h2>
+            <section id="collection_videos">
+                {% for video in result %}
+                <div class="flexS">
+                    <a href="/sections/python/watch/{{ video[0] }}">
+                        <div id="video">
+                            <h2 id="video_title">{{ video[1] }}</h2>
+                            <p id="video_p">{{ video[2] }}</p>
+                        </div>
+                    </a>
                 </div>
-            </a>
-            {% endfor %}
+                {% endfor %}
 
-        </section>
+            </section>
 
-    </div>
-
+        </div>
+    </section> 
 
     {% block footer %}
     <footer class="footer-container">
