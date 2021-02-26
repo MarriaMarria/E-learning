@@ -331,6 +331,10 @@ body{
   }
 
   /* STYLING SECTION.HTML */
+#container {
+  margin: 30px;
+}
+
 
 #sectionH1 {
   font-size: 2em;
@@ -357,15 +361,52 @@ body{
     align-items: flex-start;
 } 
 
-.flexS {
+/* divs for videos in section.html */
+.flexCloud,
+.flexDocker,
+.flexJS,
+.flexPython {
     width: 17%;
     height: 300px;
     margin: 30px 25px;
     box-sizing: border-box;
+    color: black;
     border-radius: 15px;
-    background-color:#EFB41B;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+
+}
+
+.flexPython {
+    background-color:#EFB41B;
+}
+
+.flexDocker {
+  background-color: #556CBC;
+}
+
+.flexCloud {
+  background-color: #49C6AF;
+}
+
+.flexJS {
+  background-color: #A01818;
+}
+
+.flexPython:hover,
+.flexDocker:hover,
+.flexCloud:hover,
+.flexJS:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+
+
+#click {
+  text-decoration: none;
+  color: black;
+  font-weight: 100;
 }
 
 @media screen and (max-width: 1200px) {

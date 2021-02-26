@@ -5,6 +5,7 @@
 
 {% block head %}
 {{ super() }}
+
 {% endblock %}
 
 
@@ -21,11 +22,11 @@
             <section id="collection_videos">
                 {% for video in result %}
                 <div class="flexS">
-                    <a href="/sections/python/watch/{{ video[0] }}">
-                        <div id="video">
-                            <h2 id="video_title">{{ video[1] }}</h2>
-                            <p id="video_p">{{ video[2] }}</p>
-                        </div>
+                    <a id="click" href="/sections/python/watch/{{ video[0] }}">
+
+                        <h2 id="video_title">{{ video[1] }}</h2>
+                        <p id="video_p">{{ video[2] }}</p>
+                    
                     </a>
                 </div>
                 {% endfor %}
