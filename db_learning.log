@@ -724,3 +724,44 @@
 2021-02-25 15:47:44,011 - root - MainThread - connecting to the database: start
 2021-02-25 15:47:44,011 - root - MainThread - connecting to the database: end
 2021-02-25 15:47:44,017 - root - MainThread - Getting tables: start
+2021-02-26 12:49:47,190 - root - MainThread - connecting to the database: start
+2021-02-26 12:49:47,191 - root - MainThread - connecting to the database: end
+2021-02-26 12:50:59,941 - root - MainThread - connecting to the database: start
+2021-02-26 12:50:59,942 - root - MainThread - connecting to the database: end
+2021-02-26 12:51:09,578 - root - MainThread - connecting to the database: start
+2021-02-26 12:51:09,578 - root - MainThread - connecting to the database: end
+2021-02-26 12:51:09,642 - werkzeug - MainThread -  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-26 12:51:09,643 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 12:51:09,794 - root - MainThread - connecting to the database: start
+2021-02-26 12:51:09,794 - root - MainThread - connecting to the database: end
+2021-02-26 12:51:09,832 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 12:51:09,848 - werkzeug - MainThread -  * Debugger PIN: 240-877-176
+2021-02-26 12:51:39,858 - backend - Thread-2 - choosing video from python section
+2021-02-26 12:51:39,903 - werkzeug - Thread-2 - 127.0.0.1 - - [26/Feb/2021 12:51:39] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 13:02:42,282 - backend - Thread-3 - choosing video from python section
+2021-02-26 13:02:42,293 - werkzeug - Thread-3 - 127.0.0.1 - - [26/Feb/2021 13:02:42] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 13:02:42,368 - werkzeug - Thread-4 - 127.0.0.1 - - [26/Feb/2021 13:02:42] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 13:02:42,370 - werkzeug - Thread-5 - 127.0.0.1 - - [26/Feb/2021 13:02:42] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 14:39:37,269 - backend - Thread-6 - choosing video from python section
+2021-02-26 14:39:37,339 - werkzeug - Thread-6 - 127.0.0.1 - - [26/Feb/2021 14:39:37] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 14:39:48,468 - werkzeug - Thread-7 - 127.0.0.1 - - [26/Feb/2021 14:39:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 14:43:31,643 - backend - Thread-8 - choosing video from python section
+2021-02-26 14:43:31,714 - werkzeug - Thread-8 - 127.0.0.1 - - [26/Feb/2021 14:43:31] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 14:45:10,087 - backend - Thread-9 - choosing video from python section
+2021-02-26 14:45:10,092 - werkzeug - Thread-9 - 127.0.0.1 - - [26/Feb/2021 14:45:10] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 14:45:10,147 - werkzeug - Thread-10 - 127.0.0.1 - - [26/Feb/2021 14:45:10] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 14:45:10,149 - werkzeug - Thread-11 - 127.0.0.1 - - [26/Feb/2021 14:45:10] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 14:49:08,585 - backend - Thread-12 - choosing video from python section
+2021-02-26 14:49:08,611 - werkzeug - Thread-12 - 127.0.0.1 - - [26/Feb/2021 14:49:08] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 14:49:08,674 - werkzeug - Thread-13 - 127.0.0.1 - - [26/Feb/2021 14:49:08] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 14:49:08,674 - werkzeug - Thread-14 - 127.0.0.1 - - [26/Feb/2021 14:49:08] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 14:54:13,681 - backend - Thread-15 - choosing video from python section
+2021-02-26 14:54:13,706 - werkzeug - Thread-15 - 127.0.0.1 - - [26/Feb/2021 14:54:13] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 14:56:33,045 - backend - Thread-16 - choosing cloud section
+2021-02-26 14:56:33,082 - werkzeug - Thread-16 - 127.0.0.1 - - [26/Feb/2021 14:56:33] "[37mGET /sections/cloud/ HTTP/1.1[0m" 200 -
+2021-02-26 14:56:33,173 - werkzeug - Thread-17 - 127.0.0.1 - - [26/Feb/2021 14:56:33] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 14:56:33,175 - werkzeug - Thread-18 - 127.0.0.1 - - [26/Feb/2021 14:56:33] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 14:56:35,691 - backend - Thread-19 - choosing video from python section
+2021-02-26 14:56:35,694 - werkzeug - Thread-19 - 127.0.0.1 - - [26/Feb/2021 14:56:35] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 14:56:35,735 - werkzeug - Thread-20 - 127.0.0.1 - - [26/Feb/2021 14:56:35] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 14:56:35,738 - werkzeug - Thread-21 - 127.0.0.1 - - [26/Feb/2021 14:56:35] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -

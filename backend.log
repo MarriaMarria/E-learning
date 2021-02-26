@@ -669,3 +669,36 @@
 2021-02-25 14:55:24,529 :: INFO :: Thread-28 :: 127.0.0.1 - - [25/Feb/2021 14:55:24] "[37mGET / HTTP/1.1[0m" 200 -
 2021-02-25 14:55:24,575 :: INFO :: Thread-29 :: 127.0.0.1 - - [25/Feb/2021 14:55:24] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
 2021-02-25 15:00:26,788 :: INFO :: Thread-30 :: 127.0.0.1 - - [25/Feb/2021 15:00:26] "[37mGET /add/ HTTP/1.1[0m" 200 -
+2021-02-26 12:51:09,642 :: INFO :: MainThread ::  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-26 12:51:09,643 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 12:51:09,832 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 12:51:09,848 :: INFO :: MainThread ::  * Debugger PIN: 240-877-176
+2021-02-26 12:51:39,858 :: INFO :: Thread-2 :: choosing video from python section
+2021-02-26 12:51:39,903 :: INFO :: Thread-2 :: 127.0.0.1 - - [26/Feb/2021 12:51:39] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 13:02:42,282 :: INFO :: Thread-3 :: choosing video from python section
+2021-02-26 13:02:42,293 :: INFO :: Thread-3 :: 127.0.0.1 - - [26/Feb/2021 13:02:42] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 13:02:42,368 :: INFO :: Thread-4 :: 127.0.0.1 - - [26/Feb/2021 13:02:42] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 13:02:42,370 :: INFO :: Thread-5 :: 127.0.0.1 - - [26/Feb/2021 13:02:42] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 14:39:37,269 :: INFO :: Thread-6 :: choosing video from python section
+2021-02-26 14:39:37,339 :: INFO :: Thread-6 :: 127.0.0.1 - - [26/Feb/2021 14:39:37] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 14:39:48,468 :: INFO :: Thread-7 :: 127.0.0.1 - - [26/Feb/2021 14:39:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-02-26 14:43:31,643 :: INFO :: Thread-8 :: choosing video from python section
+2021-02-26 14:43:31,714 :: INFO :: Thread-8 :: 127.0.0.1 - - [26/Feb/2021 14:43:31] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 14:45:10,087 :: INFO :: Thread-9 :: choosing video from python section
+2021-02-26 14:45:10,092 :: INFO :: Thread-9 :: 127.0.0.1 - - [26/Feb/2021 14:45:10] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 14:45:10,147 :: INFO :: Thread-10 :: 127.0.0.1 - - [26/Feb/2021 14:45:10] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 14:45:10,149 :: INFO :: Thread-11 :: 127.0.0.1 - - [26/Feb/2021 14:45:10] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 14:49:08,585 :: INFO :: Thread-12 :: choosing video from python section
+2021-02-26 14:49:08,611 :: INFO :: Thread-12 :: 127.0.0.1 - - [26/Feb/2021 14:49:08] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 14:49:08,674 :: INFO :: Thread-13 :: 127.0.0.1 - - [26/Feb/2021 14:49:08] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 14:49:08,674 :: INFO :: Thread-14 :: 127.0.0.1 - - [26/Feb/2021 14:49:08] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 14:54:13,681 :: INFO :: Thread-15 :: choosing video from python section
+2021-02-26 14:54:13,706 :: INFO :: Thread-15 :: 127.0.0.1 - - [26/Feb/2021 14:54:13] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 14:56:33,045 :: INFO :: Thread-16 :: choosing cloud section
+2021-02-26 14:56:33,082 :: INFO :: Thread-16 :: 127.0.0.1 - - [26/Feb/2021 14:56:33] "[37mGET /sections/cloud/ HTTP/1.1[0m" 200 -
+2021-02-26 14:56:33,173 :: INFO :: Thread-17 :: 127.0.0.1 - - [26/Feb/2021 14:56:33] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 14:56:33,175 :: INFO :: Thread-18 :: 127.0.0.1 - - [26/Feb/2021 14:56:33] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 14:56:35,691 :: INFO :: Thread-19 :: choosing video from python section
+2021-02-26 14:56:35,694 :: INFO :: Thread-19 :: 127.0.0.1 - - [26/Feb/2021 14:56:35] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 14:56:35,735 :: INFO :: Thread-20 :: 127.0.0.1 - - [26/Feb/2021 14:56:35] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 14:56:35,738 :: INFO :: Thread-21 :: 127.0.0.1 - - [26/Feb/2021 14:56:35] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
