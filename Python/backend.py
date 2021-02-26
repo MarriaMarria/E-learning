@@ -52,7 +52,7 @@ def select_cloud():
                             Nulla facilisis erat non turpis tempor, vitae porta enim posuere. \
                             Nam pretium at nulla at volutpat. Vestibulum vitae nibh ac enim \
                             tempor tincidunt. Ut purus massa, laoreet non consectetur ac, ornare \
-                            ut nisi. Maecenas euismod varius odio. Ut in dictum ligula.')
+                            ut nisi. Maecenas euismod varius odio. Ut in dictum ligula.', color='color')
 
 # section Docker
 @app.route('/sections/docker/')
@@ -142,4 +142,4 @@ def watch_js(id):
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=5200, debug=True)
+    app.run(host="0.0.0.0", port=3051, debug=True) # remember to change PORT!!!
