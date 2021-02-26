@@ -15,8 +15,8 @@ class MyDB: # I changed name as SCRAP has nothing to do with it
         self.mydb = mysql.connector.connect(
                     host="localhost", # "localhost"
                     user="root",
-                    password="pw", #pw
-                    database= "learning3",
+                    password="Legalcy97.1", #pw
+                    database= "learning2",
                     auth_plugin='mysql_native_password'
                 )
 
@@ -60,7 +60,7 @@ class MyDB: # I changed name as SCRAP has nothing to do with it
                 db_key = ", ".join(y.keys())
                 sql = "INSERT INTO {} ({}) VALUES {};".format(categorie, db_key, val)
                 
-                self.mycursor.execute("USE learning3;")
+                self.mycursor.execute("USE learning2;")
                 self.mycursor.execute(sql)
                 self.mydb.commit()
 
