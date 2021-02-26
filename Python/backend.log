@@ -347,6 +347,7 @@
 2021-02-25 22:19:04,697 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
 2021-02-25 22:19:08,152 :: INFO :: Thread-2 :: 127.0.0.1 - - [25/Feb/2021 22:19:08] "[37mGET /add HTTP/1.1[0m" 200 -
 2021-02-25 22:19:50,744 :: INFO :: Thread-3 :: 127.0.0.1 - - [25/Feb/2021 22:19:50] "[33mPOST /base.html HTTP/1.1[0m" 404 -
+<<<<<<< HEAD
 2021-02-25 21:47:44,215 :: INFO :: MainThread ::  * Running on http://0.0.0.0:3051/ (Press CTRL+C to quit)
 2021-02-25 21:47:44,216 :: INFO :: MainThread ::  * Restarting with stat
 2021-02-25 21:47:44,475 :: WARNING :: MainThread ::  * Debugger is active!
@@ -632,3 +633,125 @@
 2021-02-26 11:00:59,724 :: INFO :: Thread-131 :: 172.17.0.1 - - [26/Feb/2021 11:00:59] "[37mGET /sections/js/ HTTP/1.1[0m" 200 -
 2021-02-26 11:00:59,751 :: INFO :: Thread-132 :: 172.17.0.1 - - [26/Feb/2021 11:00:59] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
 2021-02-26 11:00:59,859 :: INFO :: Thread-133 :: 172.17.0.1 - - [26/Feb/2021 11:00:59] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
+=======
+2021-02-26 10:53:43,527 :: INFO :: MainThread ::  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-26 10:53:43,528 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 10:53:43,703 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 10:53:43,718 :: INFO :: MainThread ::  * Debugger PIN: 240-877-176
+2021-02-26 10:54:23,594 :: INFO :: Thread-2 :: opening homepage
+2021-02-26 10:54:23,617 :: INFO :: Thread-2 :: 127.0.0.1 - - [26/Feb/2021 10:54:23] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-26 10:54:23,760 :: INFO :: Thread-3 :: 127.0.0.1 - - [26/Feb/2021 10:54:23] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 10:54:23,843 :: INFO :: Thread-4 :: 127.0.0.1 - - [26/Feb/2021 10:54:23] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-26 10:54:23,845 :: INFO :: Thread-5 :: 127.0.0.1 - - [26/Feb/2021 10:54:23] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
+2021-02-26 10:54:35,882 :: INFO :: Thread-6 :: 127.0.0.1 - - [26/Feb/2021 10:54:35] "[33mGET /watch HTTP/1.1[0m" 404 -
+2021-02-26 10:55:40,154 :: INFO :: Thread-7 :: 127.0.0.1 - - [26/Feb/2021 10:55:40] "[33mGET /sections/cloud/watch/ HTTP/1.1[0m" 404 -
+2021-02-26 11:11:14,529 :: INFO :: MainThread ::  * Detected change in '/Users/mazn0/Desktop/Simplon/E-learning/Python/backend.py', reloading
+2021-02-26 11:11:14,551 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 11:11:14,786 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 11:11:14,799 :: INFO :: MainThread ::  * Debugger PIN: 240-877-176
+2021-02-26 11:11:32,455 :: INFO :: Thread-2 :: 127.0.0.1 - - [26/Feb/2021 11:11:32] "[37mGET /watch HTTP/1.1[0m" 200 -
+2021-02-26 11:15:16,145 :: INFO :: Thread-3 :: opening homepage
+2021-02-26 11:15:16,155 :: INFO :: Thread-3 :: 127.0.0.1 - - [26/Feb/2021 11:15:16] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-26 11:15:16,216 :: INFO :: Thread-4 :: 127.0.0.1 - - [26/Feb/2021 11:15:16] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:15:16,244 :: INFO :: Thread-6 :: 127.0.0.1 - - [26/Feb/2021 11:15:16] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-26 11:15:16,245 :: INFO :: Thread-5 :: 127.0.0.1 - - [26/Feb/2021 11:15:16] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 11:15:29,999 :: INFO :: Thread-7 :: 127.0.0.1 - - [26/Feb/2021 11:15:29] "[37mGET /watch HTTP/1.1[0m" 200 -
+2021-02-26 11:15:30,047 :: INFO :: Thread-8 :: 127.0.0.1 - - [26/Feb/2021 11:15:30] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:15:30,049 :: INFO :: Thread-9 :: 127.0.0.1 - - [26/Feb/2021 11:15:30] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 11:17:19,568 :: INFO :: Thread-10 :: choosing cloud section
+2021-02-26 11:17:19,612 :: INFO :: Thread-10 :: 127.0.0.1 - - [26/Feb/2021 11:17:19] "[37mGET /sections/cloud/ HTTP/1.1[0m" 200 -
+2021-02-26 11:17:21,893 :: INFO :: Thread-11 :: choosing docker section
+2021-02-26 11:17:21,901 :: INFO :: Thread-11 :: 127.0.0.1 - - [26/Feb/2021 11:17:21] "[37mGET /sections/docker/ HTTP/1.1[0m" 200 -
+2021-02-26 11:17:23,897 :: INFO :: Thread-12 :: choosing python section
+2021-02-26 11:17:23,906 :: INFO :: Thread-12 :: 127.0.0.1 - - [26/Feb/2021 11:17:23] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 11:18:16,210 :: INFO :: Thread-13 :: 127.0.0.1 - - [26/Feb/2021 11:18:16] "[33mGET /add/ HTTP/1.1[0m" 404 -
+2021-02-26 11:18:20,478 :: INFO :: Thread-14 :: opening homepage
+2021-02-26 11:18:20,479 :: INFO :: Thread-14 :: 127.0.0.1 - - [26/Feb/2021 11:18:20] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-26 11:18:20,540 :: INFO :: Thread-15 :: 127.0.0.1 - - [26/Feb/2021 11:18:20] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-26 11:19:34,414 :: INFO :: MainThread ::  * Detected change in '/Users/mazn0/Desktop/Simplon/E-learning/Python/db_learning.py', reloading
+2021-02-26 11:19:34,464 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 11:19:34,680 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 11:19:34,690 :: INFO :: MainThread ::  * Debugger PIN: 240-877-176
+2021-02-26 11:21:30,934 :: INFO :: MainThread ::  * Detected change in '/Users/mazn0/Desktop/Simplon/E-learning/Python/backend.py', reloading
+2021-02-26 11:21:30,988 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 11:21:31,205 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 11:21:31,214 :: INFO :: MainThread ::  * Debugger PIN: 240-877-176
+2021-02-26 11:21:34,314 :: INFO :: Thread-2 :: choosing video from python section
+2021-02-26 11:21:34,334 :: INFO :: Thread-2 :: 127.0.0.1 - - [26/Feb/2021 11:21:34] "[35m[1mGET /sections/python/watch/%3Cid%3E HTTP/1.1[0m" 500 -
+2021-02-26 11:21:34,404 :: INFO :: Thread-3 :: 127.0.0.1 - - [26/Feb/2021 11:21:34] "[37mGET /sections/python/watch/%3Cid%3E?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:21:34,407 :: INFO :: Thread-5 :: 127.0.0.1 - - [26/Feb/2021 11:21:34] "[37mGET /sections/python/watch/%3Cid%3E?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 11:21:34,407 :: INFO :: Thread-4 :: 127.0.0.1 - - [26/Feb/2021 11:21:34] "[37mGET /sections/python/watch/%3Cid%3E?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 11:21:34,731 :: INFO :: Thread-6 :: 127.0.0.1 - - [26/Feb/2021 11:21:34] "[37mGET /sections/python/watch/%3Cid%3E?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-02-26 11:21:34,980 :: INFO :: Thread-7 :: 127.0.0.1 - - [26/Feb/2021 11:21:34] "[37mGET /sections/python/watch/%3Cid%3E?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:21:34,997 :: INFO :: Thread-8 :: 127.0.0.1 - - [26/Feb/2021 11:21:34] "[37mGET /sections/python/watch/%3Cid%3E?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:21:43,623 :: INFO :: Thread-9 :: 127.0.0.1 - - [26/Feb/2021 11:21:43] "[33mGET /sections/python/watch/ HTTP/1.1[0m" 404 -
+2021-02-26 11:21:49,779 :: INFO :: Thread-10 :: choosing python section
+2021-02-26 11:21:49,807 :: INFO :: Thread-10 :: 127.0.0.1 - - [26/Feb/2021 11:21:49] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 11:21:53,868 :: INFO :: Thread-11 :: choosing video from python section
+2021-02-26 11:21:53,899 :: INFO :: Thread-11 :: 127.0.0.1 - - [26/Feb/2021 11:21:53] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 11:31:51,938 :: INFO :: Thread-12 :: choosing video from python section
+2021-02-26 11:31:51,975 :: INFO :: Thread-12 :: 127.0.0.1 - - [26/Feb/2021 11:31:51] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 11:31:52,044 :: INFO :: Thread-13 :: 127.0.0.1 - - [26/Feb/2021 11:31:52] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:31:52,046 :: INFO :: Thread-14 :: 127.0.0.1 - - [26/Feb/2021 11:31:52] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 11:32:18,750 :: INFO :: Thread-15 :: choosing video from python section
+2021-02-26 11:32:18,769 :: INFO :: Thread-15 :: 127.0.0.1 - - [26/Feb/2021 11:32:18] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 11:32:18,815 :: INFO :: Thread-16 :: 127.0.0.1 - - [26/Feb/2021 11:32:18] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:32:18,815 :: INFO :: Thread-17 :: 127.0.0.1 - - [26/Feb/2021 11:32:18] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 11:33:20,473 :: INFO :: Thread-18 :: choosing video from python section
+2021-02-26 11:33:20,490 :: INFO :: Thread-18 :: 127.0.0.1 - - [26/Feb/2021 11:33:20] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 11:33:20,535 :: INFO :: Thread-19 :: 127.0.0.1 - - [26/Feb/2021 11:33:20] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:33:20,535 :: INFO :: Thread-20 :: 127.0.0.1 - - [26/Feb/2021 11:33:20] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 11:33:46,595 :: INFO :: Thread-21 :: choosing video from python section
+2021-02-26 11:33:46,613 :: INFO :: Thread-21 :: 127.0.0.1 - - [26/Feb/2021 11:33:46] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 11:33:46,650 :: INFO :: Thread-23 :: 127.0.0.1 - - [26/Feb/2021 11:33:46] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 11:33:46,650 :: INFO :: Thread-22 :: 127.0.0.1 - - [26/Feb/2021 11:33:46] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:41:26,985 :: INFO :: Thread-24 :: choosing video from python section
+2021-02-26 11:41:27,009 :: INFO :: Thread-24 :: 127.0.0.1 - - [26/Feb/2021 11:41:27] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 11:41:27,105 :: INFO :: Thread-26 :: 127.0.0.1 - - [26/Feb/2021 11:41:27] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 11:41:27,106 :: INFO :: Thread-25 :: 127.0.0.1 - - [26/Feb/2021 11:41:27] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:42:24,041 :: INFO :: Thread-27 :: choosing video from python section
+2021-02-26 11:42:24,065 :: INFO :: Thread-27 :: 127.0.0.1 - - [26/Feb/2021 11:42:24] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 11:42:24,116 :: INFO :: Thread-28 :: 127.0.0.1 - - [26/Feb/2021 11:42:24] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:42:24,116 :: INFO :: Thread-29 :: 127.0.0.1 - - [26/Feb/2021 11:42:24] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 11:42:57,126 :: INFO :: Thread-30 :: choosing video from python section
+2021-02-26 11:42:57,149 :: INFO :: Thread-30 :: 127.0.0.1 - - [26/Feb/2021 11:42:57] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 11:42:57,194 :: INFO :: Thread-31 :: 127.0.0.1 - - [26/Feb/2021 11:42:57] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:42:57,194 :: INFO :: Thread-32 :: 127.0.0.1 - - [26/Feb/2021 11:42:57] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 11:43:26,737 :: INFO :: Thread-33 :: choosing video from python section
+2021-02-26 11:43:26,752 :: INFO :: Thread-33 :: 127.0.0.1 - - [26/Feb/2021 11:43:26] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 11:43:26,796 :: INFO :: Thread-34 :: 127.0.0.1 - - [26/Feb/2021 11:43:26] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:43:26,797 :: INFO :: Thread-35 :: 127.0.0.1 - - [26/Feb/2021 11:43:26] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 11:45:24,268 :: INFO :: Thread-36 :: choosing video from python section
+2021-02-26 11:45:24,284 :: INFO :: Thread-36 :: 127.0.0.1 - - [26/Feb/2021 11:45:24] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 11:45:24,327 :: INFO :: Thread-38 :: 127.0.0.1 - - [26/Feb/2021 11:45:24] "[37mGET /static/JS/script.js HTTP/1.1[0m" 200 -
+2021-02-26 11:45:24,328 :: INFO :: Thread-37 :: 127.0.0.1 - - [26/Feb/2021 11:45:24] "[37mGET /static/CSS/style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:50:13,588 :: INFO :: Thread-39 :: opening homepage
+2021-02-26 11:50:13,607 :: INFO :: Thread-39 :: 127.0.0.1 - - [26/Feb/2021 11:50:13] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-26 11:50:13,678 :: INFO :: Thread-40 :: 127.0.0.1 - - [26/Feb/2021 11:50:13] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-26 11:50:16,068 :: INFO :: Thread-41 :: choosing cloud section
+2021-02-26 11:50:16,088 :: INFO :: Thread-41 :: 127.0.0.1 - - [26/Feb/2021 11:50:16] "[37mGET /sections/cloud/ HTTP/1.1[0m" 200 -
+2021-02-26 11:50:17,867 :: INFO :: Thread-42 :: choosing video from python section
+2021-02-26 11:50:17,871 :: INFO :: Thread-42 :: 127.0.0.1 - - [26/Feb/2021 11:50:17] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 11:50:25,165 :: INFO :: Thread-43 :: choosing cloud section
+2021-02-26 11:50:25,170 :: INFO :: Thread-43 :: 127.0.0.1 - - [26/Feb/2021 11:50:25] "[37mGET /sections/cloud/ HTTP/1.1[0m" 200 -
+2021-02-26 11:50:28,497 :: INFO :: Thread-44 :: choosing video from python section
+2021-02-26 11:50:28,504 :: INFO :: Thread-44 :: 127.0.0.1 - - [26/Feb/2021 11:50:28] "[37mGET /sections/python/watch/2 HTTP/1.1[0m" 200 -
+2021-02-26 11:50:34,831 :: INFO :: Thread-45 :: choosing python section
+2021-02-26 11:50:34,837 :: INFO :: Thread-45 :: 127.0.0.1 - - [26/Feb/2021 11:50:34] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 11:50:39,400 :: INFO :: Thread-46 :: choosing video from python section
+2021-02-26 11:50:39,402 :: INFO :: Thread-46 :: 127.0.0.1 - - [26/Feb/2021 11:50:39] "[37mGET /sections/python/watch/3 HTTP/1.1[0m" 200 -
+2021-02-26 11:50:44,607 :: INFO :: Thread-47 :: choosing cloud section
+2021-02-26 11:50:44,611 :: INFO :: Thread-47 :: 127.0.0.1 - - [26/Feb/2021 11:50:44] "[37mGET /sections/cloud/ HTTP/1.1[0m" 200 -
+2021-02-26 11:50:56,946 :: INFO :: Thread-48 :: choosing video from python section
+2021-02-26 11:50:56,949 :: INFO :: Thread-48 :: 127.0.0.1 - - [26/Feb/2021 11:50:56] "[37mGET /sections/python/watch/3 HTTP/1.1[0m" 200 -
+2021-02-26 12:00:27,828 :: INFO :: Thread-49 :: choosing python section
+2021-02-26 12:00:27,847 :: INFO :: Thread-49 :: 127.0.0.1 - - [26/Feb/2021 12:00:27] "[37mGET /sections/python/ HTTP/1.1[0m" 200 -
+2021-02-26 12:00:32,569 :: INFO :: Thread-50 :: choosing cloud section
+2021-02-26 12:00:32,573 :: INFO :: Thread-50 :: 127.0.0.1 - - [26/Feb/2021 12:00:32] "[37mGET /sections/cloud/ HTTP/1.1[0m" 200 -
+2021-02-26 12:00:34,065 :: INFO :: Thread-51 :: choosing video from python section
+2021-02-26 12:00:34,070 :: INFO :: Thread-51 :: 127.0.0.1 - - [26/Feb/2021 12:00:34] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+2021-02-26 12:00:36,406 :: INFO :: Thread-52 :: choosing docker section
+2021-02-26 12:00:36,421 :: INFO :: Thread-52 :: 127.0.0.1 - - [26/Feb/2021 12:00:36] "[37mGET /sections/docker/ HTTP/1.1[0m" 200 -
+2021-02-26 12:00:37,653 :: INFO :: Thread-53 :: choosing video from python section
+2021-02-26 12:00:37,656 :: INFO :: Thread-53 :: 127.0.0.1 - - [26/Feb/2021 12:00:37] "[37mGET /sections/python/watch/1 HTTP/1.1[0m" 200 -
+>>>>>>> 21144f0 (mise en page de la page watch)
