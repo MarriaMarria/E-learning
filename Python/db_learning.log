@@ -727,3 +727,411 @@
 2021-02-25 22:19:04,697 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
 2021-02-25 22:19:08,152 - werkzeug - Thread-2 - 127.0.0.1 - - [25/Feb/2021 22:19:08] "[37mGET /add HTTP/1.1[0m" 200 -
 2021-02-25 22:19:50,744 - werkzeug - Thread-3 - 127.0.0.1 - - [25/Feb/2021 22:19:50] "[33mPOST /base.html HTTP/1.1[0m" 404 -
+2021-02-26 11:25:06,333 - root - MainThread - connecting to the database: start
+2021-02-26 11:25:06,333 - root - MainThread - connecting to the database: end
+2021-02-26 11:25:06,354 - werkzeug - MainThread -  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-26 11:25:06,354 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 11:25:06,509 - root - MainThread - connecting to the database: start
+2021-02-26 11:25:06,509 - root - MainThread - connecting to the database: end
+2021-02-26 11:25:06,528 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 11:25:06,528 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 11:25:13,784 - werkzeug - Thread-2 - 127.0.0.1 - - [26/Feb/2021 11:25:13] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+2021-02-26 11:25:13,811 - werkzeug - Thread-5 - 127.0.0.1 - - [26/Feb/2021 11:25:13] "[37mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 11:25:13,811 - werkzeug - Thread-4 - 127.0.0.1 - - [26/Feb/2021 11:25:13] "[37mGET /add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 11:25:13,811 - werkzeug - Thread-3 - 127.0.0.1 - - [26/Feb/2021 11:25:13] "[37mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:25:13,882 - werkzeug - Thread-6 - 127.0.0.1 - - [26/Feb/2021 11:25:13] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:25:13,910 - werkzeug - Thread-7 - 127.0.0.1 - - [26/Feb/2021 11:25:13] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:25:33,697 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:25:33,735 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 11:25:33,901 - root - MainThread - connecting to the database: start
+2021-02-26 11:25:33,901 - root - MainThread - connecting to the database: end
+2021-02-26 11:25:33,925 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 11:25:33,926 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 11:25:38,144 - werkzeug - Thread-2 - 127.0.0.1 - - [26/Feb/2021 11:25:38] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+2021-02-26 11:25:38,172 - werkzeug - Thread-5 - 127.0.0.1 - - [26/Feb/2021 11:25:38] "[37mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 11:25:38,172 - werkzeug - Thread-3 - 127.0.0.1 - - [26/Feb/2021 11:25:38] "[37mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:25:38,173 - werkzeug - Thread-4 - 127.0.0.1 - - [26/Feb/2021 11:25:38] "[37mGET /add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 11:25:38,234 - werkzeug - Thread-6 - 127.0.0.1 - - [26/Feb/2021 11:25:38] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:25:38,266 - werkzeug - Thread-7 - 127.0.0.1 - - [26/Feb/2021 11:25:38] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:26:50,484 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:26:50,536 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 11:26:50,705 - root - MainThread - connecting to the database: start
+2021-02-26 11:26:50,705 - root - MainThread - connecting to the database: end
+2021-02-26 11:26:50,729 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 11:26:50,729 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 11:26:56,365 - werkzeug - Thread-2 - 127.0.0.1 - - [26/Feb/2021 11:26:56] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+2021-02-26 11:26:56,393 - werkzeug - Thread-3 - 127.0.0.1 - - [26/Feb/2021 11:26:56] "[37mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:26:56,394 - werkzeug - Thread-5 - 127.0.0.1 - - [26/Feb/2021 11:26:56] "[37mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 11:26:56,394 - werkzeug - Thread-4 - 127.0.0.1 - - [26/Feb/2021 11:26:56] "[37mGET /add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 11:26:56,452 - werkzeug - Thread-6 - 127.0.0.1 - - [26/Feb/2021 11:26:56] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:26:56,482 - werkzeug - Thread-7 - 127.0.0.1 - - [26/Feb/2021 11:26:56] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:27:59,207 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:27:59,236 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 11:36:03,145 - root - MainThread - connecting to the database: start
+2021-02-26 11:36:03,145 - root - MainThread - connecting to the database: end
+2021-02-26 11:36:03,164 - werkzeug - MainThread -  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-26 11:36:03,165 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 11:36:03,295 - root - MainThread - connecting to the database: start
+2021-02-26 11:36:03,295 - root - MainThread - connecting to the database: end
+2021-02-26 11:36:03,312 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 11:36:03,313 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 11:36:11,199 - werkzeug - Thread-2 - 127.0.0.1 - - [26/Feb/2021 11:36:11] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:36:20,767 - werkzeug - Thread-3 - 127.0.0.1 - - [26/Feb/2021 11:36:20] "[33mPOST /base.html HTTP/1.1[0m" 404 -
+2021-02-26 11:36:41,453 - werkzeug - Thread-4 - 127.0.0.1 - - [26/Feb/2021 11:36:41] "[33mPOST /base.html HTTP/1.1[0m" 404 -
+2021-02-26 11:36:45,658 - werkzeug - Thread-5 - 127.0.0.1 - - [26/Feb/2021 11:36:45] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:36:53,575 - werkzeug - Thread-6 - 127.0.0.1 - - [26/Feb/2021 11:36:53] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+2021-02-26 11:36:53,604 - werkzeug - Thread-7 - 127.0.0.1 - - [26/Feb/2021 11:36:53] "[37mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:36:53,607 - werkzeug - Thread-9 - 127.0.0.1 - - [26/Feb/2021 11:36:53] "[37mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 11:36:53,608 - werkzeug - Thread-8 - 127.0.0.1 - - [26/Feb/2021 11:36:53] "[37mGET /add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 11:36:53,698 - werkzeug - Thread-10 - 127.0.0.1 - - [26/Feb/2021 11:36:53] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:36:53,721 - werkzeug - Thread-11 - 127.0.0.1 - - [26/Feb/2021 11:36:53] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:39:30,802 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:39:30,829 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 11:39:30,952 - root - MainThread - connecting to the database: start
+2021-02-26 11:39:30,952 - root - MainThread - connecting to the database: end
+2021-02-26 11:39:30,970 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 11:39:30,970 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 11:39:33,986 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:39:34,008 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 11:39:34,135 - root - MainThread - connecting to the database: start
+2021-02-26 11:39:34,135 - root - MainThread - connecting to the database: end
+2021-02-26 11:39:34,152 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 11:39:34,152 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 11:39:37,165 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:39:37,201 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 11:39:53,080 - root - MainThread - connecting to the database: start
+2021-02-26 11:39:53,080 - root - MainThread - connecting to the database: end
+2021-02-26 11:39:53,099 - werkzeug - MainThread -  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-26 11:39:53,100 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 11:39:53,231 - root - MainThread - connecting to the database: start
+2021-02-26 11:39:53,231 - root - MainThread - connecting to the database: end
+2021-02-26 11:39:53,247 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 11:39:53,247 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 11:39:57,197 - werkzeug - Thread-2 - 127.0.0.1 - - [26/Feb/2021 11:39:57] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:40:05,785 - werkzeug - Thread-3 - 127.0.0.1 - - [26/Feb/2021 11:40:05] "[32mPOST /add HTTP/1.1[0m" 302 -
+2021-02-26 11:40:05,788 - backend - Thread-4 - choosing video from python section
+2021-02-26 11:40:05,795 - werkzeug - Thread-4 - 127.0.0.1 - - [26/Feb/2021 11:40:05] "[35m[1mGET /sections/python/watch/%5B%2846%2C%29%5D HTTP/1.1[0m" 500 -
+2021-02-26 11:40:05,823 - werkzeug - Thread-6 - 127.0.0.1 - - [26/Feb/2021 11:40:05] "[37mGET /sections/python/watch/%5B%2846%2C%29%5D?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 11:40:05,825 - werkzeug - Thread-5 - 127.0.0.1 - - [26/Feb/2021 11:40:05] "[37mGET /sections/python/watch/%5B%2846%2C%29%5D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:40:05,827 - werkzeug - Thread-7 - 127.0.0.1 - - [26/Feb/2021 11:40:05] "[37mGET /sections/python/watch/%5B%2846%2C%29%5D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 11:40:05,912 - werkzeug - Thread-8 - 127.0.0.1 - - [26/Feb/2021 11:40:05] "[37mGET /sections/python/watch/%5B%2846%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:40:05,933 - werkzeug - Thread-9 - 127.0.0.1 - - [26/Feb/2021 11:40:05] "[37mGET /sections/python/watch/%5B%2846%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:42:42,445 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:42:42,476 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 11:43:14,057 - root - MainThread - connecting to the database: start
+2021-02-26 11:43:14,058 - root - MainThread - connecting to the database: end
+2021-02-26 11:43:14,074 - werkzeug - MainThread -  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-26 11:43:14,075 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 11:43:14,197 - root - MainThread - connecting to the database: start
+2021-02-26 11:43:14,197 - root - MainThread - connecting to the database: end
+2021-02-26 11:43:14,215 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 11:43:14,215 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 11:43:19,104 - werkzeug - Thread-2 - 127.0.0.1 - - [26/Feb/2021 11:43:19] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:43:20,423 - werkzeug - Thread-3 - 127.0.0.1 - - [26/Feb/2021 11:43:20] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:43:28,813 - werkzeug - Thread-4 - 127.0.0.1 - - [26/Feb/2021 11:43:28] "[32mPOST /add HTTP/1.1[0m" 302 -
+2021-02-26 11:43:28,816 - backend - Thread-5 - choosing video from python section
+2021-02-26 11:43:28,824 - werkzeug - Thread-5 - 127.0.0.1 - - [26/Feb/2021 11:43:28] "[35m[1mGET /sections/python/watch/%5B%2847%2C%29%5D HTTP/1.1[0m" 500 -
+2021-02-26 11:43:28,851 - werkzeug - Thread-7 - 127.0.0.1 - - [26/Feb/2021 11:43:28] "[37mGET /sections/python/watch/%5B%2847%2C%29%5D?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 11:43:28,852 - werkzeug - Thread-6 - 127.0.0.1 - - [26/Feb/2021 11:43:28] "[37mGET /sections/python/watch/%5B%2847%2C%29%5D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:43:28,852 - werkzeug - Thread-8 - 127.0.0.1 - - [26/Feb/2021 11:43:28] "[37mGET /sections/python/watch/%5B%2847%2C%29%5D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 11:43:28,939 - werkzeug - Thread-9 - 127.0.0.1 - - [26/Feb/2021 11:43:28] "[37mGET /sections/python/watch/%5B%2847%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:43:28,956 - werkzeug - Thread-10 - 127.0.0.1 - - [26/Feb/2021 11:43:28] "[37mGET /sections/python/watch/%5B%2847%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:44:24,717 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:44:24,743 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 11:44:24,867 - root - MainThread - connecting to the database: start
+2021-02-26 11:44:24,867 - root - MainThread - connecting to the database: end
+2021-02-26 11:44:24,884 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 11:44:24,884 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 11:44:28,900 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:44:28,928 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 11:44:29,060 - root - MainThread - connecting to the database: start
+2021-02-26 11:44:29,060 - root - MainThread - connecting to the database: end
+2021-02-26 11:44:29,082 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 11:44:29,083 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 11:44:30,088 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:44:30,116 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 11:44:30,256 - root - MainThread - connecting to the database: start
+2021-02-26 11:44:30,256 - root - MainThread - connecting to the database: end
+2021-02-26 11:44:30,283 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 11:44:30,283 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 11:44:37,324 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:44:37,355 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 11:44:37,482 - root - MainThread - connecting to the database: start
+2021-02-26 11:44:37,482 - root - MainThread - connecting to the database: end
+2021-02-26 11:44:37,497 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 11:44:37,498 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 11:45:41,916 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:45:41,960 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 11:45:42,100 - root - MainThread - connecting to the database: start
+2021-02-26 11:45:42,100 - root - MainThread - connecting to the database: end
+2021-02-26 11:45:42,119 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 11:45:42,119 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 11:45:50,727 - werkzeug - Thread-2 - 127.0.0.1 - - [26/Feb/2021 11:45:50] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:45:52,868 - werkzeug - Thread-3 - 127.0.0.1 - - [26/Feb/2021 11:45:52] "[32mPOST /add HTTP/1.1[0m" 302 -
+2021-02-26 11:45:52,872 - backend - Thread-4 - choosing video from python section
+2021-02-26 11:45:52,880 - werkzeug - Thread-4 - 127.0.0.1 - - [26/Feb/2021 11:45:52] "[35m[1mGET /sections/python/watch/%5B%2848%2C%29%5D HTTP/1.1[0m" 500 -
+2021-02-26 11:45:52,906 - werkzeug - Thread-7 - 127.0.0.1 - - [26/Feb/2021 11:45:52] "[37mGET /sections/python/watch/%5B%2848%2C%29%5D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 11:45:52,908 - werkzeug - Thread-5 - 127.0.0.1 - - [26/Feb/2021 11:45:52] "[37mGET /sections/python/watch/%5B%2848%2C%29%5D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:45:52,909 - werkzeug - Thread-6 - 127.0.0.1 - - [26/Feb/2021 11:45:52] "[37mGET /sections/python/watch/%5B%2848%2C%29%5D?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 11:45:52,981 - werkzeug - Thread-8 - 127.0.0.1 - - [26/Feb/2021 11:45:52] "[37mGET /sections/python/watch/%5B%2848%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:45:53,003 - werkzeug - Thread-9 - 127.0.0.1 - - [26/Feb/2021 11:45:53] "[37mGET /sections/python/watch/%5B%2848%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:45:55,086 - werkzeug - Thread-10 - 127.0.0.1 - - [26/Feb/2021 11:45:55] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:45:55,753 - werkzeug - Thread-11 - 127.0.0.1 - - [26/Feb/2021 11:45:55] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:46:04,080 - werkzeug - Thread-12 - 127.0.0.1 - - [26/Feb/2021 11:46:04] "[32mPOST /add HTTP/1.1[0m" 302 -
+2021-02-26 11:46:04,083 - backend - Thread-13 - choosing video from python section
+2021-02-26 11:46:04,092 - werkzeug - Thread-13 - 127.0.0.1 - - [26/Feb/2021 11:46:04] "[35m[1mGET /sections/python/watch/%5B%2849%2C%29%5D HTTP/1.1[0m" 500 -
+2021-02-26 11:46:04,116 - werkzeug - Thread-14 - 127.0.0.1 - - [26/Feb/2021 11:46:04] "[37mGET /sections/python/watch/%5B%2849%2C%29%5D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:46:04,116 - werkzeug - Thread-16 - 127.0.0.1 - - [26/Feb/2021 11:46:04] "[37mGET /sections/python/watch/%5B%2849%2C%29%5D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 11:46:04,116 - werkzeug - Thread-15 - 127.0.0.1 - - [26/Feb/2021 11:46:04] "[37mGET /sections/python/watch/%5B%2849%2C%29%5D?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 11:46:04,211 - werkzeug - Thread-17 - 127.0.0.1 - - [26/Feb/2021 11:46:04] "[37mGET /sections/python/watch/%5B%2849%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:46:04,230 - werkzeug - Thread-18 - 127.0.0.1 - - [26/Feb/2021 11:46:04] "[37mGET /sections/python/watch/%5B%2849%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:46:29,445 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:46:29,475 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 11:46:29,605 - root - MainThread - connecting to the database: start
+2021-02-26 11:46:29,605 - root - MainThread - connecting to the database: end
+2021-02-26 11:46:29,624 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 11:46:29,624 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 11:46:44,717 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:46:44,752 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 11:46:44,881 - root - MainThread - connecting to the database: start
+2021-02-26 11:46:44,882 - root - MainThread - connecting to the database: end
+2021-02-26 11:46:44,900 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 11:46:44,901 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 11:46:51,934 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:46:51,963 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 11:46:52,094 - root - MainThread - connecting to the database: start
+2021-02-26 11:46:52,095 - root - MainThread - connecting to the database: end
+2021-02-26 11:46:52,110 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 11:46:52,111 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 11:46:59,302 - werkzeug - Thread-2 - 127.0.0.1 - - [26/Feb/2021 11:46:59] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:47:00,248 - werkzeug - Thread-3 - 127.0.0.1 - - [26/Feb/2021 11:47:00] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:47:07,459 - werkzeug - Thread-4 - 127.0.0.1 - - [26/Feb/2021 11:47:07] "[32mPOST /add HTTP/1.1[0m" 302 -
+2021-02-26 11:47:07,463 - backend - Thread-5 - choosing video from python section
+2021-02-26 11:47:07,471 - werkzeug - Thread-5 - 127.0.0.1 - - [26/Feb/2021 11:47:07] "[35m[1mGET /sections/python/watch/%5B%2850%2C%29%5D HTTP/1.1[0m" 500 -
+2021-02-26 11:47:07,495 - werkzeug - Thread-6 - 127.0.0.1 - - [26/Feb/2021 11:47:07] "[37mGET /sections/python/watch/%5B%2850%2C%29%5D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:47:07,495 - werkzeug - Thread-8 - 127.0.0.1 - - [26/Feb/2021 11:47:07] "[37mGET /sections/python/watch/%5B%2850%2C%29%5D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 11:47:07,495 - werkzeug - Thread-7 - 127.0.0.1 - - [26/Feb/2021 11:47:07] "[37mGET /sections/python/watch/%5B%2850%2C%29%5D?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 11:47:07,578 - werkzeug - Thread-9 - 127.0.0.1 - - [26/Feb/2021 11:47:07] "[37mGET /sections/python/watch/%5B%2850%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:47:07,596 - werkzeug - Thread-10 - 127.0.0.1 - - [26/Feb/2021 11:47:07] "[37mGET /sections/python/watch/%5B%2850%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:52:55,615 - root - MainThread - connecting to the database: start
+2021-02-26 11:52:55,615 - root - MainThread - connecting to the database: end
+2021-02-26 11:52:55,629 - werkzeug - MainThread -  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-26 11:52:55,630 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 11:52:55,776 - root - MainThread - connecting to the database: start
+2021-02-26 11:52:55,776 - root - MainThread - connecting to the database: end
+2021-02-26 11:52:55,789 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 11:52:55,789 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 11:53:01,351 - werkzeug - Thread-2 - 127.0.0.1 - - [26/Feb/2021 11:53:01] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:53:03,012 - werkzeug - Thread-3 - 127.0.0.1 - - [26/Feb/2021 11:53:03] "[37mPOST /add HTTP/1.1[0m" 200 -
+2021-02-26 11:53:14,921 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/test.py', reloading
+2021-02-26 11:53:14,949 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 11:53:15,072 - root - MainThread - connecting to the database: start
+2021-02-26 11:53:15,073 - root - MainThread - connecting to the database: end
+2021-02-26 11:53:15,084 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 11:53:15,085 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 11:53:28,146 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/test.py', reloading
+2021-02-26 11:53:28,173 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 11:53:40,076 - root - MainThread - connecting to the database: start
+2021-02-26 11:53:40,076 - root - MainThread - connecting to the database: end
+2021-02-26 11:53:40,089 - werkzeug - MainThread -  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-26 11:53:40,089 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 11:53:40,222 - root - MainThread - connecting to the database: start
+2021-02-26 11:53:40,222 - root - MainThread - connecting to the database: end
+2021-02-26 11:53:40,233 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 11:53:40,234 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 11:53:46,943 - werkzeug - Thread-2 - 127.0.0.1 - - [26/Feb/2021 11:53:46] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:53:48,418 - werkzeug - Thread-3 - 127.0.0.1 - - [26/Feb/2021 11:53:48] "[37mPOST /add HTTP/1.1[0m" 200 -
+2021-02-26 11:57:41,426 - werkzeug - Thread-4 - 127.0.0.1 - - [26/Feb/2021 11:57:41] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:57:59,270 - root - MainThread - connecting to the database: start
+2021-02-26 11:57:59,270 - root - MainThread - connecting to the database: end
+2021-02-26 11:57:59,288 - werkzeug - MainThread -  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-26 11:57:59,288 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 11:57:59,427 - root - MainThread - connecting to the database: start
+2021-02-26 11:57:59,427 - root - MainThread - connecting to the database: end
+2021-02-26 11:57:59,445 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 11:57:59,445 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 11:58:04,113 - werkzeug - Thread-2 - 127.0.0.1 - - [26/Feb/2021 11:58:04] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:58:20,530 - werkzeug - Thread-3 - 127.0.0.1 - - [26/Feb/2021 11:58:20] "[32mPOST /add HTTP/1.1[0m" 302 -
+2021-02-26 11:58:20,533 - backend - Thread-4 - choosing video from python section
+2021-02-26 11:58:20,542 - werkzeug - Thread-4 - 127.0.0.1 - - [26/Feb/2021 11:58:20] "[35m[1mGET /sections/python/watch/%5B%2852%2C%29%5D HTTP/1.1[0m" 500 -
+2021-02-26 11:58:20,570 - werkzeug - Thread-5 - 127.0.0.1 - - [26/Feb/2021 11:58:20] "[37mGET /sections/python/watch/%5B%2852%2C%29%5D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:58:20,570 - werkzeug - Thread-7 - 127.0.0.1 - - [26/Feb/2021 11:58:20] "[37mGET /sections/python/watch/%5B%2852%2C%29%5D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 11:58:20,572 - werkzeug - Thread-6 - 127.0.0.1 - - [26/Feb/2021 11:58:20] "[37mGET /sections/python/watch/%5B%2852%2C%29%5D?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 11:58:20,655 - werkzeug - Thread-8 - 127.0.0.1 - - [26/Feb/2021 11:58:20] "[37mGET /sections/python/watch/%5B%2852%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:58:20,683 - werkzeug - Thread-9 - 127.0.0.1 - - [26/Feb/2021 11:58:20] "[37mGET /sections/python/watch/%5B%2852%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 12:27:58,642 - werkzeug - Thread-10 - 127.0.0.1 - - [26/Feb/2021 12:27:58] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 12:29:04,700 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 12:29:04,742 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 12:51:43,329 - root - MainThread - connecting to the database: start
+2021-02-26 12:51:43,329 - root - MainThread - connecting to the database: end
+2021-02-26 12:51:43,348 - werkzeug - MainThread -  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-26 12:51:43,349 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 12:51:43,481 - root - MainThread - connecting to the database: start
+2021-02-26 12:51:43,481 - root - MainThread - connecting to the database: end
+2021-02-26 12:51:43,497 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 12:51:43,498 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 12:51:53,966 - werkzeug - Thread-2 - 127.0.0.1 - - [26/Feb/2021 12:51:53] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 12:52:04,059 - werkzeug - Thread-3 - 127.0.0.1 - - [26/Feb/2021 12:52:04] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+2021-02-26 12:52:04,085 - werkzeug - Thread-4 - 127.0.0.1 - - [26/Feb/2021 12:52:04] "[37mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 12:52:04,088 - werkzeug - Thread-6 - 127.0.0.1 - - [26/Feb/2021 12:52:04] "[37mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 12:52:04,089 - werkzeug - Thread-5 - 127.0.0.1 - - [26/Feb/2021 12:52:04] "[37mGET /add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 12:52:04,162 - werkzeug - Thread-7 - 127.0.0.1 - - [26/Feb/2021 12:52:04] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 12:52:04,195 - werkzeug - Thread-8 - 127.0.0.1 - - [26/Feb/2021 12:52:04] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 12:58:01,121 - root - MainThread - connecting to the database: start
+2021-02-26 12:58:01,122 - root - MainThread - connecting to the database: end
+2021-02-26 12:58:01,616 - werkzeug - MainThread -  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-26 12:58:01,617 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 12:58:01,749 - root - MainThread - connecting to the database: start
+2021-02-26 12:58:01,749 - root - MainThread - connecting to the database: end
+2021-02-26 12:58:02,007 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 12:58:02,008 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 12:58:07,888 - werkzeug - Thread-2 - 127.0.0.1 - - [26/Feb/2021 12:58:07] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+2021-02-26 12:58:07,917 - werkzeug - Thread-5 - 127.0.0.1 - - [26/Feb/2021 12:58:07] "[37mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 12:58:07,917 - werkzeug - Thread-3 - 127.0.0.1 - - [26/Feb/2021 12:58:07] "[37mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 12:58:07,917 - werkzeug - Thread-4 - 127.0.0.1 - - [26/Feb/2021 12:58:07] "[37mGET /add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 12:58:07,985 - werkzeug - Thread-6 - 127.0.0.1 - - [26/Feb/2021 12:58:07] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 12:58:08,019 - werkzeug - Thread-7 - 127.0.0.1 - - [26/Feb/2021 12:58:08] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 14:35:12,656 - root - MainThread - connecting to the database: start
+2021-02-26 14:35:12,656 - root - MainThread - connecting to the database: end
+2021-02-26 14:35:12,914 - werkzeug - MainThread -  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-26 14:35:12,915 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 14:35:13,049 - root - MainThread - connecting to the database: start
+2021-02-26 14:35:13,049 - root - MainThread - connecting to the database: end
+2021-02-26 14:35:13,308 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 14:35:13,309 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 14:35:17,607 - werkzeug - Thread-2 - 127.0.0.1 - - [26/Feb/2021 14:35:17] "[37mPOST /add HTTP/1.1[0m" 200 -
+2021-02-26 14:44:34,934 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/test.py', reloading
+2021-02-26 14:44:35,031 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 14:44:35,197 - root - MainThread - connecting to the database: start
+2021-02-26 14:44:35,197 - root - MainThread - connecting to the database: end
+2021-02-26 14:44:35,538 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 14:44:35,538 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 14:44:39,162 - werkzeug - Thread-2 - 127.0.0.1 - - [26/Feb/2021 14:44:39] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 14:44:40,936 - werkzeug - Thread-3 - 127.0.0.1 - - [26/Feb/2021 14:44:40] "[37mPOST /add HTTP/1.1[0m" 200 -
+2021-02-26 14:49:24,770 - werkzeug - Thread-4 - 127.0.0.1 - - [26/Feb/2021 14:49:24] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 14:49:26,674 - werkzeug - Thread-5 - 127.0.0.1 - - [26/Feb/2021 14:49:26] "[37mPOST /add HTTP/1.1[0m" 200 -
+2021-02-26 14:51:55,561 - root - MainThread - connecting to the database: start
+2021-02-26 14:51:55,561 - root - MainThread - connecting to the database: end
+2021-02-26 14:51:55,579 - werkzeug - MainThread -  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-26 14:51:55,579 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 14:51:55,711 - root - MainThread - connecting to the database: start
+2021-02-26 14:51:55,711 - root - MainThread - connecting to the database: end
+2021-02-26 14:51:55,729 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 14:51:55,729 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 14:54:31,677 - root - MainThread - connecting to the database: start
+2021-02-26 14:54:31,677 - root - MainThread - connecting to the database: end
+2021-02-26 14:54:31,946 - werkzeug - MainThread -  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-26 14:54:31,947 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 14:54:32,084 - root - MainThread - connecting to the database: start
+2021-02-26 14:54:32,084 - root - MainThread - connecting to the database: end
+2021-02-26 14:54:32,362 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 14:54:32,362 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 14:54:36,524 - werkzeug - Thread-2 - 127.0.0.1 - - [26/Feb/2021 14:54:36] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 14:54:38,035 - werkzeug - Thread-3 - 127.0.0.1 - - [26/Feb/2021 14:54:38] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+2021-02-26 14:54:38,055 - werkzeug - Thread-4 - 127.0.0.1 - - [26/Feb/2021 14:54:38] "[37mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 14:54:38,055 - werkzeug - Thread-5 - 127.0.0.1 - - [26/Feb/2021 14:54:38] "[37mGET /add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 14:54:38,055 - werkzeug - Thread-6 - 127.0.0.1 - - [26/Feb/2021 14:54:38] "[37mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 14:54:38,175 - werkzeug - Thread-7 - 127.0.0.1 - - [26/Feb/2021 14:54:38] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 14:54:38,208 - werkzeug - Thread-8 - 127.0.0.1 - - [26/Feb/2021 14:54:38] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 14:54:55,622 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 14:54:55,707 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 14:54:55,841 - root - MainThread - connecting to the database: start
+2021-02-26 14:54:55,842 - root - MainThread - connecting to the database: end
+2021-02-26 14:54:56,174 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 14:54:56,175 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 14:55:32,580 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 14:55:32,655 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 14:55:32,788 - root - MainThread - connecting to the database: start
+2021-02-26 14:55:32,788 - root - MainThread - connecting to the database: end
+2021-02-26 14:55:33,088 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 14:55:33,088 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 14:55:37,127 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 14:55:37,212 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 14:55:37,352 - root - MainThread - connecting to the database: start
+2021-02-26 14:55:37,352 - root - MainThread - connecting to the database: end
+2021-02-26 14:55:37,671 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 14:55:37,671 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 14:55:43,727 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 14:55:43,808 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 14:55:43,959 - root - MainThread - connecting to the database: start
+2021-02-26 14:55:43,959 - root - MainThread - connecting to the database: end
+2021-02-26 14:55:44,262 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 14:55:44,263 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 14:55:47,286 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 14:55:47,373 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 14:55:47,528 - root - MainThread - connecting to the database: start
+2021-02-26 14:55:47,529 - root - MainThread - connecting to the database: end
+2021-02-26 14:55:47,874 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 14:55:47,875 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 14:55:49,902 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 14:55:49,977 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 14:55:50,151 - root - MainThread - connecting to the database: start
+2021-02-26 14:55:50,151 - root - MainThread - connecting to the database: end
+2021-02-26 14:55:50,530 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 14:55:50,531 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 14:55:53,563 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 14:55:53,638 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 14:55:53,849 - root - MainThread - connecting to the database: start
+2021-02-26 14:55:53,849 - root - MainThread - connecting to the database: end
+2021-02-26 14:55:54,176 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 14:55:54,176 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 14:55:57,199 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 14:55:57,282 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 14:55:57,449 - root - MainThread - connecting to the database: start
+2021-02-26 14:55:57,449 - root - MainThread - connecting to the database: end
+2021-02-26 14:55:57,802 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 14:55:57,803 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 14:55:58,815 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 14:55:58,891 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 14:55:59,050 - root - MainThread - connecting to the database: start
+2021-02-26 14:55:59,050 - root - MainThread - connecting to the database: end
+2021-02-26 14:55:59,396 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 14:55:59,397 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 14:56:00,408 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 14:56:00,483 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 14:56:00,619 - root - MainThread - connecting to the database: start
+2021-02-26 14:56:00,619 - root - MainThread - connecting to the database: end
+2021-02-26 14:56:00,927 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 14:56:00,927 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 14:56:11,214 - werkzeug - Thread-2 - 127.0.0.1 - - [26/Feb/2021 14:56:11] "[32mPOST /add HTTP/1.1[0m" 302 -
+2021-02-26 14:56:11,221 - backend - Thread-3 - choosing video from python section
+2021-02-26 14:56:11,231 - werkzeug - Thread-3 - 127.0.0.1 - - [26/Feb/2021 14:56:11] "[35m[1mGET /sections/python/watch/%5B%2859%2C%29%5D HTTP/1.1[0m" 500 -
+2021-02-26 14:56:11,256 - werkzeug - Thread-6 - 127.0.0.1 - - [26/Feb/2021 14:56:11] "[37mGET /sections/python/watch/%5B%2859%2C%29%5D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 14:56:11,257 - werkzeug - Thread-4 - 127.0.0.1 - - [26/Feb/2021 14:56:11] "[37mGET /sections/python/watch/%5B%2859%2C%29%5D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 14:56:11,258 - werkzeug - Thread-5 - 127.0.0.1 - - [26/Feb/2021 14:56:11] "[37mGET /sections/python/watch/%5B%2859%2C%29%5D?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 14:56:11,329 - werkzeug - Thread-7 - 127.0.0.1 - - [26/Feb/2021 14:56:11] "[37mGET /sections/python/watch/%5B%2859%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 14:56:11,390 - werkzeug - Thread-8 - 127.0.0.1 - - [26/Feb/2021 14:56:11] "[37mGET /sections/python/watch/%5B%2859%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 14:57:17,146 - backend - Thread-9 - opening homepage
+2021-02-26 14:57:17,153 - werkzeug - Thread-9 - 127.0.0.1 - - [26/Feb/2021 14:57:17] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-26 14:57:17,194 - werkzeug - Thread-10 - 127.0.0.1 - - [26/Feb/2021 14:57:17] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-26 14:57:17,196 - werkzeug - Thread-11 - 127.0.0.1 - - [26/Feb/2021 14:57:17] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
+2021-02-26 14:57:25,968 - backend - Thread-12 - choosing cloud section
+2021-02-26 14:57:25,976 - werkzeug - Thread-12 - 127.0.0.1 - - [26/Feb/2021 14:57:25] "[35m[1mGET /sections/cloud/ HTTP/1.1[0m" 500 -
+2021-02-26 14:57:26,002 - werkzeug - Thread-15 - 127.0.0.1 - - [26/Feb/2021 14:57:26] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 14:57:26,003 - werkzeug - Thread-14 - 127.0.0.1 - - [26/Feb/2021 14:57:26] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 14:57:26,003 - werkzeug - Thread-13 - 127.0.0.1 - - [26/Feb/2021 14:57:26] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 14:57:26,090 - werkzeug - Thread-16 - 127.0.0.1 - - [26/Feb/2021 14:57:26] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 14:57:26,111 - werkzeug - Thread-17 - 127.0.0.1 - - [26/Feb/2021 14:57:26] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 14:57:53,191 - werkzeug - MainThread -  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 14:57:53,276 - werkzeug - MainThread -  * Restarting with stat
+2021-02-26 14:57:53,410 - root - MainThread - connecting to the database: start
+2021-02-26 14:57:53,410 - root - MainThread - connecting to the database: end
+2021-02-26 14:57:53,723 - werkzeug - MainThread -  * Debugger is active!
+2021-02-26 14:57:53,724 - werkzeug - MainThread -  * Debugger PIN: 176-445-683
+2021-02-26 14:58:00,345 - backend - Thread-2 - choosing cloud section
+2021-02-26 14:58:00,356 - werkzeug - Thread-2 - 127.0.0.1 - - [26/Feb/2021 14:58:00] "[35m[1mGET /sections/cloud/ HTTP/1.1[0m" 500 -
+2021-02-26 14:58:00,380 - werkzeug - Thread-3 - 127.0.0.1 - - [26/Feb/2021 14:58:00] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 14:58:00,380 - werkzeug - Thread-4 - 127.0.0.1 - - [26/Feb/2021 14:58:00] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 14:58:00,381 - werkzeug - Thread-5 - 127.0.0.1 - - [26/Feb/2021 14:58:00] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 14:58:00,475 - werkzeug - Thread-6 - 127.0.0.1 - - [26/Feb/2021 14:58:00] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 14:58:00,504 - werkzeug - Thread-7 - 127.0.0.1 - - [26/Feb/2021 14:58:00] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 14:58:04,593 - backend - Thread-8 - opening homepage
+2021-02-26 14:58:04,604 - werkzeug - Thread-8 - 127.0.0.1 - - [26/Feb/2021 14:58:04] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-26 14:58:04,625 - werkzeug - Thread-9 - 127.0.0.1 - - [26/Feb/2021 14:58:04] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-26 14:58:07,017 - backend - Thread-10 - choosing docker section
+2021-02-26 14:58:07,026 - werkzeug - Thread-10 - 127.0.0.1 - - [26/Feb/2021 14:58:07] "[35m[1mGET /sections/docker/ HTTP/1.1[0m" 500 -
+2021-02-26 14:58:07,052 - werkzeug - Thread-12 - 127.0.0.1 - - [26/Feb/2021 14:58:07] "[37mGET /sections/docker/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 14:58:07,052 - werkzeug - Thread-11 - 127.0.0.1 - - [26/Feb/2021 14:58:07] "[37mGET /sections/docker/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 14:58:07,052 - werkzeug - Thread-13 - 127.0.0.1 - - [26/Feb/2021 14:58:07] "[37mGET /sections/docker/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 14:58:07,126 - werkzeug - Thread-14 - 127.0.0.1 - - [26/Feb/2021 14:58:07] "[37mGET /sections/docker/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 14:58:07,152 - werkzeug - Thread-15 - 127.0.0.1 - - [26/Feb/2021 14:58:07] "[37mGET /sections/docker/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -

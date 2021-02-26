@@ -347,3 +347,271 @@
 2021-02-25 22:19:04,697 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
 2021-02-25 22:19:08,152 :: INFO :: Thread-2 :: 127.0.0.1 - - [25/Feb/2021 22:19:08] "[37mGET /add HTTP/1.1[0m" 200 -
 2021-02-25 22:19:50,744 :: INFO :: Thread-3 :: 127.0.0.1 - - [25/Feb/2021 22:19:50] "[33mPOST /base.html HTTP/1.1[0m" 404 -
+2021-02-26 11:25:06,354 :: INFO :: MainThread ::  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-26 11:25:06,354 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 11:25:06,528 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 11:25:06,528 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 11:25:13,784 :: INFO :: Thread-2 :: 127.0.0.1 - - [26/Feb/2021 11:25:13] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+2021-02-26 11:25:13,811 :: INFO :: Thread-5 :: 127.0.0.1 - - [26/Feb/2021 11:25:13] "[37mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 11:25:13,811 :: INFO :: Thread-4 :: 127.0.0.1 - - [26/Feb/2021 11:25:13] "[37mGET /add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 11:25:13,811 :: INFO :: Thread-3 :: 127.0.0.1 - - [26/Feb/2021 11:25:13] "[37mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:25:13,882 :: INFO :: Thread-6 :: 127.0.0.1 - - [26/Feb/2021 11:25:13] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:25:13,910 :: INFO :: Thread-7 :: 127.0.0.1 - - [26/Feb/2021 11:25:13] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:25:33,697 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:25:33,735 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 11:25:33,925 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 11:25:33,926 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 11:25:38,144 :: INFO :: Thread-2 :: 127.0.0.1 - - [26/Feb/2021 11:25:38] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+2021-02-26 11:25:38,172 :: INFO :: Thread-5 :: 127.0.0.1 - - [26/Feb/2021 11:25:38] "[37mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 11:25:38,172 :: INFO :: Thread-3 :: 127.0.0.1 - - [26/Feb/2021 11:25:38] "[37mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:25:38,173 :: INFO :: Thread-4 :: 127.0.0.1 - - [26/Feb/2021 11:25:38] "[37mGET /add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 11:25:38,234 :: INFO :: Thread-6 :: 127.0.0.1 - - [26/Feb/2021 11:25:38] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:25:38,266 :: INFO :: Thread-7 :: 127.0.0.1 - - [26/Feb/2021 11:25:38] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:26:50,484 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:26:50,536 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 11:26:50,729 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 11:26:50,729 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 11:26:56,365 :: INFO :: Thread-2 :: 127.0.0.1 - - [26/Feb/2021 11:26:56] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+2021-02-26 11:26:56,393 :: INFO :: Thread-3 :: 127.0.0.1 - - [26/Feb/2021 11:26:56] "[37mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:26:56,394 :: INFO :: Thread-5 :: 127.0.0.1 - - [26/Feb/2021 11:26:56] "[37mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 11:26:56,394 :: INFO :: Thread-4 :: 127.0.0.1 - - [26/Feb/2021 11:26:56] "[37mGET /add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 11:26:56,452 :: INFO :: Thread-6 :: 127.0.0.1 - - [26/Feb/2021 11:26:56] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:26:56,482 :: INFO :: Thread-7 :: 127.0.0.1 - - [26/Feb/2021 11:26:56] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:27:59,207 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:27:59,236 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 11:36:03,164 :: INFO :: MainThread ::  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-26 11:36:03,165 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 11:36:03,312 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 11:36:03,313 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 11:36:11,199 :: INFO :: Thread-2 :: 127.0.0.1 - - [26/Feb/2021 11:36:11] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:36:20,767 :: INFO :: Thread-3 :: 127.0.0.1 - - [26/Feb/2021 11:36:20] "[33mPOST /base.html HTTP/1.1[0m" 404 -
+2021-02-26 11:36:41,453 :: INFO :: Thread-4 :: 127.0.0.1 - - [26/Feb/2021 11:36:41] "[33mPOST /base.html HTTP/1.1[0m" 404 -
+2021-02-26 11:36:45,658 :: INFO :: Thread-5 :: 127.0.0.1 - - [26/Feb/2021 11:36:45] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:36:53,575 :: INFO :: Thread-6 :: 127.0.0.1 - - [26/Feb/2021 11:36:53] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+2021-02-26 11:36:53,604 :: INFO :: Thread-7 :: 127.0.0.1 - - [26/Feb/2021 11:36:53] "[37mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:36:53,607 :: INFO :: Thread-9 :: 127.0.0.1 - - [26/Feb/2021 11:36:53] "[37mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 11:36:53,608 :: INFO :: Thread-8 :: 127.0.0.1 - - [26/Feb/2021 11:36:53] "[37mGET /add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 11:36:53,698 :: INFO :: Thread-10 :: 127.0.0.1 - - [26/Feb/2021 11:36:53] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:36:53,721 :: INFO :: Thread-11 :: 127.0.0.1 - - [26/Feb/2021 11:36:53] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:39:30,802 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:39:30,829 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 11:39:30,970 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 11:39:30,970 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 11:39:33,986 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:39:34,008 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 11:39:34,152 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 11:39:34,152 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 11:39:37,165 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:39:37,201 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 11:39:53,099 :: INFO :: MainThread ::  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-26 11:39:53,100 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 11:39:53,247 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 11:39:53,247 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 11:39:57,197 :: INFO :: Thread-2 :: 127.0.0.1 - - [26/Feb/2021 11:39:57] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:40:05,785 :: INFO :: Thread-3 :: 127.0.0.1 - - [26/Feb/2021 11:40:05] "[32mPOST /add HTTP/1.1[0m" 302 -
+2021-02-26 11:40:05,788 :: INFO :: Thread-4 :: choosing video from python section
+2021-02-26 11:40:05,795 :: INFO :: Thread-4 :: 127.0.0.1 - - [26/Feb/2021 11:40:05] "[35m[1mGET /sections/python/watch/%5B%2846%2C%29%5D HTTP/1.1[0m" 500 -
+2021-02-26 11:40:05,823 :: INFO :: Thread-6 :: 127.0.0.1 - - [26/Feb/2021 11:40:05] "[37mGET /sections/python/watch/%5B%2846%2C%29%5D?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 11:40:05,825 :: INFO :: Thread-5 :: 127.0.0.1 - - [26/Feb/2021 11:40:05] "[37mGET /sections/python/watch/%5B%2846%2C%29%5D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:40:05,827 :: INFO :: Thread-7 :: 127.0.0.1 - - [26/Feb/2021 11:40:05] "[37mGET /sections/python/watch/%5B%2846%2C%29%5D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 11:40:05,912 :: INFO :: Thread-8 :: 127.0.0.1 - - [26/Feb/2021 11:40:05] "[37mGET /sections/python/watch/%5B%2846%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:40:05,933 :: INFO :: Thread-9 :: 127.0.0.1 - - [26/Feb/2021 11:40:05] "[37mGET /sections/python/watch/%5B%2846%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:42:42,445 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:42:42,476 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 11:43:14,074 :: INFO :: MainThread ::  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-26 11:43:14,075 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 11:43:14,215 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 11:43:14,215 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 11:43:19,104 :: INFO :: Thread-2 :: 127.0.0.1 - - [26/Feb/2021 11:43:19] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:43:20,423 :: INFO :: Thread-3 :: 127.0.0.1 - - [26/Feb/2021 11:43:20] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:43:28,813 :: INFO :: Thread-4 :: 127.0.0.1 - - [26/Feb/2021 11:43:28] "[32mPOST /add HTTP/1.1[0m" 302 -
+2021-02-26 11:43:28,816 :: INFO :: Thread-5 :: choosing video from python section
+2021-02-26 11:43:28,824 :: INFO :: Thread-5 :: 127.0.0.1 - - [26/Feb/2021 11:43:28] "[35m[1mGET /sections/python/watch/%5B%2847%2C%29%5D HTTP/1.1[0m" 500 -
+2021-02-26 11:43:28,851 :: INFO :: Thread-7 :: 127.0.0.1 - - [26/Feb/2021 11:43:28] "[37mGET /sections/python/watch/%5B%2847%2C%29%5D?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 11:43:28,852 :: INFO :: Thread-6 :: 127.0.0.1 - - [26/Feb/2021 11:43:28] "[37mGET /sections/python/watch/%5B%2847%2C%29%5D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:43:28,852 :: INFO :: Thread-8 :: 127.0.0.1 - - [26/Feb/2021 11:43:28] "[37mGET /sections/python/watch/%5B%2847%2C%29%5D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 11:43:28,939 :: INFO :: Thread-9 :: 127.0.0.1 - - [26/Feb/2021 11:43:28] "[37mGET /sections/python/watch/%5B%2847%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:43:28,956 :: INFO :: Thread-10 :: 127.0.0.1 - - [26/Feb/2021 11:43:28] "[37mGET /sections/python/watch/%5B%2847%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:44:24,717 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:44:24,743 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 11:44:24,884 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 11:44:24,884 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 11:44:28,900 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:44:28,928 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 11:44:29,082 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 11:44:29,083 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 11:44:30,088 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:44:30,116 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 11:44:30,283 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 11:44:30,283 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 11:44:37,324 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:44:37,355 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 11:44:37,497 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 11:44:37,498 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 11:45:41,916 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:45:41,960 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 11:45:42,119 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 11:45:42,119 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 11:45:50,727 :: INFO :: Thread-2 :: 127.0.0.1 - - [26/Feb/2021 11:45:50] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:45:52,868 :: INFO :: Thread-3 :: 127.0.0.1 - - [26/Feb/2021 11:45:52] "[32mPOST /add HTTP/1.1[0m" 302 -
+2021-02-26 11:45:52,872 :: INFO :: Thread-4 :: choosing video from python section
+2021-02-26 11:45:52,880 :: INFO :: Thread-4 :: 127.0.0.1 - - [26/Feb/2021 11:45:52] "[35m[1mGET /sections/python/watch/%5B%2848%2C%29%5D HTTP/1.1[0m" 500 -
+2021-02-26 11:45:52,906 :: INFO :: Thread-7 :: 127.0.0.1 - - [26/Feb/2021 11:45:52] "[37mGET /sections/python/watch/%5B%2848%2C%29%5D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 11:45:52,908 :: INFO :: Thread-5 :: 127.0.0.1 - - [26/Feb/2021 11:45:52] "[37mGET /sections/python/watch/%5B%2848%2C%29%5D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:45:52,909 :: INFO :: Thread-6 :: 127.0.0.1 - - [26/Feb/2021 11:45:52] "[37mGET /sections/python/watch/%5B%2848%2C%29%5D?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 11:45:52,981 :: INFO :: Thread-8 :: 127.0.0.1 - - [26/Feb/2021 11:45:52] "[37mGET /sections/python/watch/%5B%2848%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:45:53,003 :: INFO :: Thread-9 :: 127.0.0.1 - - [26/Feb/2021 11:45:53] "[37mGET /sections/python/watch/%5B%2848%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:45:55,086 :: INFO :: Thread-10 :: 127.0.0.1 - - [26/Feb/2021 11:45:55] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:45:55,753 :: INFO :: Thread-11 :: 127.0.0.1 - - [26/Feb/2021 11:45:55] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:46:04,080 :: INFO :: Thread-12 :: 127.0.0.1 - - [26/Feb/2021 11:46:04] "[32mPOST /add HTTP/1.1[0m" 302 -
+2021-02-26 11:46:04,083 :: INFO :: Thread-13 :: choosing video from python section
+2021-02-26 11:46:04,092 :: INFO :: Thread-13 :: 127.0.0.1 - - [26/Feb/2021 11:46:04] "[35m[1mGET /sections/python/watch/%5B%2849%2C%29%5D HTTP/1.1[0m" 500 -
+2021-02-26 11:46:04,116 :: INFO :: Thread-14 :: 127.0.0.1 - - [26/Feb/2021 11:46:04] "[37mGET /sections/python/watch/%5B%2849%2C%29%5D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:46:04,116 :: INFO :: Thread-16 :: 127.0.0.1 - - [26/Feb/2021 11:46:04] "[37mGET /sections/python/watch/%5B%2849%2C%29%5D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 11:46:04,116 :: INFO :: Thread-15 :: 127.0.0.1 - - [26/Feb/2021 11:46:04] "[37mGET /sections/python/watch/%5B%2849%2C%29%5D?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 11:46:04,211 :: INFO :: Thread-17 :: 127.0.0.1 - - [26/Feb/2021 11:46:04] "[37mGET /sections/python/watch/%5B%2849%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:46:04,230 :: INFO :: Thread-18 :: 127.0.0.1 - - [26/Feb/2021 11:46:04] "[37mGET /sections/python/watch/%5B%2849%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:46:29,445 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:46:29,475 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 11:46:29,624 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 11:46:29,624 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 11:46:44,717 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:46:44,752 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 11:46:44,900 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 11:46:44,901 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 11:46:51,934 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 11:46:51,963 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 11:46:52,110 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 11:46:52,111 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 11:46:59,302 :: INFO :: Thread-2 :: 127.0.0.1 - - [26/Feb/2021 11:46:59] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:47:00,248 :: INFO :: Thread-3 :: 127.0.0.1 - - [26/Feb/2021 11:47:00] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:47:07,459 :: INFO :: Thread-4 :: 127.0.0.1 - - [26/Feb/2021 11:47:07] "[32mPOST /add HTTP/1.1[0m" 302 -
+2021-02-26 11:47:07,463 :: INFO :: Thread-5 :: choosing video from python section
+2021-02-26 11:47:07,471 :: INFO :: Thread-5 :: 127.0.0.1 - - [26/Feb/2021 11:47:07] "[35m[1mGET /sections/python/watch/%5B%2850%2C%29%5D HTTP/1.1[0m" 500 -
+2021-02-26 11:47:07,495 :: INFO :: Thread-6 :: 127.0.0.1 - - [26/Feb/2021 11:47:07] "[37mGET /sections/python/watch/%5B%2850%2C%29%5D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:47:07,495 :: INFO :: Thread-8 :: 127.0.0.1 - - [26/Feb/2021 11:47:07] "[37mGET /sections/python/watch/%5B%2850%2C%29%5D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 11:47:07,495 :: INFO :: Thread-7 :: 127.0.0.1 - - [26/Feb/2021 11:47:07] "[37mGET /sections/python/watch/%5B%2850%2C%29%5D?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 11:47:07,578 :: INFO :: Thread-9 :: 127.0.0.1 - - [26/Feb/2021 11:47:07] "[37mGET /sections/python/watch/%5B%2850%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:47:07,596 :: INFO :: Thread-10 :: 127.0.0.1 - - [26/Feb/2021 11:47:07] "[37mGET /sections/python/watch/%5B%2850%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:57:59,288 :: INFO :: MainThread ::  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-26 11:57:59,288 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 11:57:59,445 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 11:57:59,445 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 11:58:04,113 :: INFO :: Thread-2 :: 127.0.0.1 - - [26/Feb/2021 11:58:04] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 11:58:20,530 :: INFO :: Thread-3 :: 127.0.0.1 - - [26/Feb/2021 11:58:20] "[32mPOST /add HTTP/1.1[0m" 302 -
+2021-02-26 11:58:20,533 :: INFO :: Thread-4 :: choosing video from python section
+2021-02-26 11:58:20,542 :: INFO :: Thread-4 :: 127.0.0.1 - - [26/Feb/2021 11:58:20] "[35m[1mGET /sections/python/watch/%5B%2852%2C%29%5D HTTP/1.1[0m" 500 -
+2021-02-26 11:58:20,570 :: INFO :: Thread-5 :: 127.0.0.1 - - [26/Feb/2021 11:58:20] "[37mGET /sections/python/watch/%5B%2852%2C%29%5D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 11:58:20,570 :: INFO :: Thread-7 :: 127.0.0.1 - - [26/Feb/2021 11:58:20] "[37mGET /sections/python/watch/%5B%2852%2C%29%5D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 11:58:20,572 :: INFO :: Thread-6 :: 127.0.0.1 - - [26/Feb/2021 11:58:20] "[37mGET /sections/python/watch/%5B%2852%2C%29%5D?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 11:58:20,655 :: INFO :: Thread-8 :: 127.0.0.1 - - [26/Feb/2021 11:58:20] "[37mGET /sections/python/watch/%5B%2852%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 11:58:20,683 :: INFO :: Thread-9 :: 127.0.0.1 - - [26/Feb/2021 11:58:20] "[37mGET /sections/python/watch/%5B%2852%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 12:27:58,642 :: INFO :: Thread-10 :: 127.0.0.1 - - [26/Feb/2021 12:27:58] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 12:29:04,700 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 12:29:04,742 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 12:51:43,348 :: INFO :: MainThread ::  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-26 12:51:43,349 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 12:51:43,497 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 12:51:43,498 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 12:51:53,966 :: INFO :: Thread-2 :: 127.0.0.1 - - [26/Feb/2021 12:51:53] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 12:52:04,059 :: INFO :: Thread-3 :: 127.0.0.1 - - [26/Feb/2021 12:52:04] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+2021-02-26 12:52:04,085 :: INFO :: Thread-4 :: 127.0.0.1 - - [26/Feb/2021 12:52:04] "[37mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 12:52:04,088 :: INFO :: Thread-6 :: 127.0.0.1 - - [26/Feb/2021 12:52:04] "[37mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 12:52:04,089 :: INFO :: Thread-5 :: 127.0.0.1 - - [26/Feb/2021 12:52:04] "[37mGET /add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 12:52:04,162 :: INFO :: Thread-7 :: 127.0.0.1 - - [26/Feb/2021 12:52:04] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 12:52:04,195 :: INFO :: Thread-8 :: 127.0.0.1 - - [26/Feb/2021 12:52:04] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 14:51:55,579 :: INFO :: MainThread ::  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-26 14:51:55,579 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 14:51:55,729 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 14:51:55,729 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 14:54:31,946 :: INFO :: MainThread ::  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
+2021-02-26 14:54:31,947 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 14:54:32,362 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 14:54:32,362 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 14:54:36,524 :: INFO :: Thread-2 :: 127.0.0.1 - - [26/Feb/2021 14:54:36] "[37mGET /add HTTP/1.1[0m" 200 -
+2021-02-26 14:54:38,035 :: INFO :: Thread-3 :: 127.0.0.1 - - [26/Feb/2021 14:54:38] "[35m[1mPOST /add HTTP/1.1[0m" 500 -
+2021-02-26 14:54:38,055 :: INFO :: Thread-4 :: 127.0.0.1 - - [26/Feb/2021 14:54:38] "[37mGET /add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 14:54:38,055 :: INFO :: Thread-5 :: 127.0.0.1 - - [26/Feb/2021 14:54:38] "[37mGET /add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 14:54:38,055 :: INFO :: Thread-6 :: 127.0.0.1 - - [26/Feb/2021 14:54:38] "[37mGET /add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 14:54:38,175 :: INFO :: Thread-7 :: 127.0.0.1 - - [26/Feb/2021 14:54:38] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 14:54:38,208 :: INFO :: Thread-8 :: 127.0.0.1 - - [26/Feb/2021 14:54:38] "[37mGET /add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 14:54:55,622 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 14:54:55,707 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 14:54:56,174 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 14:54:56,175 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 14:55:32,580 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 14:55:32,655 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 14:55:33,088 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 14:55:33,088 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 14:55:37,127 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 14:55:37,212 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 14:55:37,671 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 14:55:37,671 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 14:55:43,727 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 14:55:43,808 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 14:55:44,262 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 14:55:44,263 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 14:55:47,286 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 14:55:47,373 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 14:55:47,874 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 14:55:47,875 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 14:55:49,902 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 14:55:49,977 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 14:55:50,530 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 14:55:50,531 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 14:55:53,563 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 14:55:53,638 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 14:55:54,176 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 14:55:54,176 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 14:55:57,199 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 14:55:57,282 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 14:55:57,802 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 14:55:57,803 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 14:55:58,815 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 14:55:58,891 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 14:55:59,396 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 14:55:59,397 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 14:56:00,408 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 14:56:00,483 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 14:56:00,927 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 14:56:00,927 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 14:56:11,214 :: INFO :: Thread-2 :: 127.0.0.1 - - [26/Feb/2021 14:56:11] "[32mPOST /add HTTP/1.1[0m" 302 -
+2021-02-26 14:56:11,221 :: INFO :: Thread-3 :: choosing video from python section
+2021-02-26 14:56:11,231 :: INFO :: Thread-3 :: 127.0.0.1 - - [26/Feb/2021 14:56:11] "[35m[1mGET /sections/python/watch/%5B%2859%2C%29%5D HTTP/1.1[0m" 500 -
+2021-02-26 14:56:11,256 :: INFO :: Thread-6 :: 127.0.0.1 - - [26/Feb/2021 14:56:11] "[37mGET /sections/python/watch/%5B%2859%2C%29%5D?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 14:56:11,257 :: INFO :: Thread-4 :: 127.0.0.1 - - [26/Feb/2021 14:56:11] "[37mGET /sections/python/watch/%5B%2859%2C%29%5D?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 14:56:11,258 :: INFO :: Thread-5 :: 127.0.0.1 - - [26/Feb/2021 14:56:11] "[37mGET /sections/python/watch/%5B%2859%2C%29%5D?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 14:56:11,329 :: INFO :: Thread-7 :: 127.0.0.1 - - [26/Feb/2021 14:56:11] "[37mGET /sections/python/watch/%5B%2859%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 14:56:11,390 :: INFO :: Thread-8 :: 127.0.0.1 - - [26/Feb/2021 14:56:11] "[37mGET /sections/python/watch/%5B%2859%2C%29%5D?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 14:57:17,146 :: INFO :: Thread-9 :: opening homepage
+2021-02-26 14:57:17,153 :: INFO :: Thread-9 :: 127.0.0.1 - - [26/Feb/2021 14:57:17] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-26 14:57:17,194 :: INFO :: Thread-10 :: 127.0.0.1 - - [26/Feb/2021 14:57:17] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-26 14:57:17,196 :: INFO :: Thread-11 :: 127.0.0.1 - - [26/Feb/2021 14:57:17] "[36mGET /static/JS/script.js HTTP/1.1[0m" 304 -
+2021-02-26 14:57:25,968 :: INFO :: Thread-12 :: choosing cloud section
+2021-02-26 14:57:25,976 :: INFO :: Thread-12 :: 127.0.0.1 - - [26/Feb/2021 14:57:25] "[35m[1mGET /sections/cloud/ HTTP/1.1[0m" 500 -
+2021-02-26 14:57:26,002 :: INFO :: Thread-15 :: 127.0.0.1 - - [26/Feb/2021 14:57:26] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 14:57:26,003 :: INFO :: Thread-14 :: 127.0.0.1 - - [26/Feb/2021 14:57:26] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 14:57:26,003 :: INFO :: Thread-13 :: 127.0.0.1 - - [26/Feb/2021 14:57:26] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 14:57:26,090 :: INFO :: Thread-16 :: 127.0.0.1 - - [26/Feb/2021 14:57:26] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 14:57:26,111 :: INFO :: Thread-17 :: 127.0.0.1 - - [26/Feb/2021 14:57:26] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 14:57:53,191 :: INFO :: MainThread ::  * Detected change in '/home/simplon/devCloud/dossier_git/E-learning/Python/backend.py', reloading
+2021-02-26 14:57:53,276 :: INFO :: MainThread ::  * Restarting with stat
+2021-02-26 14:57:53,723 :: WARNING :: MainThread ::  * Debugger is active!
+2021-02-26 14:57:53,724 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
+2021-02-26 14:58:00,345 :: INFO :: Thread-2 :: choosing cloud section
+2021-02-26 14:58:00,356 :: INFO :: Thread-2 :: 127.0.0.1 - - [26/Feb/2021 14:58:00] "[35m[1mGET /sections/cloud/ HTTP/1.1[0m" 500 -
+2021-02-26 14:58:00,380 :: INFO :: Thread-3 :: 127.0.0.1 - - [26/Feb/2021 14:58:00] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 14:58:00,380 :: INFO :: Thread-4 :: 127.0.0.1 - - [26/Feb/2021 14:58:00] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 14:58:00,381 :: INFO :: Thread-5 :: 127.0.0.1 - - [26/Feb/2021 14:58:00] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 14:58:00,475 :: INFO :: Thread-6 :: 127.0.0.1 - - [26/Feb/2021 14:58:00] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 14:58:00,504 :: INFO :: Thread-7 :: 127.0.0.1 - - [26/Feb/2021 14:58:00] "[37mGET /sections/cloud/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 14:58:04,593 :: INFO :: Thread-8 :: opening homepage
+2021-02-26 14:58:04,604 :: INFO :: Thread-8 :: 127.0.0.1 - - [26/Feb/2021 14:58:04] "[37mGET / HTTP/1.1[0m" 200 -
+2021-02-26 14:58:04,625 :: INFO :: Thread-9 :: 127.0.0.1 - - [26/Feb/2021 14:58:04] "[33mGET /img3.jpg HTTP/1.1[0m" 404 -
+2021-02-26 14:58:07,017 :: INFO :: Thread-10 :: choosing docker section
+2021-02-26 14:58:07,026 :: INFO :: Thread-10 :: 127.0.0.1 - - [26/Feb/2021 14:58:07] "[35m[1mGET /sections/docker/ HTTP/1.1[0m" 500 -
+2021-02-26 14:58:07,052 :: INFO :: Thread-12 :: 127.0.0.1 - - [26/Feb/2021 14:58:07] "[37mGET /sections/docker/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-02-26 14:58:07,052 :: INFO :: Thread-11 :: 127.0.0.1 - - [26/Feb/2021 14:58:07] "[37mGET /sections/docker/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-02-26 14:58:07,052 :: INFO :: Thread-13 :: 127.0.0.1 - - [26/Feb/2021 14:58:07] "[37mGET /sections/docker/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-02-26 14:58:07,126 :: INFO :: Thread-14 :: 127.0.0.1 - - [26/Feb/2021 14:58:07] "[37mGET /sections/docker/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-02-26 14:58:07,152 :: INFO :: Thread-15 :: 127.0.0.1 - - [26/Feb/2021 14:58:07] "[37mGET /sections/docker/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -

@@ -2,11 +2,17 @@ from flask import Flask, render_template, request, jsonify, url_for, redirect
 from db_learning import MyDB
 import logging
 from logging import FileHandler
-
-data_learning = MyDB()  # instance of the class
-data_learning.mycursor  # to use mycursor we use the instance
-
+from flask_mysql_connector import MySQL
+from flask_cors import CORS, cross_origin
 app = Flask(__name__)
+CORS(app)
+
+app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_PASSWORD'] = 'pw'
+app.config['MYSQL_DB'] = 'learning3'
+
+cur = MySQL(app)
 
 # setting logger
 app.logger.setLevel("INFO")
@@ -30,9 +36,10 @@ def greeting():
 # section python
 @app.route('/sections/python/')
 def select_python():
+    data_learning = cur.connection.cursor()
     app.logger.info("choosing python section")
-    data_learning.mycursor.execute("SELECT * FROM Python")
-    result = data_learning.mycursor.fetchall()
+    data_learning.execute("SELECT * FROM Python")
+    result = data_learning.fetchall()
     return render_template('section.html', result=result, section='Python', \
                             description='Python is a leader programming language. \
                             It’s one of the world’s most popular high-level programming\
@@ -44,9 +51,10 @@ def select_python():
 # section Cloud
 @app.route('/sections/cloud/')
 def select_cloud():
+    data_learning = cur.connection.cursor()
     app.logger.info("choosing cloud section")
-    data_learning.mycursor.execute("SELECT * FROM Cloud")
-    result = data_learning.mycursor.fetchall()
+    data_learning.execute("SELECT * FROM Cloud")
+    result = data_learning.fetchall()
     return render_template('section.html', result=result, section='Cloud', description='Cloud is \
                             Vestibulum magna massa, rutrum et justo eget, rhoncus dapibus lorem. \
                             Nulla facilisis erat non turpis tempor, vitae porta enim posuere. \
@@ -57,9 +65,10 @@ def select_cloud():
 # section Docker
 @app.route('/sections/docker/')
 def select_docker():
+    data_learning = cur.connection.cursor()
     app.logger.info("choosing docker section")
-    data_learning.mycursor.execute(f"SELECT * FROM Docker")
-    result = data_learning.mycursor.fetchall()
+    data_learning.execute(f"SELECT * FROM Docker")
+    result = data_learning.fetchall()
     return render_template('section.html', result=result, section='Docker', description='Docker is \
                             Vestibulum magna massa, rutrum et justo eget, rhoncus dapibus lorem. \
                             Nulla facilisis erat non turpis tempor, vitae porta enim posuere. \
@@ -70,9 +79,10 @@ def select_docker():
 #section js
 @app.route('/sections/js/')
 def select_js():
+    data_learning = cur.connection.cursor()
     app.logger.info("choosing js section")
-    data_learning.mycursor.execute(f"SELECT * FROM Javascript")
-    result = data_learning.mycursor.fetchall()
+    data_learning.execute(f"SELECT * FROM Javascript")
+    result = data_learning.fetchall()
     return render_template('section.html', result=result, section='JavaScript', description='JavaScript is \
                             Vestibulum magna massa, rutrum et justo eget, rhoncus dapibus lorem. \
                             Nulla facilisis erat non turpis tempor, vitae porta enim posuere. \
@@ -83,14 +93,25 @@ def select_js():
 #section add video
 @app.route('/add', methods=['POST', 'GET'])
 def add_page():
+    data_learning = cur.connection.cursor()
     if request.method == 'POST':
         name = request.form["name"]
         chaine = request.form["chaine"]
-        categorie = request.form["categorie"]
+        categorie = request.form["menu"]
         description = request.form["description"]
         url = request.form["url"]
-        data_learning.mycursor.execute(f"INSERT INTO {categorie} (name, chaine, url, description) VALUES ({name}, {chaine}, {url}, {description})")
-        id = data_learning.mycursor.execute(f"SELECT last_insert_id()")
+        val = [name, chaine, url, description]
+        sql = f"INSERT INTO {categorie} (name, chaine, url, description) VALUES ("
+        for ii, i in enumerate(val):
+            if ii == 3:
+                sql = sql + "'" + i + "');"
+            else:
+                sql = sql + "'" + i + "', "
+        data_learning.execute("use learning3;")
+        data_learning.execute(sql)
+        cur.connection.commit()
+        data_learning.execute(f"SELECT MAX(id) from {categorie};")
+        id = data_learning.fetchall()
         return redirect(url_for("watch_python", id=id))
     else:
         return render_template('addPage.html')
@@ -107,39 +128,42 @@ def add_page():
 # endpoint + parameter Python
 @app.route('/sections/python/watch/<id>')
 def watch_python(id):
+    data_learning = cur.connection.cursor()
     app.logger.info("choosing video from python section")
-    data_learning.mycursor.execute(f'SELECT * FROM Python WHERE ID={id}')
-    result = data_learning.mycursor.fetchall()
+    data_learning.execute(f'SELECT * FROM Python WHERE ID={id}')
+    result = data_learning.fetchall()
     return render_template('watch.html', result=result)
 
 # endpoint + parameter Cloud
 @app.route('/sections/cloud/watch/<id>')
 def watch_cloud(id):
+    data_learning = cur.connection.cursor()
     app.logger.info("choosing video from cloud section")
-    data_learning.mycursor.execute(f'SELECT * FROM Cloud WHERE ID={id}')
-    result = data_learning.mycursor.fetchall()
-    img = '~/devCloud/dossier_git/E-learning/Python/static/img/cloud.jpg'
+    data_learning.execute(f'SELECT * FROM Cloud WHERE ID={id}')
+    result = data_learning.fetchall()
     return render_template('watch.html', result=result, img=img)
 
 # endpoint + parameter Docker
 @app.route('/sections/Docker/watch/<id>')
 def watch_Docker(id):
+    data_learning = cur.connection.cursor()
     app.logger.info("choosing video from Docker section")
-    data_learning.mycursor.execute(f'SELECT * FROM Docker WHERE ID={id}')
-    result = data_learning.mycursor.fetchall()
-    img = '~/devCloud/dossier_git/E-learning/Python/static/img/docker.png'
+    data_learning.execute(f'SELECT * FROM Docker WHERE ID={id}')
+    result = data_learning.fetchall()
     return render_template('watch.html', result=result, img=img)
 
 # endpoint + parameter JS
 @app.route('/sections/js/watch/<id>')
 def watch_js(id):
+    data_learning = cur.connection.cursor()
     app.logger.info("choosing video from js section")
-    data_learning.mycursor.execute(f'SELECT * FROM Javascript WHERE ID={id}')
-    result = data_learning.mycursor.fetchall()
-    img = '~/devCloud/dossier_git/E-learning/Python/static/img/JS.jpg'
+    data_learning.execute(f'SELECT * FROM Javascript WHERE ID={id}')
+    result = data_learning.fetchall()
     return render_template('watch.html', result=result, img=img)
 
 
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5200, debug=True)
+
+
