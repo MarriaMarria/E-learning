@@ -60,7 +60,7 @@ def select_cloud():
                             Nulla facilisis erat non turpis tempor, vitae porta enim posuere. \
                             Nam pretium at nulla at volutpat. Vestibulum vitae nibh ac enim \
                             tempor tincidunt. Ut purus massa, laoreet non consectetur ac, ornare \
-                            ut nisi. Maecenas euismod varius odio. Ut in dictum ligula.')
+                            ut nisi. Maecenas euismod varius odio. Ut in dictum ligula.', color='color')
 
 # section Docker
 @app.route('/sections/docker/')

@@ -106,7 +106,6 @@
 2021-02-25 12:51:09,067 :: INFO :: Thread-2 :: choosing video from python section
 2021-02-25 12:51:09,075 :: INFO :: Thread-2 :: 127.0.0.1 - - [25/Feb/2021 12:51:09] "[37mGET /sections/python/watch/2 HTTP/1.1[0m" 200 -
 2021-02-25 12:51:11,164 :: INFO :: Thread-3 :: 127.0.0.1 - - [25/Feb/2021 12:51:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-<<<<<<< HEAD
 2021-02-25 18:11:35,516 :: INFO :: MainThread ::  * Running on http://0.0.0.0:3051/ (Press CTRL+C to quit)
 2021-02-25 18:11:35,519 :: INFO :: MainThread ::  * Restarting with stat
 2021-02-25 18:11:35,877 :: WARNING :: MainThread ::  * Debugger is active!
@@ -320,17 +319,6 @@
 2021-02-25 19:32:27,319 :: INFO :: MainThread ::  * Restarting with stat
 2021-02-25 19:32:27,497 :: WARNING :: MainThread ::  * Debugger is active!
 2021-02-25 19:32:27,498 :: INFO :: MainThread ::  * Debugger PIN: 271-105-303
-=======
-2021-02-25 15:48:45,658 :: INFO :: MainThread ::  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
-2021-02-25 15:48:45,660 :: INFO :: MainThread ::  * Restarting with stat
-2021-02-25 15:48:46,135 :: WARNING :: MainThread ::  * Debugger is active!
-2021-02-25 15:48:46,135 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
-2021-02-25 16:47:49,193 :: INFO :: MainThread ::  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
-2021-02-25 16:47:49,195 :: INFO :: MainThread ::  * Restarting with stat
-2021-02-25 16:47:49,660 :: WARNING :: MainThread ::  * Debugger is active!
-2021-02-25 16:47:49,660 :: INFO :: MainThread ::  * Debugger PIN: 176-445-683
-2021-02-25 16:48:01,199 :: INFO :: Thread-2 :: 127.0.0.1 - - [25/Feb/2021 16:48:01] "[37mGET /add HTTP/1.1[0m" 200 -
->>>>>>> sauvegarde
 2021-02-25 22:18:17,002 :: INFO :: MainThread ::  * Running on http://0.0.0.0:5200/ (Press CTRL+C to quit)
 2021-02-25 22:18:17,003 :: INFO :: MainThread ::  * Restarting with stat
 2021-02-25 22:18:17,185 :: WARNING :: MainThread ::  * Debugger is active!
