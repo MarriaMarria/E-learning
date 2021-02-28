@@ -13,15 +13,10 @@ class MyDB: # I changed name as SCRAP has nothing to do with it
 
     def __init__(self):
         self.mydb = mysql.connector.connect(
-                    host="ms2", # "localhost" # remember to change HOST
+                    host="localhost", # "localhost" # remember to change HOST
                     user="root",
-<<<<<<< HEAD
-                    password="password", #pw # change password
+                    password="pw", #pw # change password
                     database= "learning3",
-=======
-                    password="Legalcy97.1", #pw
-                    database= "learning2",
->>>>>>> 21144f0 (mise en page de la page watch)
                     auth_plugin='mysql_native_password'
                 )
 
