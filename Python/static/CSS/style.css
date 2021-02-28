@@ -465,3 +465,43 @@ iframe {
   color: white;
   transition: 0.5s;
 }
+
+/*********** STYLE PAGE ADD ****************************************/
+#formulaire{
+  width: 60%;
+  margin: 4em auto;
+  background-color: #C37D06;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5em;
+}
+.case{
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+}
+.sous_case{
+  width: 50%;
+  margin: 0.5em auto;
+  font-weight: bold;
+}
+.push{
+  width: 100%;
+  padding: 0.5em 40%;
+}
+#submit{
+  width: 30%;
+  height: 3em;
+  border-radius: 0.5em;
+  background-color: #474746;
+  color:#ddd;
+  font-weight: bold;
+}
+.sous_case input, select {
+  border-radius: 0.5em;
+  height: 2em;
+  width: 20em;
+}
+.sous_case textarea {
+  border-radius: 0.5em;
+}
