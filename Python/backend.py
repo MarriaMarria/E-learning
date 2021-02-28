@@ -124,7 +124,6 @@ def add_page():
 
     
 ##########################################################
-
 # endpoint + parameter Python
 @app.route('/sections/python/watch/<id>')
 def watch_python(id):

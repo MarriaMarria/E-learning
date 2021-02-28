@@ -60,7 +60,7 @@ class MyDB: # I changed name as SCRAP has nothing to do with it
                 db_key = ", ".join(y.keys())
                 sql = "INSERT INTO {} ({}) VALUES {};".format(categorie, db_key, val)
                 
-                self.mycursor.execute("USE learning3;")
+                self.mycursor.execute("USE learning2;")
                 self.mycursor.execute(sql)
                 self.mydb.commit()
 
