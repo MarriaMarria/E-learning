@@ -1,11 +1,16 @@
 {% extends "base.html" %}
+
 {% block head %}
 {{ super() }}
 {% endblock %}
+
 {% block body %}
+
 {% block header %}
 {{ super() }}
 {% endblock header %}
+
+
 {% block content %}
 <div class="mydata">
     {% for i in result %}
@@ -26,7 +31,11 @@
     {% endfor %}
 </div>
 {% endblock content %}
+
 {% block footer %}
+
 {{ super() }}
+
 {% endblock footer %}
+
 {% endblock body %}

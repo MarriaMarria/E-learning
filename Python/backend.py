@@ -4,12 +4,13 @@ import logging
 from logging import FileHandler
 from flask_mysql_connector import MySQL
 from flask_cors import CORS, cross_origin
+
 app = Flask(__name__)
 CORS(app)
 
-app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_HOST'] = 'ms2'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'pw'
+app.config['MYSQL_PASSWORD'] = 'password'
 app.config['MYSQL_DB'] = 'learning3'
 
 cur = MySQL(app)
@@ -41,7 +42,7 @@ def select_python():
     data_learning.execute("use learning3;")
     data_learning.execute("SELECT * FROM Python")
     result = data_learning.fetchall()
-    return render_template('section.html', result=result, section='Python', \
+    return render_template('sectionPython.html', result=result, section='Python', \
                             description='Python is a leader programming language. \
                             It’s one of the world’s most popular high-level programming\
                             languages and remains a firm favorite among many programmers.\
@@ -57,12 +58,11 @@ def select_cloud():
     data_learning.execute("use learning3;")
     data_learning.execute("SELECT * FROM Cloud")
     result = data_learning.fetchall()
-    return render_template('sectionCloud.html', result=result, section='Cloud', description='Cloud is \
-                            Vestibulum magna massa, rutrum et justo eget, rhoncus dapibus lorem. \
-                            Nulla facilisis erat non turpis tempor, vitae porta enim posuere. \
-                            Nam pretium at nulla at volutpat. Vestibulum vitae nibh ac enim \
-                            tempor tincidunt. Ut purus massa, laoreet non consectetur ac, ornare \
-                            ut nisi. Maecenas euismod varius odio. Ut in dictum ligula.', color='color')
+    return render_template('sectionCloud.html', result=result, section='Cloud', description='Cloud \
+                            refers to servers that are accessed over the Internet, and the software and databases \
+                            that run on those servers. Cloud servers are located in data centers all over the world. \
+                            By using cloud computing, users and companies don\'\t have to manage physical servers \
+                            themselves or run software applications on their own machines.')
 
 # section Docker
 @app.route('/sections/docker/')
@@ -179,6 +179,6 @@ def watch_js(id):
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=5200, debug=True)
+    app.run(host="0.0.0.0", port=3051, debug=True)
 
 
