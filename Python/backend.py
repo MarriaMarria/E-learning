@@ -157,7 +157,7 @@ def watch_cloud(id):
     return render_template('watch.html', result=result)
 
 # endpoint + parameter Docker
-@app.route('/sections/Docker/watch/<id>')
+@app.route('/sections/docker/watch/<id>')
 def watch_Docker(id):
     data_learning = cur.connection.cursor()
     app.logger.info("choosing video from Docker section")
