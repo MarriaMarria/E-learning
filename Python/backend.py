@@ -38,6 +38,7 @@ def greeting():
 def select_python():
     data_learning = cur.connection.cursor()
     app.logger.info("choosing python section")
+    data_learning.execute("use learning3;")
     data_learning.execute("SELECT * FROM Python")
     result = data_learning.fetchall()
     return render_template('section.html', result=result, section='Python', \
@@ -53,8 +54,9 @@ def select_python():
 def select_cloud():
     data_learning = cur.connection.cursor()
     app.logger.info("choosing cloud section")
-    data_learning.mycursor.execute("SELECT * FROM Cloud")
-    result = data_learning.mycursor.fetchall()
+    data_learning.execute("use learning3;")
+    data_learning.execute("SELECT * FROM Cloud")
+    result = data_learning.fetchall()
     return render_template('sectionCloud.html', result=result, section='Cloud', description='Cloud is \
                             Vestibulum magna massa, rutrum et justo eget, rhoncus dapibus lorem. \
                             Nulla facilisis erat non turpis tempor, vitae porta enim posuere. \
@@ -65,9 +67,11 @@ def select_cloud():
 # section Docker
 @app.route('/sections/docker/')
 def select_docker():
+    data_learning = cur.connection.cursor()
     app.logger.info("choosing sectionDocker section")
-    data_learning.mycursor.execute(f"SELECT * FROM Docker")
-    result = data_learning.mycursor.fetchall()
+    data_learning.execute("use learning3;")
+    data_learning.execute(f"SELECT * FROM Docker")
+    result = data_learning.fetchall()
     return render_template('sectionDocker.html', result=result, section='Docker', description='Docker is \
                             Vestibulum magna massa, rutrum et justo eget, rhoncus dapibus lorem. \
                             Nulla facilisis erat non turpis tempor, vitae porta enim posuere. \
@@ -80,8 +84,9 @@ def select_docker():
 def select_js():
     data_learning = cur.connection.cursor()
     app.logger.info("choosing js section")
-    data_learning.mycursor.execute(f"SELECT * FROM Javascript")
-    result = data_learning.mycursor.fetchall()
+    data_learning.execute("use learning3;")
+    data_learning.execute(f"SELECT * FROM Javascript")
+    result = data_learning.fetchall()
     return render_template('sectionJS.html', result=result, section='JavaScript', description='JavaScript is \
                             Vestibulum magna massa, rutrum et justo eget, rhoncus dapibus lorem. \
                             Nulla facilisis erat non turpis tempor, vitae porta enim posuere. \
