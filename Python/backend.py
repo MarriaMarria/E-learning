@@ -110,7 +110,8 @@ def add_page():
         data_learning.execute(sql)
         cur.connection.commit()
         data_learning.execute(f"SELECT MAX(id) from {categorie};")
-        id = data_learning.fetchall()
+        data = data_learning.fetchall()
+        id = data[0][0]
         return redirect(url_for("watch_python", id=id))
     else:
         return render_template('addPage.html')
@@ -128,6 +129,7 @@ def add_page():
 def watch_python(id):
     data_learning = cur.connection.cursor()
     app.logger.info("choosing video from python section")
+    data_learning.execute("use learning3;")
     data_learning.execute(f'SELECT * FROM Python WHERE ID={id}')
     result = data_learning.fetchall()
     return render_template('watch.html', result=result)
@@ -137,6 +139,7 @@ def watch_python(id):
 def watch_cloud(id):
     data_learning = cur.connection.cursor()
     app.logger.info("choosing video from cloud section")
+    data_learning.execute("use learning3;")
     data_learning.execute(f'SELECT * FROM Cloud WHERE ID={id}')
     result = data_learning.fetchall()
     return render_template('watch.html', result=result, img=img)
@@ -146,6 +149,7 @@ def watch_cloud(id):
 def watch_Docker(id):
     data_learning = cur.connection.cursor()
     app.logger.info("choosing video from Docker section")
+    data_learning.execute("use learning3;")
     data_learning.execute(f'SELECT * FROM Docker WHERE ID={id}')
     result = data_learning.fetchall()
     return render_template('watch.html', result=result, img=img)
@@ -155,6 +159,7 @@ def watch_Docker(id):
 def watch_js(id):
     data_learning = cur.connection.cursor()
     app.logger.info("choosing video from js section")
+    data_learning.execute("use learning3;")
     data_learning.execute(f'SELECT * FROM Javascript WHERE ID={id}')
     result = data_learning.fetchall()
     return render_template('watch.html', result=result, img=img)
