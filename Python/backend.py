@@ -117,7 +117,14 @@ def add_page():
         data_learning.execute(f"SELECT MAX(id) from {categorie};")
         data = data_learning.fetchall()
         id = data[0][0]
-        return redirect(url_for("watch_python", id=id))
+        if categorie == "Python":
+            return redirect(url_for("watch_python", id=id))
+        if categorie == "Cloud":
+            return redirect(url_for("watch_cloud", id=id))
+        if categorie == "Docker":
+            return redirect(url_for("watch_Docker", id=id))
+        if categorie == "Javascript":
+            return redirect(url_for("watch_js", id=id))
     else:
         return render_template('addPage.html')
 
@@ -147,7 +154,7 @@ def watch_cloud(id):
     data_learning.execute("use learning3;")
     data_learning.execute(f'SELECT * FROM Cloud WHERE ID={id}')
     result = data_learning.fetchall()
-    return render_template('watch.html', result=result, img=img)
+    return render_template('watch.html', result=result)
 
 # endpoint + parameter Docker
 @app.route('/sections/Docker/watch/<id>')
@@ -157,7 +164,7 @@ def watch_Docker(id):
     data_learning.execute("use learning3;")
     data_learning.execute(f'SELECT * FROM Docker WHERE ID={id}')
     result = data_learning.fetchall()
-    return render_template('watch.html', result=result, img=img)
+    return render_template('watch.html', result=result)
 
 # endpoint + parameter JS
 @app.route('/sections/js/watch/<id>')
@@ -167,7 +174,7 @@ def watch_js(id):
     data_learning.execute("use learning3;")
     data_learning.execute(f'SELECT * FROM Javascript WHERE ID={id}')
     result = data_learning.fetchall()
-    return render_template('watch.html', result=result, img=img)
+    return render_template('watch.html', result=result)
 
 
 
