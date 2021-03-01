@@ -58,12 +58,11 @@ def select_cloud():
     data_learning.execute("use learning3;")
     data_learning.execute("SELECT * FROM Cloud")
     result = data_learning.fetchall()
-    return render_template('sectionCloud.html', result=result, section='Cloud', description='Cloud is \
-                            Vestibulum magna massa, rutrum et justo eget, rhoncus dapibus lorem. \
-                            Nulla facilisis erat non turpis tempor, vitae porta enim posuere. \
-                            Nam pretium at nulla at volutpat. Vestibulum vitae nibh ac enim \
-                            tempor tincidunt. Ut purus massa, laoreet non consectetur ac, ornare \
-                            ut nisi. Maecenas euismod varius odio. Ut in dictum ligula.', color='color')
+    return render_template('sectionCloud.html', result=result, section='Cloud', description='Cloud \
+                            refers to servers that are accessed over the Internet, and the software and databases \
+                            that run on those servers. Cloud servers are located in data centers all over the world. \
+                            By using cloud computing, users and companies don\'\t have to manage physical servers \
+                            themselves or run software applications on their own machines.')
 
 # section Docker
 @app.route('/sections/docker/')

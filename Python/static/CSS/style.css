@@ -247,7 +247,6 @@ body{
     transition: 0.3s;
   }
   
-
   .card-container {
     padding: 2px 5px;
     margin: 0.3rem;
@@ -255,7 +254,6 @@ body{
     background-color: white;
     border-radius: 10px;
   }
-
 
   .button-yellow {
     background-color: #556CBC;
@@ -281,6 +279,7 @@ body{
     cursor: pointer;
     border-radius: 16px;
   }
+
   .button-green {
     background-color: #A01818;
     border: none;
@@ -293,6 +292,7 @@ body{
     cursor: pointer;
     border-radius: 16px;
   }
+
   .button-red {
     background-color:  #49C6AF;
     border: none;
@@ -373,7 +373,7 @@ body{
 .flexJS,
 .flexPython {
     width: 17%;
-    height: 300px;
+    height: 350px;
     margin: 30px 25px;
     box-sizing: border-box;
     color: black;
@@ -406,7 +406,6 @@ body{
   transform: scale(1.03);
   cursor: pointer;
 }
-
 
 
 #click {
