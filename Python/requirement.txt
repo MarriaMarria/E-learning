@@ -1,0 +1,5 @@
+Jinja2==2.11.2
+flask-mysql-connector==1.0.3
+Flask-Cors==3.0.10
+Flask==1.1.2
+mysql-connector-python==8.0.23
