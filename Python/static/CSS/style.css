@@ -190,6 +190,16 @@ body{
     justify-content: space-around;
     margin-top: 5rem;
   }
+
+  /* HOVER DOESN'T WORK????????????????? DUNNO WHY */
+  .card-yellow:hover,
+  .card-blue:hover,
+  .card-green:hover,
+  .card-red:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.03);
+  }
+  
   
   .card-yellow{
     display: flex;
@@ -236,12 +246,7 @@ body{
     transition: 0.3s;
   }
   
-  
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  
+
   .card-container {
     padding: 2px 5px;
     margin: 0.3rem;

@@ -37,6 +37,15 @@ class MyDB: # I changed name as SCRAP has nothing to do with it
 
         logging.info("Getting tables: end")
 
+    # def drop_table(self):
+
+    #     logging.info("dropping table: start")
+
+    #     drop = "DROP TABLE learning3"
+    #     self.mycursor.execute(drop)
+
+    #     logging.info("dropping table: end")
+
     def create_table(self):
 
         logging.info("creating table: start")

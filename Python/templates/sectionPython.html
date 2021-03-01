@@ -24,8 +24,7 @@
             {% for video in result %}
             <div class="flexPython">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/600px-Python-logo-notext.svg.png" alt="" style="width: 50%; margin: 0.5rem;">
-                <!-- <a id="click" href="/sections/python/watch/{{ video[0] }}"> -->
-                <iframe width="560" height="315" src= {{ video[0] }} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+                <a id="click" href="/sections/python/watch/{{ video[0] }}">
                     <h2 id="video_title">{{ video[1] }}</h2>
                     <p id="video_p">{{ video[2] }}</p>
                     
