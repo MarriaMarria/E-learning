@@ -4,12 +4,13 @@ import logging
 from logging import FileHandler
 from flask_mysql_connector import MySQL
 from flask_cors import CORS, cross_origin
+
 app = Flask(__name__)
 CORS(app)
 
-app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_HOST'] = 'ms2'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'pw'
+app.config['MYSQL_PASSWORD'] = 'password'
 app.config['MYSQL_DB'] = 'learning3'
 
 cur = MySQL(app)
@@ -179,6 +180,6 @@ def watch_js(id):
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=5200, debug=True)
+    app.run(host="0.0.0.0", port=3051, debug=True)
 
 
