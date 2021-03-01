@@ -42,7 +42,7 @@ def select_python():
     data_learning.execute("use learning3;")
     data_learning.execute("SELECT * FROM Python")
     result = data_learning.fetchall()
-    return render_template('section.html', result=result, section='Python', \
+    return render_template('sectionPython.html', result=result, section='Python', \
                             description='Python is a leader programming language. \
                             It’s one of the world’s most popular high-level programming\
                             languages and remains a firm favorite among many programmers.\
