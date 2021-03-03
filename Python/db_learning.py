@@ -15,7 +15,7 @@ class MyDB: # I changed name as SCRAP has nothing to do with it
         self.mydb = mysql.connector.connect(
                     host="localhost", # "localhost" # remember to change HOST
                     user="root",
-                    password="pw", #pw # change password
+                    password="Overlord97.1", #pw # change password
                     database= "learning3",
                     auth_plugin='mysql_native_password'
                 )
@@ -30,7 +30,7 @@ class MyDB: # I changed name as SCRAP has nothing to do with it
 
         logging.info("Getting tables: start")
 
-        with open('./links.json') as json_data:
+        with open('links.json') as json_data:
             self.data_dict = json.load(json_data)
         for i in self.data_dict:
             self.list_tables.append(i)
@@ -69,7 +69,7 @@ class MyDB: # I changed name as SCRAP has nothing to do with it
                 db_key = ", ".join(y.keys())
                 sql = "INSERT INTO {} ({}) VALUES {};".format(categorie, db_key, val)
                 
-                self.mycursor.execute("USE learning2;")
+                self.mycursor.execute("USE learning3;")
                 self.mycursor.execute(sql)
                 self.mydb.commit()
 
@@ -79,3 +79,7 @@ class MyDB: # I changed name as SCRAP has nothing to do with it
 # test.get_tables()
 # test.create_table()
 # test.insert_table()
+mydb = MyDB()
+mydb.get_tables()
+mydb.create_table()
+mydb.insert_table()
